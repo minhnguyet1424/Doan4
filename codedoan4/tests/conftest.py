@@ -58,4 +58,4 @@ def cau_hinh():
     yield config
 
     driver.quit()
-    logging.info("🧹 Chrome driver đã đóng")
+    logging.info(" Chrome driver đã đóng")
