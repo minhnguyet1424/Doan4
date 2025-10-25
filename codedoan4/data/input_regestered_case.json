@@ -1,0 +1,86 @@
+[
+  {
+    "tentaikhoan": "thúy duyên",
+    "email": "hoangthuyduyen311@gmail.com",
+    "matkhau": "",
+    "ketquamongdoi": "Đã có tài khoản đăng ký với tên đăng nhập này. Vui lòng chọn tên khác."
+  },
+  {
+    "tentaikhoan": "",
+    "email": "",
+    "matkhau": "thuyduyen22",
+    "ketquamongdoi": "Lỗi: Vui lòng cung cấp địa chỉ email hợp lệ."
+  },
+  {
+    "tentaikhoan": "thúy duyên",
+    "email": "",
+    "matkhau": "",
+    "ketquamongdoi": "Lỗi: Vui lòng cung cấp địa chỉ email hợp lệ."
+  },
+  {
+    "tentaikhoan": "",
+    "email": "",
+    "matkhau": "",
+    "ketquamongdoi": "Lỗi: Vui lòng cung cấp địa chỉ email hợp lệ."
+  },
+  {
+    "tentaikhoan": "",
+    "email": "h312oangTthuyduye12345671nn@gmail.com",
+    "matkhau": "",
+    "ketquamongdoi": "Xin chào h312oangtthuyduye12345671nn (không phải h312oangtthuyduye12345671nn? Đăng xuất)"
+  },
+  {
+    "tentaikhoan": "12345",
+    "email": "hoangnguyet@gmail.com",
+    "matkhau": "",
+    "ketquamongdoi": "Lỗi: Một tài khoản đã được đăng ký với hoangnguyet@gmail.com. Vui lòng đăng nhập hoặc sử dụng địa chỉ email khác."
+  },
+  {
+    "tentaikhoan": "ban@!",
+    "email": "hoanghang@gmai.com",
+    "matkhau": "",
+    "ketquamongdoi": "Lỗi: Tên tài khoản không được gồm ký tự Đặc biệt."
+  },
+  {
+    "tentaikhoan": "tienbao",
+    "email": "baohoang1@gmail.com",
+    "matkhau": "abc",
+    "ketquamongdoi": "Độ mạnh mật khẩu: Rất yếu - Vui lòng nhập mật khẩu mạnh hơn."
+  },
+  {
+    "tentaikhoan": "tienbao",
+    "email": "baohoang11@gmail.com",
+    "matkhau": "abc12345",
+    "ketquamongdoi": "Độ mạnh mật khẩu: Yếu - Vui lòng nhập mật khẩu mạnh hơn."
+  },
+  {
+    "tentaikhoan": "@##@$%",
+    "email": "hoanghang@gmai.com",
+    "matkhau": "",
+    "ketquamongdoi": "Lỗi: Tên tài khoản không được gồm ký tự Đặc biệt."
+  },
+  {
+    "tentaikhoan": "thúy duyên",
+    "email": "hoangthuyduyen311",
+    "matkhau": "thuyduyen22",
+    "ketquamongdoi": "Please include an '@' in the email address. 'hoangthuyduyen311' is missing an '@'."
+  },
+  {
+    "tentaikhoan": "thúy duyên",
+    "email": "hoangthuyduyen311@@gmail.com",
+    "matkhau": "thuyduyen22",
+    "ketquamongdoi": "A part following '@' should not contain the symbol '@'."
+  },
+  {
+    "tentaikhoan": "thúy duyên",
+    "email": "hoangthuyduyen311gmail.com",
+    "matkhau": "thuyduyen22",
+    "ketquamongdoi": "Please include an '@' in the email address. 'hoangthuyduyen311gmail.com' is missing an '@'."
+  },
+  {
+    "tentaikhoan": "thúy duyên",
+    "email": "@gmai.comm",
+    "matkhau": "thuyduyen22",
+    "ketquamongdoi": "Please enter a part followed by '@'. '@gmai.comm' is incomplete."
+  }
+]

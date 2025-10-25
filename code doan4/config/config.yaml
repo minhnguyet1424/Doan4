@@ -1,4 +1,0 @@
-base_url: "https://chus.vn"
-login_path: "/auth-loginform/?return_url=index.php"
-browser: "chrome"
-timeout: 10

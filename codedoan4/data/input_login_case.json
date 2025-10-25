@@ -1,0 +1,58 @@
+[
+  {
+    "email": "hoangnguyet@gmail.com",
+    "matkhau": "1423Nguyet*",
+    "ketquamongdoi": "Lỗi: Mật khẩu bạn nhập cho địa chỉ email hoangnguyet@gmail.com không đúng. Bạn quên mật khẩu?"
+  },
+  {
+    "email": "HoangMinhNguyet110122277@gmail.com",
+    "matkhau": "1424Nguyet*",
+    "ketquamongdoi": "Xin chào Minh Nguyệt (không phải Minh Nguyệt? Đăng xuất)"
+  },
+  {
+    "email": "duyen123@gmail.com",
+    "matkhau": "1424Nguyet*",
+    "ketquamongdoi": "Địa chỉ email không xác định. Kiểm tra lại hoặc thử tên người dùng của bạn."
+  },
+  {
+    "email": "",
+    "matkhau": "1424Nguyet*",
+    "ketquamongdoi": "Lỗi: Yêu cầu tên tài khoản."
+  },
+  {
+    "email": "hoangnguyet@gmail.com",
+    "matkhau": "",
+    "ketquamongdoi": "Lỗi: Trường mật khẩu đang trống."
+  },
+  {
+    "email": "",
+    "matkhau": "",
+    "ketquamongdoi": "Lỗi: Yêu cầu tên tài khoản."
+  },
+  {
+    "email": "hoangnguyetgmail.com",
+    "matkhau": "1424Nguyet*",
+    "ketquamongdoi": "Lỗi: Tên người dùng hoangnguyetgmail.com không được đăng ký trên trang web này. Nếu bạn không chắc về tên người dùng của mình, hãy thử địa chỉ email của bạn."
+  },
+  {
+    "email": "hoangduyen@gmail.com",
+    "matkhau": "duyen",
+    "ketquamongdoi": "Địa chỉ email không xác định. Kiểm tra lại hoặc thử tên người dùng của bạn."
+  },
+  {
+    "email": "hoangnguyet@gmai.com",
+    "matkhau": "1424Nguyet*",
+    "ketquamongdoi": "Địa chỉ email không xác định. Kiểm tra lại hoặc thử tên người dùng của bạn."
+  },
+  {
+    "email": "hoangnguyet@gmai.com",
+    "matkhau": "Nguyet1424*",
+    "ketquamongdoi": "Địa chỉ email không xác định. Kiểm tra lại hoặc thử tên người dùng của bạn."
+  },
+  {
+    "email": "hoangnguyet$$gmail.com",
+    "matkhau": "1424Nguyet*",
+    "ketquamongdoi": "Lỗi: Tên người dùng hoangnguyet$$gmail.com không được đăng ký trên trang web này. Nếu bạn không chắc về tên người dùng của mình, hãy thử địa chỉ email của bạn."
+  }
+]
+
