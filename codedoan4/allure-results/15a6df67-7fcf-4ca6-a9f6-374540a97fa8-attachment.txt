@@ -1,3 +1,0 @@
-
---- [Excel] Email='', Mật khẩu='1424Nguyet*', Mong đợi='Lỗi: Yêu cầu tên tài khoản.' ---
-Thông báo thực tế: Lỗi: Yêu cầu tên tài khoản.

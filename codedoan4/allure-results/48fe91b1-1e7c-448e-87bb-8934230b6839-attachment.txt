@@ -1,3 +1,0 @@
-
---- [EXCEL] TênTK='', Email='', MK='', Mong đợi='' ---
-Thông báo thực tế: Lỗi: Vui lòng cung cấp địa chỉ email hợp lệ.

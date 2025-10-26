@@ -3,7 +3,7 @@ from selenium.common.exceptions import TimeoutException, NoSuchElementException
 from base.base_page import BasePage
 import time
 class TrangThongTinTaiKhoan(BasePage):
-    # --- Locators ---
+    #  Locators
     HO = (By.ID, "account_last_name")
     TEN = (By.ID, "account_first_name")
     TEN_HIEN_THI = (By.ID, "account_display_name")
@@ -18,10 +18,10 @@ class TrangThongTinTaiKhoan(BasePage):
     def __init__(self, driver, url_edit_account):
         super().__init__(driver)
         self.url_edit_account = url_edit_account
-    # --- MỞ TRANG HỒ SƠ --- #
+    #  MỞ TRANG HỒ SƠ
     def mo_trang_thong_tin(self):
         self.mo_trang(self.url_edit_account)
-# --- CẬP NHẬT THÔNG TIN --- #
+#  CẬP NHẬT THÔNG TIN 
     def cap_nhat_thong_tin(
         self,  ten=None,ho=None, ten_hien_thi=None,
         email=None, mk_hien_tai=None, mk_moi=None, xac_nhan_mk=None):
@@ -48,7 +48,7 @@ class TrangThongTinTaiKhoan(BasePage):
         except TimeoutException:
             print("[!] Không tìm thấy nút Lưu để click")
         time.sleep(0.5)
-    # --- LẤY THÔNG BÁO PHẢN HỒI --- #
+    # LẤY THÔNG BÁO PHẢN HỒI 
     def lay_thong_bao(self):
         """Lấy thông báo thành công, lỗi, độ mạnh mật khẩu hoặc HTML5."""
         try:
@@ -74,7 +74,7 @@ class TrangThongTinTaiKhoan(BasePage):
         if html5:
             return html5
         return "Không thấy thông báo phản hồi"
-    # --- LẤY THÔNG BÁO HTML5 --- #
+    #  LẤY THÔNG BÁO HTML5 
     def lay_thong_bao_html5(self):
         """Trích thuộc tính validationMessage từ các input."""
         fields = [self.EMAIL, self.PASS_MOI, self.XAC_NHAN_PASS_MOI]
@@ -87,7 +87,7 @@ class TrangThongTinTaiKhoan(BasePage):
             except NoSuchElementException:
                 continue
         return None
-    # --- LẤY ĐỘ MẠNH MẬT KHẨU --- #
+    #  LẤY ĐỘ MẠNH MẬT KHẨU 
     def lay_thong_bao_do_manh_mat_khau(self):
         """Trả về text cảnh báo độ mạnh mật khẩu."""
         try:

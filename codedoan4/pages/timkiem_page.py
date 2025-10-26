@@ -17,7 +17,7 @@ class TrangTimKiem(BasePage):
     def __init__(self, driver, timeout=10): 
         super().__init__(driver, timeout) 
         self.url_trang_chu = BASE_URL 
-        self.wait = WebDriverWait(driver, timeout) 
+     
  
     def mo_trang_tim_kiem(self): 
         self.mo_trang(self.url_trang_chu) 
@@ -53,21 +53,28 @@ class TrangTimKiem(BasePage):
             self.wait.until(EC.presence_of_all_elements_located(self.SP_LIST)) 
             sps = self.driver.find_elements(*self.SP_LIST) 
  
-            for link_sp in sps: 
-                try: 
-                    ten = link_sp.text.strip() 
-                    if ten == tensp: 
-                        # Scroll và click vào sản phẩm 
-                        self.driver.execute_script("arguments[0].scrollIntoView(true);", link_sp) 
-                        link_sp.click() 
- 
-                        # Chờ nút add-to-cart trên trang chi tiết 
-                        btn_add = self.wait.until(EC.element_to_be_clickable((By.NAME, "add-to-cart"))) 
-                        btn_add.click() 
-                        return True 
+            for link_sp in sps:
+                try:
+                    ten = link_sp.text.strip()
+                    if ten == tensp:
+                    # Scroll đến sản phẩm và click
+                        self.driver.execute_script("arguments[0].scrollIntoView(true);", link_sp)
+                        link_sp.click()
+
+                    # Chờ trang chi tiết load xong
+                    self.wait.until(EC.presence_of_element_located((By.NAME, "wd-add-to-cart")))
+
+                    # Click nút Mua ngay (thay vì thêm vào giỏ hàng)
+                    btn_mua_ngay = self.wait.until(
+                        EC.element_to_be_clickable((By.NAME, "wd-add-to-cart"))
+                    )
+                    btn_mua_ngay.click()
+                    return True
+            
                 except Exception: 
                     continue  # Nếu sản phẩm nào lỗi thì bỏ qua 
         except TimeoutException: 
             return False 
  
         return False  # Không tìm thấy sản phẩm
+

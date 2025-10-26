@@ -8,7 +8,7 @@ from utils.data_utils import (
 )
 from utils.report_helper import ExcelReport
 REPORT_FILE = "reports/report.xlsx"
-# ========================== FIXTURE TẠO REPORT ========================== #
+#FIXTURE TẠO REPORT =
 @pytest.fixture(scope="module")
 def report():
     login_header = [
@@ -20,7 +20,7 @@ def report():
         tieu_de_base="Báo cáo Đăng nhập",
         header=login_header)
     return rep
-# ========================== PARAMETRIZE DATA ========================== #
+# PARAMETRIZE DATA 
 def pytest_generate_tests(metafunc):
     if "email" in metafunc.fixturenames:
         data_mode = metafunc.config.getoption("data_mode")
@@ -34,7 +34,7 @@ def pytest_generate_tests(metafunc):
         else:
             raise ValueError(f"Data mode '{data_mode}' không hợp lệ.")
         metafunc.parametrize("email,matkhau,ketquamongdoi", test_cases)
-# ========================== TEST CASE CHÍNH ========================== #
+# TEST CASE CHÍNH 
 def test_dang_nhap_excel(cau_hinh, email, matkhau, ketquamongdoi, report):
     driver = cau_hinh["driver"]
     trang = TrangDangNhap(driver, URL_DANG_NHAP)

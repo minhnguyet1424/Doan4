@@ -201,69 +201,23 @@ def doc_du_lieu_thong_tin_json(duong_dan):
     df = df.fillna("")
     return [tuple(row) for row in df[cot_bat_buoc].values.tolist()]
 
-
-##sửa ở dưới 
-# ==================== ĐỌC FILE EXCEL (MUA HÀNG DDT) ==================== #
-def doc_du_lieu_muahang_excel(duong_dan, ten_sheet="MuaHang"):
+#them 
+def doc_du_lieu_muahang_excel(duong_dan, ten_sheet="Muahang"):
     """
     Đọc dữ liệu mua hàng từ file Excel.
-    Cột bắt buộc: email, matkhau, tukhoatimkiem, tensp, ten, diachi, thanhpho, sdt, dcemail, ghichu, ketquamongdoi
+    Cột bắt buộc: tensp, ten, diachi, thanhpho, sdt, email, ghichu, ketquamongdoi
     """
     kiem_tra_file_ton_tai(duong_dan)
     try:
         df = pd.read_excel(duong_dan, sheet_name=ten_sheet)
     except ValueError:
-        raise ValueError(f" Không tìm thấy sheet '{ten_sheet}' trong file Excel.")
+        raise ValueError(f"Không tìm thấy sheet '{ten_sheet}' trong file Excel.")
 
     df.columns = df.columns.str.strip().str.lower()
 
-    cot_bat_buoc = [
-        'email', 'matkhau', 'tukhoatimkiem', 'tensp', 'ten',
-        'diachi', 'thanhpho', 'sdt', 'dcemail', 'ghichu', 'ketquamongdoi'
-    ]
-
+    cot_bat_buoc = ['tukhoa','tensp', 'ten', 'diachi', 'thanhpho', 'sdt', 'email', 'ghichu', 'ketquamongdoi']
     kiem_tra_cot_bat_buoc(df, cot_bat_buoc, ten_sheet)
     kiem_tra_rong(df, ten_sheet)
+
     df = df.fillna("")
-
-    return [tuple(row) for row in df[cot_bat_buoc].values.tolist()]
-
-# ==================== ĐỌC FILE CSV (MUA HÀNG DDT) ==================== #
-def doc_du_lieu_muahang_csv(duong_dan):
-    kiem_tra_file_ton_tai(duong_dan)
-    df = pd.read_csv(duong_dan, encoding="utf-8")
-    df.columns = df.columns.str.strip().str.lower()
-
-    cot_bat_buoc = [
-        'email', 'matkhau', 'tukhoatimkiem', 'tensp', 'ten',
-        'diachi', 'thanhpho', 'sdt', 'dcemail', 'ghichu', 'ketquamongdoi'
-    ]
-
-    kiem_tra_cot_bat_buoc(df, cot_bat_buoc, 'CSV')
-    kiem_tra_rong(df, 'CSV')
-    df = df.fillna("")
-
-    return [tuple(row) for row in df[cot_bat_buoc].values.tolist()]
-
-# ==================== ĐỌC FILE JSON (MUA HÀNG DDT) ==================== #
-def doc_du_lieu_muahang_json(duong_dan):
-    kiem_tra_file_ton_tai(duong_dan)
-    with open(duong_dan, "r", encoding="utf-8") as f:
-        data_json = json.load(f)
-
-    if not data_json:
-        raise ValueError(f" File JSON '{duong_dan}' trống hoặc không có dữ liệu.")
-
-    df = pd.DataFrame(data_json)
-    df.columns = df.columns.str.strip().str.lower()
-
-    cot_bat_buoc = [
-        'email', 'matkhau', 'tukhoatimkiem', 'tensp', 'ten',
-        'diachi', 'thanhpho', 'sdt', 'dcemail', 'ghichu', 'ketquamongdoi'
-    ]
-
-    kiem_tra_cot_bat_buoc(df, cot_bat_buoc, 'JSON')
-    kiem_tra_rong(df, 'JSON')
-    df = df.fillna("")
-
     return [tuple(row) for row in df[cot_bat_buoc].values.tolist()]

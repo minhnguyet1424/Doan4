@@ -8,7 +8,8 @@ class TrangDangNhap(BasePage):
     EMAIL = (By.ID, "username")
     MATKHAU = (By.ID, "password")
     BTN_DANGNHAP = (By.NAME, "login")
-    TB_LOI = (By.CSS_SELECTOR, "ul[role='alert']")
+    #TB_LOI = (By.CSS_SELECTOR, "ul[role='alert']")
+    TB_LOI = (By.CLASS_NAME, "woocommerce-error")
     TB_THANHCONG = (
         By.CSS_SELECTOR,
         "body > div:nth-child(2) > div:nth-child(3) > main:nth-child(2) > ""div:nth-child(1) > article:nth-child(1) > div:nth-child(1) > ""div:nth-child(1) > div:nth-child(2) > p:nth-child(2)")

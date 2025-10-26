@@ -4,7 +4,7 @@ import time
 import logging
 import allure
 
-# ==================== CẤU HÌNH LOGS & SCREENSHOTS ==================== #
+# CẤU HÌNH LOGS & SCREENSHOTS 
 LOG_FOLDER = "logs"
 SCREENSHOT_FOLDER = "fail_screenshots"
 os.makedirs(LOG_FOLDER, exist_ok=True)
@@ -18,7 +18,7 @@ logging.basicConfig(
     datefmt="%Y-%m-%d %H:%M:%S"
 )
 
-# ==================== TÙY CHỌN DỮ LIỆU VÀO (excel/json/csv) ==================== #
+# TÙY CHỌN DỮ LIỆU VÀO (excel/json/csv) 
 # conftest.py
 import pytest
 
@@ -34,7 +34,7 @@ def pytest_addoption(parser):
 def data_mode(request):
     return request.config.getoption("--data-mode")
 
-# ==================== FIXTURE KHỞI TẠO WEBDRIVER ==================== #
+#  FIXTURE KHỞI TẠO WEBDRIVER
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options

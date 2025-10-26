@@ -43,11 +43,8 @@ class TrangDangKy(BasePage):
 
     # --- LẤY THÔNG BÁO HTML5 ---
     def lay_thong_bao_html5(self):
-        """
-        Trích xuất thông báo validationMessage của các trường input HTML5.
-        Dùng cho các lỗi kiểu: 'Please fill out this field', 
-        'Please include an "@" in the email address'...
-        """
+       # Trích xuất thông báo validationMessage của các trường input HTML5.
+    
         fields = [self.TEN_TK, self.EMAIL, self.MATKHAU]
         for field in fields:
             try:

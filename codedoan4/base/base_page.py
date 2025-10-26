@@ -26,9 +26,9 @@ class BasePage:
         return self.wait.until(EC.visibility_of_element_located(locator)).text
     # --- Chờ phần tử xuất hiện (hiển thị trên trang) ---
     def cho_phan_tu_xuat_hien(self, locator, timeout=10):
-        """Chờ đến khi phần tử hiển thị trên trang (visible)."""
         return WebDriverWait(self.driver, timeout).until(
-            EC.visibility_of_element_located(locator))
+            EC.presence_of_element_located(locator)
+    )
     # --- Chờ phần tử có thể click ---
     def cho_phan_tu_co_the_click(self, locator, timeout=10):
         """Chờ đến khi phần tử có thể click được."""
