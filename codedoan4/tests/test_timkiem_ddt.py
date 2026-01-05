@@ -34,22 +34,29 @@ def pytest_generate_tests(metafunc):
         else:
             raise ValueError(f"Data mode '{data_mode}' không hợp lệ.")
         metafunc.parametrize("tu_khoa,ketquamongdoi", test_cases)
-#  TEST CASE CHÍNH 
+#test chính
 @pytest.mark.excel
-def test_tim_kiem_excel(cau_hinh, tu_khoa, ketquamongdoi, report):
+def test_tim_kiem_excel(cau_hinh, tu_khoa, ketquamongdoi, report, logger):
     driver = cau_hinh["driver"]
     trang = TrangTimKiem(driver)
+    logger.info(f"Bắt đầu test tìm kiếm với từ khóa: '{tu_khoa}'")
+
     trang.mo_trang_tim_kiem()
-    # Thực hiện tìm kiếm 
+    
+    # Thực hiện tìm kiếm
     if not tu_khoa.strip():
         trang.bam_tim_kiem()
         input_element = trang.wait.until(lambda d: d.find_element(*trang.TIM_KIEM))
         ketqua_thuc_te = input_element.get_attribute("validationMessage").strip()
+        logger.info(f"Từ khóa trống, thông báo HTML5: {ketqua_thuc_te}")
     else:
         trang.nhap_tu_khoa(tu_khoa)
         trang.bam_tim_kiem()
         ketqua_thuc_te = trang.lay_san_pham_dau_tien()
+        logger.info(f"Tìm kiếm từ khóa '{tu_khoa}', kết quả đầu tiên: {ketqua_thuc_te}")
+
     status = "Pass" if ketquamongdoi.lower() in ketqua_thuc_te.lower() else "Fail"
+
     # --- STT tự động tăng ---
     if not hasattr(test_tim_kiem_excel, "stt_counter"):
         test_tim_kiem_excel.stt_counter = 1
@@ -59,11 +66,12 @@ def test_tim_kiem_excel(cau_hinh, tu_khoa, ketquamongdoi, report):
     # --- Ghi báo cáo ---
     report.add_row(stt, tu_khoa, ketquamongdoi, ketqua_thuc_te, status)
     report.save()
+    logger.info(f"Trạng thái test: {status}")
 
     # --- Screenshot khi Fail ---
     try:
         assert ketquamongdoi.lower() in ketqua_thuc_te.lower()
     except AssertionError:
         anh_path = trang.save_screenshot(name=f"timkiem_fail_{tu_khoa or 'empty'}")
-        print(f"[!] Đã lưu ảnh lỗi: {anh_path}")
+        logger.error(f"Test FAIL - Đã lưu ảnh lỗi: {anh_path}")
         raise

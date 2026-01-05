@@ -1,0 +1,38 @@
+2025-10-27 09:01:48 | INFO | ===== BẮT ĐẦU TEST FILE: test_timkiem_ddt.py =====
+2025-10-27 09:01:52 | INFO | Bắt đầu test tìm kiếm với từ khóa: ''
+2025-10-27 09:01:54 | INFO | Từ khóa trống, thông báo HTML5: Please fill out this field.
+2025-10-27 09:01:54 | INFO | Trạng thái test: Pass
+2025-10-27 09:02:00 | INFO | Bắt đầu test tìm kiếm với từ khóa: 'CÀ PHÊ'
+2025-10-27 09:02:04 | INFO | Tìm kiếm từ khóa 'CÀ PHÊ', kết quả đầu tiên: Hộp Nhựa Đựng Cà Phê 1,5L
+2025-10-27 09:02:04 | INFO | Trạng thái test: Pass
+2025-10-27 09:02:10 | INFO | Bắt đầu test tìm kiếm với từ khóa: 'cà phê'
+2025-10-27 09:02:13 | INFO | Tìm kiếm từ khóa 'cà phê', kết quả đầu tiên: Hộp Nhựa Đựng Cà Phê 1,5L
+2025-10-27 09:02:13 | INFO | Trạng thái test: Pass
+2025-10-27 09:02:19 | INFO | Bắt đầu test tìm kiếm với từ khóa: 'nhan ngam'
+2025-10-27 09:02:24 | INFO | Tìm kiếm từ khóa 'nhan ngam', kết quả đầu tiên: Nhãn Ngâm Nước Đường BODDOB (565 g)
+2025-10-27 09:02:24 | INFO | Trạng thái test: Pass
+2025-10-27 09:02:30 | INFO | Bắt đầu test tìm kiếm với từ khóa: '565'
+2025-10-27 09:02:33 | INFO | Tìm kiếm từ khóa '565', kết quả đầu tiên: Nhãn Ngâm Nước Đường BODDOB (565 g)
+2025-10-27 09:02:33 | INFO | Trạng thái test: Pass
+2025-10-27 09:02:39 | INFO | Bắt đầu test tìm kiếm với từ khóa: '#$%&'
+2025-10-27 09:02:51 | INFO | Tìm kiếm từ khóa '#$%&', kết quả đầu tiên: Không tìm thấy sản phẩm nào khớp với lựa chọn của bạn.
+2025-10-27 09:02:51 | INFO | Trạng thái test: Pass
+2025-10-27 09:02:57 | INFO | Bắt đầu test tìm kiếm với từ khóa: 'cà phê'
+2025-10-27 09:03:00 | INFO | Tìm kiếm từ khóa 'cà phê', kết quả đầu tiên: Hộp Nhựa Đựng Cà Phê 1,5L
+2025-10-27 09:03:00 | INFO | Trạng thái test: Pass
+2025-10-27 09:03:06 | INFO | Bắt đầu test tìm kiếm với từ khóa: 'thá'
+2025-10-27 09:03:09 | INFO | Tìm kiếm từ khóa 'thá', kết quả đầu tiên: Thạch Thủy Tinh Củ Năng Hồng Boduo (850 g)
+2025-10-27 09:03:10 | INFO | Trạng thái test: Pass
+2025-10-27 09:03:15 | INFO | Bắt đầu test tìm kiếm với từ khóa: 'Thạch Thủy Tinh Củ Năng Hồng Boduo (850 g)'
+2025-10-27 09:03:18 | INFO | Tìm kiếm từ khóa 'Thạch Thủy Tinh Củ Năng Hồng Boduo (850 g)', kết quả đầu tiên: Thạch Thủy Tinh Củ Năng Hồng Boduo (850 g)
+2025-10-27 09:03:18 | INFO | Trạng thái test: Pass
+2025-10-27 09:03:24 | INFO | Bắt đầu test tìm kiếm với từ khóa: 'a'
+2025-10-27 09:03:28 | INFO | Tìm kiếm từ khóa 'a', kết quả đầu tiên: Trân châu 3Q Ô Long Bibi Jelly 2kg
+2025-10-27 09:03:28 | INFO | Trạng thái test: Pass
+2025-10-27 09:03:34 | INFO | Bắt đầu test tìm kiếm với từ khóa: 'áo khoác'
+2025-10-27 09:03:46 | INFO | Tìm kiếm từ khóa 'áo khoác', kết quả đầu tiên: Không tìm thấy sản phẩm nào khớp với lựa chọn của bạn.
+2025-10-27 09:03:46 | INFO | Trạng thái test: Pass
+2025-10-27 09:03:52 | INFO | Bắt đầu test tìm kiếm với từ khóa: 'YM104'
+2025-10-27 09:03:56 | INFO | Tìm kiếm từ khóa 'YM104', kết quả đầu tiên: French Press Tay Cầm Inox Yami 350ml – YM104/YM107-350
+2025-10-27 09:03:56 | INFO | Trạng thái test: Pass
+2025-10-27 09:03:58 | INFO | ===== KẾT THÚC TEST FILE: test_timkiem_ddt.py =====

@@ -1,22 +1,43 @@
 import pytest
 import os
-import time
 import logging
-import allure
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.chrome.options import Options
+from webdriver_manager.chrome import ChromeDriverManager
 
-# CẤU HÌNH LOGS & SCREENSHOTS 
+# CẤU HÌNH LOGS 
 LOG_FOLDER = "logs"
-SCREENSHOT_FOLDER = "fail_screenshots"
 os.makedirs(LOG_FOLDER, exist_ok=True)
-os.makedirs(SCREENSHOT_FOLDER, exist_ok=True)
+@pytest.fixture(scope="module")
+def logger(request):
+    import os, logging
+    os.makedirs("logs", exist_ok=True)
 
-logging.basicConfig(
-    filename=os.path.join(LOG_FOLDER, "test_log.log"),
-    filemode="a",
-    level=logging.INFO,
-    format="%(asctime)s [%(levelname)s] %(message)s",
-    datefmt="%Y-%m-%d %H:%M:%S"
-)
+    test_file = os.path.basename(request.node.fspath)  # tên file test
+    base_name = os.path.splitext(test_file)[0]
+    log_file = f"logs/{base_name}.log"
+
+    # Xóa log cũ để ghi đè
+    if os.path.exists(log_file):
+        os.remove(log_file)
+
+    logger = logging.getLogger(base_name)
+    logger.setLevel(logging.INFO)
+
+    # tránh tạo handler trùng
+    if not logger.handlers:
+        fh = logging.FileHandler(log_file, mode="w", encoding="utf-8")
+        ch = logging.StreamHandler()
+        fmt = logging.Formatter("%(asctime)s | %(levelname)s | %(message)s", "%Y-%m-%d %H:%M:%S")
+        fh.setFormatter(fmt)
+        ch.setFormatter(fmt)
+        logger.addHandler(fh)
+        logger.addHandler(ch)
+
+    logger.info(f"===== BẮT ĐẦU TEST FILE: {test_file} =====")
+    yield logger
+    logger.info(f"===== KẾT THÚC TEST FILE: {test_file} =====")
 
 # TÙY CHỌN DỮ LIỆU VÀO (excel/json/csv) 
 # conftest.py
@@ -29,16 +50,10 @@ def pytest_addoption(parser):
         default="excel",
         help="Chọn kiểu dữ liệu đầu vào: excel, csv, json"
     )
-
 @pytest.fixture
 def data_mode(request):
     return request.config.getoption("--data-mode")
 
-#  FIXTURE KHỞI TẠO WEBDRIVER
-from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.chrome.options import Options
-from webdriver_manager.chrome import ChromeDriverManager
 
 @pytest.fixture(scope="function")
 def cau_hinh():

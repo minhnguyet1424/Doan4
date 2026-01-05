@@ -1,0 +1,3 @@
+[32mINFO    [0m test_timkiem_ddt:test_timkiem_ddt.py:74 Bắt đầu test tìm kiếm với từ khóa: 'áo khoác'
+[32mINFO    [0m test_timkiem_ddt:test_timkiem_ddt.py:88 Tìm kiếm từ khóa 'áo khoác', kết quả đầu tiên: Không tìm thấy sản phẩm nào khớp với lựa chọn của bạn.
+[32mINFO    [0m test_timkiem_ddt:test_timkiem_ddt.py:101 Trạng thái test: Pass

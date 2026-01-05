@@ -59,7 +59,7 @@ class TrangDangKy(BasePage):
     # --- Lấy thông báo phản hồi (tích hợp HTML5) ---
     def lay_thong_bao(self, timeout=10):
     
-        #Thứ tự ưu tiên:Nếu có thông báo HTML5 → trả về ngay, Nếu nút Đăng ký bị disable → chỉ lấy thông báo độ mạnh mật khẩu, Nếu nút enable → lấy lỗi hoặc thành công.
+        #Thứ tự ưu tiên:thông báo HTML5, Nếu nút Đăng ký bị disable → chỉ lấy thông báo độ mạnh mật khẩu, Nếu nút enable → lấy lỗi hoặc thành công.
         #  Kiểm tra thông báo HTML5 trước 
         msg_html5 = self.lay_thong_bao_html5()
         if msg_html5:

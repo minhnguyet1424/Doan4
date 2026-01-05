@@ -24,7 +24,8 @@ class ExcelReport:
             self.ws.title = sheet_name
 
         self.tieu_de = self._get_next_tieu_de()
-
+        
+#tìm và thêm tiêu đề mới
     def _get_next_tieu_de(self):
         count = 0
         pattern = re.compile(rf"{re.escape(self.tieu_de_base)} (\d+)")
@@ -38,7 +39,8 @@ class ExcelReport:
         self.ws.append([f"{self.tieu_de_base} {new_number}"])
         self._write_header()
         return f"{self.tieu_de_base} {new_number}"
-
+    
+#ghi dòng tiêu đề cột.
     def _write_header(self):
         # Nếu header không được truyền thì dùng mặc định
         header = self.header or [
@@ -46,7 +48,8 @@ class ExcelReport:
             "Kết quả mong đợi", "Kết quả thực tế", "Trạng thái"
         ]
         self.ws.append(header)
-
+        
+#thêm dữ liệu từng dòng, tự chèn thời gian và tô màu trạng thái.
     def add_row(self, *values):
         now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         row = list(values)

@@ -51,50 +51,58 @@ def pytest_generate_tests(metafunc):
             "email,matkhau,ten,ho,tenhienthi,dcemail,matkhauhientai,matkhaumoi,nhaplaimk,ketquamongdoi",
             test_cases
         )
-
 def test_cap_nhat_thong_tin(
     cau_hinh,
     email, matkhau, ten, ho, tenhienthi, dcemail,
     matkhauhientai, matkhaumoi, nhaplaimk, ketquamongdoi,
-    report
+    report,
+    logger  # <- thêm logger
 ):
     driver = cau_hinh["driver"]
     trang_tt = None  
-    ketqua_thuc_te = "Không lấy được kết quả"   # Gán mặc định
-    status = "Fail"                              #  Gán mặc định (nếu lỗi sớm)
-    
+    ketqua_thuc_te = "Không lấy được kết quả"
+    status = "Fail"
+
+    logger.info(f"Bắt đầu test cập nhật thông tin cho Email: {email}")
+
     try:
         # --- Đăng nhập ---
         trang_dang_nhap = TrangDangNhap(driver, URL_DANG_NHAP)
         trang_dang_nhap.mo_trang_dang_nhap()
+        logger.info(f"Mở trang đăng nhập: {URL_DANG_NHAP}")
         trang_dang_nhap.nhap_email(email)
         trang_dang_nhap.nhap_mat_khau(matkhau)
         trang_dang_nhap.bam_dang_nhap()
+        logger.info("Đã nhập thông tin đăng nhập và nhấn đăng nhập")
 
         WebDriverWait(driver, 10).until(EC.url_contains("/my-account"))
 
         # --- Cập nhật thông tin ---
         trang_tt = TrangThongTinTaiKhoan(driver, URL_EDIT_ACCOUNT)
         trang_tt.mo_trang_thong_tin()
+        logger.info(f"Mở trang thông tin tài khoản: {URL_EDIT_ACCOUNT}")
+
         trang_tt.cap_nhat_thong_tin(ten, ho, tenhienthi, dcemail, matkhauhientai, matkhaumoi, nhaplaimk)
+        logger.info("Đã nhập dữ liệu cập nhật thông tin")
 
         time.sleep(3)
         ketqua_thuc_te = trang_tt.lay_thong_bao()
+        logger.info(f"Kết quả thực tế: {ketqua_thuc_te}")
 
         # --- Kiểm tra kết quả ---
         if ketquamongdoi.lower() in ketqua_thuc_te.lower():
             status = "Pass"
+            logger.info(f"Kết quả mong đợi: {ketquamongdoi} | Trạng thái: {status}")
         else:
             anh_path = trang_tt.save_screenshot(name=f"thongtin_fail_{email or 'empty'}")
-            print(f"[!] Đã lưu ảnh lỗi: {anh_path}")
+            logger.error(f"Test FAIL - Đã lưu ảnh lỗi: {anh_path}")
             status = "Fail"
             pytest.fail(f"Kết quả thực tế: {ketqua_thuc_te} != Kết quả mong đợi: {ketquamongdoi}")
 
     except Exception as e:
-        # Nếu có lỗi bất ngờ, vẫn ghi báo cáo Fail
         ketqua_thuc_te = str(e)
         status = "Fail"
-        print(f" Lỗi trong test với {email}: {e}")
+        logger.error(f"Lỗi trong test với {email}: {e}")
         raise e
 
     finally:
@@ -110,3 +118,4 @@ def test_cap_nhat_thong_tin(
             ketquamongdoi, ketqua_thuc_te, status
         )
         report.save()
+        logger.info(f"===== Kết thúc test với Email: {email} | Trạng thái: {status} =====\n")

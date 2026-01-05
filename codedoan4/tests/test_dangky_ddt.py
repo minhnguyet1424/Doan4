@@ -44,12 +44,11 @@ def pytest_generate_tests(metafunc):
 
         metafunc.parametrize("tentaikhoan,email,matkhau,ketquamongdoi", test_cases)
 
-
-# --- TEST CASE CHÍNH ---
-def test_dang_ky_excel(cau_hinh, tentaikhoan, email, matkhau, ketquamongdoi, report):
+def test_dang_ky_excel(cau_hinh, tentaikhoan, email, matkhau, ketquamongdoi, report, logger):
     driver = cau_hinh["driver"]
     trang = TrangDangKy(driver, URL_DANG_KY)
     trang.mo_trang_dang_ky()
+    logger.info(f"Bắt đầu test đăng ký với Tài khoản: {tentaikhoan}, Email: {email}")
 
     # --- Nhập dữ liệu ---
     if tentaikhoan:
@@ -58,18 +57,22 @@ def test_dang_ky_excel(cau_hinh, tentaikhoan, email, matkhau, ketquamongdoi, rep
         trang.nhap_email(str(email))
     if matkhau:
         trang.nhap_mat_khau(str(matkhau))
+    logger.info("Đã nhập dữ liệu vào form đăng ký")
 
     # --- Bấm nút đăng ký ---
     try:
         trang.bam_dang_ky()
+        logger.info("Đã nhấn nút Đăng ký")
     except Exception:
-        print("Nút Đăng ký không khả dụng (thường do mật khẩu yếu).")
+        logger.warning("Nút Đăng ký không khả dụng (thường do mật khẩu yếu)")
 
-    # --- ƯU TIÊN lấy thông báo HTML5 ---
+    # --- Lấy kết quả ---
     ketqua_thuc_te = trang.lay_thong_bao()
+    logger.info(f"Kết quả thực tế: {ketqua_thuc_te}")
 
     # --- So sánh kết quả ---
     status = "Pass" if ketquamongdoi.lower() in ketqua_thuc_te.lower() else "Fail"
+    logger.info(f"Kết quả mong đợi: {ketquamongdoi} | Trạng thái: {status}")
 
     # --- STT tự tăng ---
     if not hasattr(test_dang_ky_excel, "stt_counter"):
@@ -88,7 +91,9 @@ def test_dang_ky_excel(cau_hinh, tentaikhoan, email, matkhau, ketquamongdoi, rep
         )
     except AssertionError as e:
         anh_path = trang.save_screenshot(name=f"dangky_fail_{tentaikhoan or 'empty'}")
-        print(f"[!] Đã lưu ảnh lỗi: {anh_path}")
+        logger.error(f" Test FAIL - Đã lưu ảnh lỗi: {anh_path}")
         raise e
 
+    # --- Dọn cookie ---
     driver.delete_all_cookies()
+    logger.info("Đã xóa cookie sau test.\n")

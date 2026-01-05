@@ -1,0 +1,3 @@
+[32mINFO    [0m test_dangky_ddt:test_dangky_ddt.py:51 Bắt đầu test đăng ký với Tài khoản: tienbao, Email: baohoang1@gmail.com
+[32mINFO    [0m test_dangky_ddt:test_dangky_ddt.py:60 Đã nhập dữ liệu vào form đăng ký
+[32mINFO    [0m test_dangky_ddt:test_dangky_ddt.py:65 Đã nhấn nút Đăng ký
