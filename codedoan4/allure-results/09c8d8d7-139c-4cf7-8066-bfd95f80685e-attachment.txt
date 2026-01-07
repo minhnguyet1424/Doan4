@@ -1,0 +1,8 @@
+[32mINFO    [0m test_dangky_ddt.py:test_dangky_ddt.py:38 
+=== TEST CASE 13 ===
+[32mINFO    [0m test_dangky_ddt.py:test_dangky_ddt.py:39 Bắt đầu test đăng ký | TK=thúy duyên, Email=hoangthuyduyen311gmail.com
+[32mINFO    [0m test_dangky_ddt.py:test_dangky_ddt.py:51 Đã nhập dữ liệu đăng ký
+[32mINFO    [0m test_dangky_ddt.py:test_dangky_ddt.py:56 Đã nhấn nút Đăng ký
+[32mINFO    [0m test_dangky_ddt.py:test_dangky_ddt.py:62 Kết quả thực tế: Please include an '@' in the email address. 'hoangthuyduyen311gmail.com' is missing an '@'.
+[32mINFO    [0m test_dangky_ddt.py:test_dangky_ddt.py:65 Kết quả mong đợi: Please include an '@' in the email address. 'hoangthuyduyen311gmail.com' is missing an '@'. | Trạng thái: Pass
+[32mINFO    [0m test_dangky_ddt.py:test_dangky_ddt.py:84 Đã xóa cookie sau test

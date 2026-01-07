@@ -1,245 +1,101 @@
-2026-01-06 17:22:16 | INFO | 
-=== TEST CASE 33 ===
-2026-01-06 17:22:16 | INFO | Bắt đầu test Mua Ngay | Từ khóa='trơn nâu', Sản phẩm='Ly Giấy Nâu Trơn 16oz'
-2026-01-06 17:22:16 | INFO | Mở trang tìm kiếm
-2026-01-06 17:22:18 | INFO | Nhập từ khóa tìm kiếm: trơn nâu
-2026-01-06 17:22:25 | INFO | Điền thông tin checkout cho KH: , nguyennam@gmail.com, 122336523.0, vĩnh tuy, Hà Nội
-2026-01-06 17:22:41 | INFO | Đặt hàng thành công: Mục Tên là mục bắt buộc.
-2026-01-06 17:22:41 | INFO | [END] Test Mua Ngay: STT=33, Status=Pass
-2026-01-06 17:22:47 | INFO | 
-=== TEST CASE 34 ===
-2026-01-06 17:22:47 | INFO | Bắt đầu test Mua Ngay | Từ khóa='trơn nâu', Sản phẩm='Ly Giấy Nâu Trơn 16oz'
-2026-01-06 17:22:47 | INFO | Mở trang tìm kiếm
-2026-01-06 17:22:50 | INFO | Nhập từ khóa tìm kiếm: trơn nâu
-2026-01-06 17:22:58 | INFO | Điền thông tin checkout cho KH: nam, nguyennam@gmail.com, 122336524.0, , Hà Nội
-2026-01-06 17:23:12 | INFO | Đặt hàng thành công: Mục Địa chỉ là mục bắt buộc.
-2026-01-06 17:23:12 | INFO | [END] Test Mua Ngay: STT=34, Status=Pass
-2026-01-06 17:23:18 | INFO | 
-=== TEST CASE 35 ===
-2026-01-06 17:23:18 | INFO | Bắt đầu test Mua Ngay | Từ khóa='trơn nâu', Sản phẩm='Ly Giấy Nâu Trơn 16oz'
-2026-01-06 17:23:18 | INFO | Mở trang tìm kiếm
-2026-01-06 17:23:21 | INFO | Nhập từ khóa tìm kiếm: trơn nâu
-2026-01-06 17:23:29 | INFO | Điền thông tin checkout cho KH: nam, nguyennam@gmail.com, 122336525.0, vĩnh tuy, 
-2026-01-06 17:23:31 | ERROR | Lỗi exception: Message: stale element reference: stale element not found in the current frame
-  (Session info: chrome=143.0.7499.170); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
-Stacktrace:
-Symbols not available. Dumping unresolved backtrace:
-	0xa912d3
-	0xa91314
-	0x87e6dd
-	0x885323
-	0x8876c1
-	0x887758
-	0x8cb122
-	0x8bf14f
-	0x8eb4ec
-	0x8bec34
-	0x8eb6a4
-	0x90db13
-	0x8eb2e6
-	0x8bd321
-	0x8be1d4
-	0xce5314
-	0xce08cb
-	0xcfd1aa
-	0xaab1d8
-	0xab31dd
-	0xa995d8
-	0xa99799
-	0xa83b28
-	0x7738fcc9
-	0x779482ae
-	0x7794827e
-Traceback (most recent call last):
-  File "e:\Doan4\codedoan4\tests\test_muahang_ddt.py", line 50, in test_mua_ngay
-    gio_hang.dat_hang()
-    ~~~~~~~~~~~~~~~~~^^
-  File "E:\Doan4\codedoan4\pages\muahang_page.py", line 50, in dat_hang
-    btn.click()
-    ~~~~~~~~~^^
-  File "E:\Doan4\codedoan4\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 114, in click
-    self._execute(Command.CLICK_ELEMENT)
-    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
-  File "E:\Doan4\codedoan4\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 508, in _execute
-    return self._parent.execute(command, params)
-           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
-  File "E:\Doan4\codedoan4\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 432, in execute
-    self.error_handler.check_response(response)
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
-  File "E:\Doan4\codedoan4\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found in the current frame
-  (Session info: chrome=143.0.7499.170); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
-Stacktrace:
-Symbols not available. Dumping unresolved backtrace:
-	0xa912d3
-	0xa91314
-	0x87e6dd
-	0x885323
-	0x8876c1
-	0x887758
-	0x8cb122
-	0x8bf14f
-	0x8eb4ec
-	0x8bec34
-	0x8eb6a4
-	0x90db13
-	0x8eb2e6
-	0x8bd321
-	0x8be1d4
-	0xce5314
-	0xce08cb
-	0xcfd1aa
-	0xaab1d8
-	0xab31dd
-	0xa995d8
-	0xa99799
-	0xa83b28
-	0x7738fcc9
-	0x779482ae
-	0x7794827e
-
-2026-01-06 17:23:32 | INFO | [END] Test Mua Ngay: STT=35, Status=Fail
-2026-01-06 17:23:38 | INFO | 
-=== TEST CASE 36 ===
-2026-01-06 17:23:38 | INFO | Bắt đầu test Mua Ngay | Từ khóa='trơn nâu', Sản phẩm='Ly Giấy Nâu Trơn 16oz'
-2026-01-06 17:23:38 | INFO | Mở trang tìm kiếm
-2026-01-06 17:23:40 | INFO | Nhập từ khóa tìm kiếm: trơn nâu
-2026-01-06 17:23:47 | INFO | Điền thông tin checkout cho KH: nam, nguyennam@gmail.com, , vĩnh tuy, Hà Nội
-2026-01-06 17:24:01 | INFO | Đặt hàng thành công: Mục Số điện thoại là mục bắt buộc.
-2026-01-06 17:24:02 | INFO | [END] Test Mua Ngay: STT=36, Status=Pass
-2026-01-06 17:24:07 | INFO | 
-=== TEST CASE 37 ===
-2026-01-06 17:24:07 | INFO | Bắt đầu test Mua Ngay | Từ khóa='trơn nâu', Sản phẩm='Ly Giấy Nâu Trơn 16oz'
-2026-01-06 17:24:07 | INFO | Mở trang tìm kiếm
-2026-01-06 17:24:10 | INFO | Nhập từ khóa tìm kiếm: trơn nâu
-2026-01-06 17:24:18 | INFO | Điền thông tin checkout cho KH: nam, , 122336527.0, vĩnh tuy, Hà Nội
-2026-01-06 17:24:20 | ERROR | Lỗi exception: Message: stale element reference: stale element not found in the current frame
-  (Session info: chrome=143.0.7499.170); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
-Stacktrace:
-Symbols not available. Dumping unresolved backtrace:
-	0xa912d3
-	0xa91314
-	0x87e6dd
-	0x885323
-	0x8876c1
-	0x887758
-	0x8cb122
-	0x8bf14f
-	0x8eb4ec
-	0x8bec34
-	0x8eb6a4
-	0x90db13
-	0x8eb2e6
-	0x8bd321
-	0x8be1d4
-	0xce5314
-	0xce08cb
-	0xcfd1aa
-	0xaab1d8
-	0xab31dd
-	0xa995d8
-	0xa99799
-	0xa83b28
-	0x7738fcc9
-	0x779482ae
-	0x7794827e
-Traceback (most recent call last):
-  File "e:\Doan4\codedoan4\tests\test_muahang_ddt.py", line 50, in test_mua_ngay
-    gio_hang.dat_hang()
-    ~~~~~~~~~~~~~~~~~^^
-  File "E:\Doan4\codedoan4\pages\muahang_page.py", line 50, in dat_hang
-    btn.click()
-    ~~~~~~~~~^^
-  File "E:\Doan4\codedoan4\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 114, in click
-    self._execute(Command.CLICK_ELEMENT)
-    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
-  File "E:\Doan4\codedoan4\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 508, in _execute
-    return self._parent.execute(command, params)
-           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
-  File "E:\Doan4\codedoan4\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 432, in execute
-    self.error_handler.check_response(response)
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
-  File "E:\Doan4\codedoan4\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found in the current frame
-  (Session info: chrome=143.0.7499.170); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
-Stacktrace:
-Symbols not available. Dumping unresolved backtrace:
-	0xa912d3
-	0xa91314
-	0x87e6dd
-	0x885323
-	0x8876c1
-	0x887758
-	0x8cb122
-	0x8bf14f
-	0x8eb4ec
-	0x8bec34
-	0x8eb6a4
-	0x90db13
-	0x8eb2e6
-	0x8bd321
-	0x8be1d4
-	0xce5314
-	0xce08cb
-	0xcfd1aa
-	0xaab1d8
-	0xab31dd
-	0xa995d8
-	0xa99799
-	0xa83b28
-	0x7738fcc9
-	0x779482ae
-	0x7794827e
-
-2026-01-06 17:24:20 | INFO | [END] Test Mua Ngay: STT=37, Status=Fail
-2026-01-06 17:24:26 | INFO | 
-=== TEST CASE 38 ===
-2026-01-06 17:24:26 | INFO | Bắt đầu test Mua Ngay | Từ khóa='trơn nâu', Sản phẩm='Ly Giấy Nâu Trơn 16oz'
-2026-01-06 17:24:26 | INFO | Mở trang tìm kiếm
-2026-01-06 17:24:28 | INFO | Nhập từ khóa tìm kiếm: trơn nâu
-2026-01-06 17:24:37 | INFO | Điền thông tin checkout cho KH: nam, nguyennam@gmail.com, 122336528.0, vĩnh tuy, Hà Nội
-2026-01-06 17:24:51 | WARNING | Đặt hàng thất bại: Mục Số điện thoại là mục bắt buộc.
-2026-01-06 17:24:51 | INFO | [END] Test Mua Ngay: STT=38, Status=Fail
-2026-01-06 17:25:02 | INFO | 
-=== TEST CASE 39 ===
-2026-01-06 17:25:02 | INFO | Bắt đầu test Mua Ngay | Từ khóa='trơn nâu', Sản phẩm='Ly Giấy Nâu Trơn 16oz'
-2026-01-06 17:25:02 | INFO | Mở trang tìm kiếm
-2026-01-06 17:25:05 | INFO | Nhập từ khóa tìm kiếm: trơn nâu
-2026-01-06 17:25:12 | INFO | Điền thông tin checkout cho KH: , nguyennam@gmail.com, 122336529.0, , Hà Nội
-2026-01-06 17:25:26 | INFO | Đặt hàng thành công: Mục Tên là mục bắt buộc.
+2026-01-07 14:53:22 | INFO | 
+=== TEST CASE 1 ===
+2026-01-07 14:53:22 | INFO | Bắt đầu test Mua Ngay | Từ khóa='trơn nâu', Sản phẩm='Ly Giấy Nâu Trơn 16oz'
+2026-01-07 14:53:38 | INFO | Đã nhấn nút Mua Ngay
+2026-01-07 14:53:41 | INFO | Đã nhập thông tin đặt hàng | Tên=, Email=nguyennam@gmail.com, SĐT=122336523.0, Địa chỉ=vĩnh tuy, Thành phố=Hà Nội
+2026-01-07 14:53:42 | INFO | Đã nhấn nút Đặt hàng
+2026-01-07 14:53:54 | INFO | Kết quả thực tế: Mục Tên là mục bắt buộc.
+2026-01-07 14:53:54 | INFO | Kết quả mong đợi: Mục Tên là mục bắt buộc. | Trạng thái: Pass
+2026-01-07 14:53:54 | INFO | Đã xóa cookie sau test
+2026-01-07 14:54:00 | INFO | 
+=== TEST CASE 2 ===
+2026-01-07 14:54:00 | INFO | Bắt đầu test Mua Ngay | Từ khóa='trơn nâu', Sản phẩm='Ly Giấy Nâu Trơn 16oz'
+2026-01-07 14:54:16 | INFO | Đã nhấn nút Mua Ngay
+2026-01-07 14:54:19 | INFO | Đã nhập thông tin đặt hàng | Tên=nam, Email=nguyennam@gmail.com, SĐT=122336524.0, Địa chỉ=, Thành phố=Hà Nội
+2026-01-07 14:54:20 | INFO | Đã nhấn nút Đặt hàng
+2026-01-07 14:54:31 | INFO | Kết quả thực tế: Mục Địa chỉ là mục bắt buộc.
+2026-01-07 14:54:31 | INFO | Kết quả mong đợi: Mục Địa chỉ là mục bắt buộc. | Trạng thái: Pass
+2026-01-07 14:54:31 | INFO | Đã xóa cookie sau test
+2026-01-07 14:54:38 | INFO | 
+=== TEST CASE 3 ===
+2026-01-07 14:54:38 | INFO | Bắt đầu test Mua Ngay | Từ khóa='trơn nâu', Sản phẩm='Ly Giấy Nâu Trơn 16oz'
+2026-01-07 14:54:53 | INFO | Đã nhấn nút Mua Ngay
+2026-01-07 14:54:56 | INFO | Đã nhập thông tin đặt hàng | Tên=nam, Email=nguyennam@gmail.com, SĐT=122336525.0, Địa chỉ=vĩnh tuy, Thành phố=
+2026-01-07 14:54:57 | INFO | Đã nhấn nút Đặt hàng
+2026-01-07 14:55:09 | INFO | Kết quả thực tế: Mục Thị trấn / Thành phố là mục bắt buộc.
+2026-01-07 14:55:09 | INFO | Kết quả mong đợi: Mục Thị trấn / Thành phố là mục bắt buộc . | Trạng thái: Fail
+2026-01-07 14:55:09 | INFO | Đã xóa cookie sau test
+2026-01-07 14:55:16 | INFO | 
+=== TEST CASE 4 ===
+2026-01-07 14:55:16 | INFO | Bắt đầu test Mua Ngay | Từ khóa='trơn nâu', Sản phẩm='Ly Giấy Nâu Trơn 16oz'
+2026-01-07 14:55:29 | INFO | Đã nhấn nút Mua Ngay
+2026-01-07 14:55:32 | INFO | Đã nhập thông tin đặt hàng | Tên=nam, Email=nguyennam@gmail.com, SĐT=, Địa chỉ=vĩnh tuy, Thành phố=Hà Nội
+2026-01-07 14:55:33 | INFO | Đã nhấn nút Đặt hàng
+2026-01-07 14:55:45 | INFO | Kết quả thực tế: Mục Số điện thoại là mục bắt buộc.
+2026-01-07 14:55:45 | INFO | Kết quả mong đợi: Mục Số điện thoại là mục bắt buộc. | Trạng thái: Pass
+2026-01-07 14:55:45 | INFO | Đã xóa cookie sau test
+2026-01-07 14:55:53 | INFO | 
+=== TEST CASE 5 ===
+2026-01-07 14:55:53 | INFO | Bắt đầu test Mua Ngay | Từ khóa='trơn nâu', Sản phẩm='Ly Giấy Nâu Trơn 16oz'
+2026-01-07 14:56:11 | INFO | Đã nhấn nút Mua Ngay
+2026-01-07 14:56:14 | INFO | Đã nhập thông tin đặt hàng | Tên=nam, Email=, SĐT=122336527.0, Địa chỉ=vĩnh tuy, Thành phố=Hà Nội
+2026-01-07 14:56:16 | INFO | Đã nhấn nút Đặt hàng
+2026-01-07 14:56:28 | INFO | Kết quả thực tế: Mục Địa chỉ email là mục bắt buộc.
+2026-01-07 14:56:28 | INFO | Kết quả mong đợi: Mục Địa chỉ email là mục bắt buộc . | Trạng thái: Fail
+2026-01-07 14:56:28 | INFO | Đã xóa cookie sau test
+2026-01-07 14:56:36 | INFO | 
+=== TEST CASE 6 ===
+2026-01-07 14:56:36 | INFO | Bắt đầu test Mua Ngay | Từ khóa='trơn nâu', Sản phẩm='Ly Giấy Nâu Trơn 16oz'
+2026-01-07 14:56:52 | INFO | Đã nhấn nút Mua Ngay
+2026-01-07 14:56:55 | INFO | Đã nhập thông tin đặt hàng | Tên=nam, Email=nguyennam@gmail.com, SĐT=122336528.0, Địa chỉ=vĩnh tuy, Thành phố=Hà Nội
+2026-01-07 14:56:57 | INFO | Đã nhấn nút Đặt hàng
+2026-01-07 14:57:03 | INFO | Kết quả thực tế: Cảm ơn bạn. Đơn hàng của bạn đã được nhận.
+2026-01-07 14:57:03 | INFO | Kết quả mong đợi: Cảm ơn bạn. Đơn hàng của bạn đã được nhận. | Trạng thái: Pass
+2026-01-07 14:57:03 | INFO | Đã xóa cookie sau test
+2026-01-07 14:57:12 | INFO | 
+=== TEST CASE 7 ===
+2026-01-07 14:57:12 | INFO | Bắt đầu test Mua Ngay | Từ khóa='trơn nâu', Sản phẩm='Ly Giấy Nâu Trơn 16oz'
+2026-01-07 14:57:27 | INFO | Đã nhấn nút Mua Ngay
+2026-01-07 14:57:30 | INFO | Đã nhập thông tin đặt hàng | Tên=, Email=nguyennam@gmail.com, SĐT=122336529.0, Địa chỉ=, Thành phố=Hà Nội
+2026-01-07 14:57:31 | INFO | Đã nhấn nút Đặt hàng
+2026-01-07 14:57:42 | INFO | Kết quả thực tế: Mục Tên là mục bắt buộc.
 Mục Địa chỉ là mục bắt buộc.
-2026-01-06 17:25:27 | INFO | [END] Test Mua Ngay: STT=39, Status=Pass
-2026-01-06 17:25:32 | INFO | 
-=== TEST CASE 40 ===
-2026-01-06 17:25:32 | INFO | Bắt đầu test Mua Ngay | Từ khóa='trơn nâu', Sản phẩm='Ly Giấy Nâu Trơn 16oz'
-2026-01-06 17:25:32 | INFO | Mở trang tìm kiếm
-2026-01-06 17:25:35 | INFO | Nhập từ khóa tìm kiếm: trơn nâu
-2026-01-06 17:25:43 | INFO | Điền thông tin checkout cho KH: nam, nguyennam, 122336529.0, vĩnh tuy, Hà Nội
-2026-01-06 17:25:58 | WARNING | Đặt hàng thất bại: Mục Địa chỉ email không phải là địa chỉ email hợp lệ.
-2026-01-06 17:25:58 | INFO | [END] Test Mua Ngay: STT=40, Status=Fail
-2026-01-06 17:26:04 | INFO | 
-=== TEST CASE 41 ===
-2026-01-06 17:26:04 | INFO | Bắt đầu test Mua Ngay | Từ khóa='trơn nâu', Sản phẩm='Ly Giấy Nâu Trơn 16oz'
-2026-01-06 17:26:04 | INFO | Mở trang tìm kiếm
-2026-01-06 17:26:07 | INFO | Nhập từ khóa tìm kiếm: trơn nâu
-2026-01-06 17:26:15 | INFO | Điền thông tin checkout cho KH: nam, nguyennam@@gmail.com, 122336530.0, vĩnh tuy, Hà Nội
-2026-01-06 17:26:29 | WARNING | Đặt hàng thất bại: Mục Địa chỉ email không phải là địa chỉ email hợp lệ.
-2026-01-06 17:26:29 | INFO | [END] Test Mua Ngay: STT=41, Status=Fail
-2026-01-06 17:26:35 | INFO | 
-=== TEST CASE 42 ===
-2026-01-06 17:26:35 | INFO | Bắt đầu test Mua Ngay | Từ khóa='trơn nâu', Sản phẩm='Ly Giấy Nâu Trơn 16oz'
-2026-01-06 17:26:35 | INFO | Mở trang tìm kiếm
-2026-01-06 17:26:38 | INFO | Nhập từ khóa tìm kiếm: trơn nâu
-2026-01-06 17:26:44 | INFO | Điền thông tin checkout cho KH: nam, lieuly@gmail.com2, 122336530.0, vĩnh tuy, Hà Nội
-2026-01-06 17:26:49 | INFO | Đặt hàng thành công: Cảm ơn bạn. Đơn hàng của bạn đã được nhận.
-2026-01-06 17:26:49 | INFO | [END] Test Mua Ngay: STT=42, Status=Pass
-2026-01-06 17:26:55 | INFO | 
-=== TEST CASE 43 ===
-2026-01-06 17:26:55 | INFO | Bắt đầu test Mua Ngay | Từ khóa='trơn nâu', Sản phẩm='Ly Giấy Nâu Trơn 16oz'
-2026-01-06 17:26:55 | INFO | Mở trang tìm kiếm
-2026-01-06 17:26:57 | INFO | Nhập từ khóa tìm kiếm: trơn nâu
-2026-01-06 17:27:06 | INFO | Điền thông tin checkout cho KH: nam, lieuly@gmail.com3, 2122.0, vĩnh tuy, Hà Nội
-2026-01-06 17:27:11 | INFO | Đặt hàng thành công: Cảm ơn bạn. Đơn hàng của bạn đã được nhận.
-2026-01-06 17:27:11 | INFO | [END] Test Mua Ngay: STT=43, Status=Pass
+2026-01-07 14:57:42 | INFO | Kết quả mong đợi: Mục Tên là mục bắt buộc._x000d_
+Mục Địa chỉ là mục bắt buộc. | Trạng thái: Fail
+2026-01-07 14:57:43 | INFO | Đã xóa cookie sau test
+2026-01-07 14:57:50 | INFO | 
+=== TEST CASE 8 ===
+2026-01-07 14:57:50 | INFO | Bắt đầu test Mua Ngay | Từ khóa='trơn nâu', Sản phẩm='Ly Giấy Nâu Trơn 16oz'
+2026-01-07 14:58:04 | INFO | Đã nhấn nút Mua Ngay
+2026-01-07 14:58:07 | INFO | Đã nhập thông tin đặt hàng | Tên=nam, Email=nguyennam, SĐT=122336529.0, Địa chỉ=vĩnh tuy, Thành phố=Hà Nội
+2026-01-07 14:58:09 | INFO | Đã nhấn nút Đặt hàng
+2026-01-07 14:58:21 | INFO | Kết quả thực tế: Mục Địa chỉ email không phải là địa chỉ email hợp lệ.
+2026-01-07 14:58:21 | INFO | Kết quả mong đợi: Mục Địa chỉ email không phải là địa chỉ email hợp lệ. | Trạng thái: Fail
+2026-01-07 14:58:21 | INFO | Đã xóa cookie sau test
+2026-01-07 14:58:27 | INFO | 
+=== TEST CASE 9 ===
+2026-01-07 14:58:27 | INFO | Bắt đầu test Mua Ngay | Từ khóa='trơn nâu', Sản phẩm='Ly Giấy Nâu Trơn 16oz'
+2026-01-07 14:58:44 | INFO | Đã nhấn nút Mua Ngay
+2026-01-07 14:58:47 | INFO | Đã nhập thông tin đặt hàng | Tên=nam, Email=nguyennam@@gmail.com, SĐT=122336530.0, Địa chỉ=vĩnh tuy, Thành phố=Hà Nội
+2026-01-07 14:58:49 | INFO | Đã nhấn nút Đặt hàng
+2026-01-07 14:59:00 | INFO | Kết quả thực tế: Mục Địa chỉ email không phải là địa chỉ email hợp lệ.
+2026-01-07 14:59:00 | INFO | Kết quả mong đợi: Mục Địa chỉ email không phải là địa chỉ email hợp lệ. | Trạng thái: Fail
+2026-01-07 14:59:01 | INFO | Đã xóa cookie sau test
+2026-01-07 14:59:07 | INFO | 
+=== TEST CASE 10 ===
+2026-01-07 14:59:07 | INFO | Bắt đầu test Mua Ngay | Từ khóa='trơn nâu', Sản phẩm='Ly Giấy Nâu Trơn 16oz'
+2026-01-07 14:59:26 | INFO | Đã nhấn nút Mua Ngay
+2026-01-07 14:59:29 | INFO | Đã nhập thông tin đặt hàng | Tên=nam, Email=lieuly@gmail.com2, SĐT=122336530.0, Địa chỉ=vĩnh tuy, Thành phố=Hà Nội
+2026-01-07 14:59:30 | INFO | Đã nhấn nút Đặt hàng
+2026-01-07 14:59:34 | INFO | Kết quả thực tế: Cảm ơn bạn. Đơn hàng của bạn đã được nhận.
+2026-01-07 14:59:34 | INFO | Kết quả mong đợi: Cảm ơn bạn. Đơn hàng của bạn đã được nhận. | Trạng thái: Pass
+2026-01-07 14:59:34 | INFO | Đã xóa cookie sau test
+2026-01-07 14:59:43 | INFO | 
+=== TEST CASE 11 ===
+2026-01-07 14:59:43 | INFO | Bắt đầu test Mua Ngay | Từ khóa='trơn nâu', Sản phẩm='Ly Giấy Nâu Trơn 16oz'
+2026-01-07 14:59:57 | INFO | Đã nhấn nút Mua Ngay
+2026-01-07 15:00:00 | INFO | Đã nhập thông tin đặt hàng | Tên=nam, Email=lieuly@gmail.com3, SĐT=2122.0, Địa chỉ=vĩnh tuy, Thành phố=Hà Nội
+2026-01-07 15:00:01 | INFO | Đã nhấn nút Đặt hàng
+2026-01-07 15:00:05 | INFO | Kết quả thực tế: Cảm ơn bạn. Đơn hàng của bạn đã được nhận.
+2026-01-07 15:00:05 | INFO | Kết quả mong đợi: Cảm ơn bạn. Đơn hàng của bạn đã được nhận. | Trạng thái: Pass
+2026-01-07 15:00:06 | INFO | Đã xóa cookie sau test

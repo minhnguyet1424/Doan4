@@ -1,0 +1,7 @@
+[32mINFO    [0m test_hsotkhoan_ddt.py:test_hsotkhoan_ddt.py:164 
+=== TEST CASE 10 ===
+[32mINFO    [0m test_hsotkhoan_ddt.py:test_hsotkhoan_ddt.py:165 Bắt đầu test cập nhật thông tin | Email=HoangMinhNguyet110122277@gmail.com
+[32mINFO    [0m test_hsotkhoan_ddt.py:test_hsotkhoan_ddt.py:173 Đã đăng nhập thành công
+[32mINFO    [0m test_hsotkhoan_ddt.py:test_hsotkhoan_ddt.py:184 Kết quả thực tế: Địa chỉ email là mục bắt buộc.
+[32mINFO    [0m test_hsotkhoan_ddt.py:test_hsotkhoan_ddt.py:194 Kết quả mong đợi: Địa chỉ email là mục bắt buộc. | Trạng thái: Pass
+[32mINFO    [0m test_hsotkhoan_ddt.py:test_hsotkhoan_ddt.py:203 Đã xóa cookie sau test
