@@ -1,174 +1,170 @@
-2026-01-07 15:14:25 | INFO | 
+2026-01-07 15:54:45 | INFO | 
 === TEST CASE 1 ===
-2026-01-07 15:14:25 | INFO | Bắt đầu test cập nhật thông tin | Email=HoangMinhNguyet110122277@gmail.com
-2026-01-07 15:14:30 | INFO | Đã đăng nhập thành công
-2026-01-07 15:15:08 | INFO | Kết quả thực tế: Please include an '@' in the email address. 'HoangMinhNguyet110122277' is missing an '@'.
-2026-01-07 15:15:09 | INFO | Kết quả mong đợi: Please include an '@' in the email address. 'HoangMinhNguyet110122277' is missing an '@'. | Trạng thái: Pass
-2026-01-07 15:15:09 | INFO | Đã xóa cookie sau test
-
-2026-01-07 15:15:15 | INFO | 
+2026-01-07 15:54:45 | INFO | Bắt đầu test cập nhật thông tin | Email=HoangMinhNguyet110122277@gmail.com
+2026-01-07 15:54:47 | INFO | Đã đăng nhập thành công
+2026-01-07 15:55:27 | INFO | 
 === TEST CASE 2 ===
-2026-01-07 15:15:15 | INFO | Bắt đầu test cập nhật thông tin | Email=HoangMinhNguyet110122277@gmail.com
-2026-01-07 15:15:18 | INFO | Đã đăng nhập thành công
-2026-01-07 15:15:56 | INFO | Kết quả thực tế: A part following '@' should not contain the symbol '@'.
-2026-01-07 15:15:56 | INFO | Kết quả mong đợi: A part following '@' should not contain the symbol '@'. | Trạng thái: Pass
-2026-01-07 15:15:56 | INFO | Đã xóa cookie sau test
+2026-01-07 15:55:27 | INFO | Bắt đầu test cập nhật thông tin | Email=HoangMinhNguyet110122277@gmail.com
+2026-01-07 15:55:32 | INFO | Đã đăng nhập thành công
+2026-01-07 15:56:10 | INFO | Kết quả thực tế: A part following '@' should not contain the symbol '@'.
+2026-01-07 15:56:10 | INFO | Kết quả mong đợi: A part following '@' should not contain the symbol '@'. | Trạng thái: Pass
+2026-01-07 15:56:10 | INFO | Đã xóa cookie sau test
 
-2026-01-07 15:16:02 | INFO | 
+2026-01-07 15:56:16 | INFO | 
 === TEST CASE 3 ===
-2026-01-07 15:16:02 | INFO | Bắt đầu test cập nhật thông tin | Email=HoangMinhNguyet110122277@gmail.com
-2026-01-07 15:16:07 | INFO | Đã đăng nhập thành công
-2026-01-07 15:16:45 | INFO | Kết quả thực tế: Please include an '@' in the email address. 'HoangMinhNguyet110122277gmail.com' is missing an '@'.
-2026-01-07 15:16:45 | INFO | Kết quả mong đợi: Please include an '@' in the email address. 'HoangMinhNguyet110122277gmail.com' is missing an '@'. | Trạng thái: Pass
-2026-01-07 15:16:45 | INFO | Đã xóa cookie sau test
+2026-01-07 15:56:16 | INFO | Bắt đầu test cập nhật thông tin | Email=HoangMinhNguyet110122277@gmail.com
+2026-01-07 15:56:21 | INFO | Đã đăng nhập thành công
+2026-01-07 15:56:59 | INFO | Kết quả thực tế: Please include an '@' in the email address. 'HoangMinhNguyet110122277gmail.com' is missing an '@'.
+2026-01-07 15:56:59 | INFO | Kết quả mong đợi: Please include an '@' in the email address. 'HoangMinhNguyet110122277gmail.com' is missing an '@'. | Trạng thái: Pass
+2026-01-07 15:56:59 | INFO | Đã xóa cookie sau test
 
-2026-01-07 15:16:51 | INFO | 
+2026-01-07 15:57:05 | INFO | 
 === TEST CASE 4 ===
-2026-01-07 15:16:51 | INFO | Bắt đầu test cập nhật thông tin | Email=HoangMinhNguyet110122277@gmail.com
-2026-01-07 15:16:55 | INFO | Đã đăng nhập thành công
-2026-01-07 15:17:33 | INFO | Kết quả thực tế: Please enter a part followed by '@'. '@gmai.comm' is incomplete.
-2026-01-07 15:17:33 | INFO | Kết quả mong đợi: Please enter a part followed by '@'. '@gmai.comm' is incomplete. | Trạng thái: Pass
-2026-01-07 15:17:33 | INFO | Đã xóa cookie sau test
+2026-01-07 15:57:05 | INFO | Bắt đầu test cập nhật thông tin | Email=HoangMinhNguyet110122277@gmail.com
+2026-01-07 15:57:07 | INFO | Đã đăng nhập thành công
+2026-01-07 15:57:45 | INFO | Kết quả thực tế: Please enter a part followed by '@'. '@gmai.comm' is incomplete.
+2026-01-07 15:57:45 | INFO | Kết quả mong đợi: Please enter a part followed by '@'. '@gmai.comm' is incomplete. | Trạng thái: Pass
+2026-01-07 15:57:45 | INFO | Đã xóa cookie sau test
 
-2026-01-07 15:17:39 | INFO | 
+2026-01-07 15:57:51 | INFO | 
 === TEST CASE 5 ===
-2026-01-07 15:17:39 | INFO | Bắt đầu test cập nhật thông tin | Email=HoangMinhNguyet110122277@gmail.com
-2026-01-07 15:17:43 | INFO | Đã đăng nhập thành công
-2026-01-07 15:17:51 | INFO | Kết quả thực tế: Vui lòng cung cấp địa chỉ email hợp lệ.
-2026-01-07 15:17:51 | INFO | Kết quả mong đợi: Vui lòng cung cấp địa chỉ email hợp lệ. | Trạng thái: Pass
-2026-01-07 15:17:51 | INFO | Đã xóa cookie sau test
+2026-01-07 15:57:51 | INFO | Bắt đầu test cập nhật thông tin | Email=HoangMinhNguyet110122277@gmail.com
+2026-01-07 15:57:56 | INFO | Đã đăng nhập thành công
+2026-01-07 15:58:03 | INFO | Kết quả thực tế: Vui lòng cung cấp địa chỉ email hợp lệ.
+2026-01-07 15:58:04 | INFO | Kết quả mong đợi: Vui lòng cung cấp địa chỉ email hợp lệ. | Trạng thái: Pass
+2026-01-07 15:58:04 | INFO | Đã xóa cookie sau test
 
-2026-01-07 15:17:57 | INFO | 
+2026-01-07 15:58:11 | INFO | 
 === TEST CASE 6 ===
-2026-01-07 15:17:57 | INFO | Bắt đầu test cập nhật thông tin | Email=HoangMinhNguyet110122277@gmail.com
-2026-01-07 15:17:59 | INFO | Đã đăng nhập thành công
-2026-01-07 15:18:19 | INFO | Kết quả thực tế: Thông tin tài khoản đã được cập nhật.
-2026-01-07 15:18:19 | INFO | Kết quả mong đợi: Thông tin tài khoản đã được cập nhật. | Trạng thái: Pass
-2026-01-07 15:18:19 | INFO | Đã xóa cookie sau test
+2026-01-07 15:58:11 | INFO | Bắt đầu test cập nhật thông tin | Email=HoangMinhNguyet110122277@gmail.com
+2026-01-07 15:58:15 | INFO | Đã đăng nhập thành công
+2026-01-07 15:58:35 | INFO | Kết quả thực tế: Thông tin tài khoản đã được cập nhật.
+2026-01-07 15:58:35 | INFO | Kết quả mong đợi: Thông tin tài khoản đã được cập nhật. | Trạng thái: Pass
+2026-01-07 15:58:35 | INFO | Đã xóa cookie sau test
 
-2026-01-07 15:18:24 | INFO | 
+2026-01-07 15:58:41 | INFO | 
 === TEST CASE 7 ===
-2026-01-07 15:18:24 | INFO | Bắt đầu test cập nhật thông tin | Email=HoangMinhNguyet110122277@gmail.com
-2026-01-07 15:18:27 | INFO | Đã đăng nhập thành công
-2026-01-07 15:18:35 | INFO | Kết quả thực tế: Tên là mục bắt buộc.
-2026-01-07 15:18:35 | INFO | Kết quả mong đợi: Tên là mục bắt buộc. | Trạng thái: Pass
-2026-01-07 15:18:35 | INFO | Đã xóa cookie sau test
+2026-01-07 15:58:41 | INFO | Bắt đầu test cập nhật thông tin | Email=HoangMinhNguyet110122277@gmail.com
+2026-01-07 15:58:44 | INFO | Đã đăng nhập thành công
+2026-01-07 15:58:52 | INFO | Kết quả thực tế: Tên là mục bắt buộc.
+2026-01-07 15:58:52 | INFO | Kết quả mong đợi: Tên là mục bắt buộc. | Trạng thái: Pass
+2026-01-07 15:58:53 | INFO | Đã xóa cookie sau test
 
-2026-01-07 15:18:41 | INFO | 
+2026-01-07 15:58:58 | INFO | 
 === TEST CASE 8 ===
-2026-01-07 15:18:41 | INFO | Bắt đầu test cập nhật thông tin | Email=HoangMinhNguyet110122277@gmail.com
-2026-01-07 15:18:45 | INFO | Đã đăng nhập thành công
-2026-01-07 15:18:54 | INFO | Kết quả thực tế: Họ là mục bắt buộc.
-2026-01-07 15:18:54 | INFO | Kết quả mong đợi: Họ là mục bắt buộc. | Trạng thái: Pass
-2026-01-07 15:18:54 | INFO | Đã xóa cookie sau test
+2026-01-07 15:58:58 | INFO | Bắt đầu test cập nhật thông tin | Email=HoangMinhNguyet110122277@gmail.com
+2026-01-07 15:59:01 | INFO | Đã đăng nhập thành công
+2026-01-07 15:59:10 | INFO | Kết quả thực tế: Họ là mục bắt buộc.
+2026-01-07 15:59:10 | INFO | Kết quả mong đợi: Họ là mục bắt buộc. | Trạng thái: Pass
+2026-01-07 15:59:10 | INFO | Đã xóa cookie sau test
 
-2026-01-07 15:19:00 | INFO | 
+2026-01-07 15:59:16 | INFO | 
 === TEST CASE 9 ===
-2026-01-07 15:19:00 | INFO | Bắt đầu test cập nhật thông tin | Email=HoangMinhNguyet110122277@gmail.com
-2026-01-07 15:19:03 | INFO | Đã đăng nhập thành công
-2026-01-07 15:19:11 | INFO | Kết quả thực tế: Tên hiển thị là mục bắt buộc.
-2026-01-07 15:19:11 | INFO | Kết quả mong đợi: Tên hiển thị là mục bắt buộc. | Trạng thái: Pass
-2026-01-07 15:19:11 | INFO | Đã xóa cookie sau test
+2026-01-07 15:59:16 | INFO | Bắt đầu test cập nhật thông tin | Email=HoangMinhNguyet110122277@gmail.com
+2026-01-07 15:59:20 | INFO | Đã đăng nhập thành công
+2026-01-07 15:59:29 | INFO | Kết quả thực tế: Tên hiển thị là mục bắt buộc.
+2026-01-07 15:59:29 | INFO | Kết quả mong đợi: Tên hiển thị là mục bắt buộc. | Trạng thái: Pass
+2026-01-07 15:59:29 | INFO | Đã xóa cookie sau test
 
-2026-01-07 15:19:17 | INFO | 
+2026-01-07 15:59:35 | INFO | 
 === TEST CASE 10 ===
-2026-01-07 15:19:17 | INFO | Bắt đầu test cập nhật thông tin | Email=HoangMinhNguyet110122277@gmail.com
-2026-01-07 15:19:21 | INFO | Đã đăng nhập thành công
-2026-01-07 15:19:29 | INFO | Kết quả thực tế: Địa chỉ email là mục bắt buộc.
-2026-01-07 15:19:29 | INFO | Kết quả mong đợi: Địa chỉ email là mục bắt buộc. | Trạng thái: Pass
-2026-01-07 15:19:29 | INFO | Đã xóa cookie sau test
+2026-01-07 15:59:35 | INFO | Bắt đầu test cập nhật thông tin | Email=HoangMinhNguyet110122277@gmail.com
+2026-01-07 15:59:39 | INFO | Đã đăng nhập thành công
+2026-01-07 15:59:48 | INFO | Kết quả thực tế: Địa chỉ email là mục bắt buộc.
+2026-01-07 15:59:48 | INFO | Kết quả mong đợi: Địa chỉ email là mục bắt buộc. | Trạng thái: Pass
+2026-01-07 15:59:48 | INFO | Đã xóa cookie sau test
 
-2026-01-07 15:19:35 | INFO | 
+2026-01-07 15:59:54 | INFO | 
 === TEST CASE 11 ===
-2026-01-07 15:19:35 | INFO | Bắt đầu test cập nhật thông tin | Email=HoangMinhNguyet110122277@gmail.com
-2026-01-07 15:19:38 | INFO | Đã đăng nhập thành công
-2026-01-07 15:19:46 | INFO | Kết quả thực tế: Vui lòng nhập mật khẩu hiện tại của bạn.
-2026-01-07 15:19:46 | INFO | Kết quả mong đợi: Vui lòng nhập mật khẩu hiện tại của bạn. | Trạng thái: Pass
-2026-01-07 15:19:46 | INFO | Đã xóa cookie sau test
+2026-01-07 15:59:54 | INFO | Bắt đầu test cập nhật thông tin | Email=HoangMinhNguyet110122277@gmail.com
+2026-01-07 15:59:58 | INFO | Đã đăng nhập thành công
+2026-01-07 16:00:07 | INFO | Kết quả thực tế: Vui lòng nhập mật khẩu hiện tại của bạn.
+2026-01-07 16:00:07 | INFO | Kết quả mong đợi: Vui lòng nhập mật khẩu hiện tại của bạn. | Trạng thái: Pass
+2026-01-07 16:00:07 | INFO | Đã xóa cookie sau test
 
-2026-01-07 15:19:52 | INFO | 
+2026-01-07 16:00:14 | INFO | 
 === TEST CASE 12 ===
-2026-01-07 15:19:52 | INFO | Bắt đầu test cập nhật thông tin | Email=HoangMinhNguyet110122277@gmail.com
-2026-01-07 15:19:56 | INFO | Đã đăng nhập thành công
-2026-01-07 15:20:04 | INFO | Kết quả thực tế: Mật khâu mới không chính xác.
-2026-01-07 15:20:04 | INFO | Kết quả mong đợi: Mật khẩu mới không chính xác. | Trạng thái: Fail
-2026-01-07 15:20:05 | INFO | Đã xóa cookie sau test
+2026-01-07 16:00:14 | INFO | Bắt đầu test cập nhật thông tin | Email=HoangMinhNguyet110122277@gmail.com
+2026-01-07 16:00:17 | INFO | Đã đăng nhập thành công
+2026-01-07 16:00:25 | INFO | Kết quả thực tế: Mật khâu mới không chính xác.
+2026-01-07 16:00:25 | INFO | Kết quả mong đợi: Mật khẩu mới không chính xác. | Trạng thái: Fail
+2026-01-07 16:00:25 | INFO | Đã xóa cookie sau test
 
-2026-01-07 15:20:11 | INFO | 
+2026-01-07 16:00:31 | INFO | 
 === TEST CASE 13 ===
-2026-01-07 15:20:11 | INFO | Bắt đầu test cập nhật thông tin | Email=HoangMinhNguyet110122277@gmail.com
-2026-01-07 15:20:16 | INFO | Đã đăng nhập thành công
-2026-01-07 15:20:26 | INFO | Kết quả thực tế: Vui lòng nhập lại mật khẩu của bạn.
-2026-01-07 15:20:26 | INFO | Kết quả mong đợi: Vui lòng nhập lại mật khẩu của bạn. | Trạng thái: Pass
-2026-01-07 15:20:26 | INFO | Đã xóa cookie sau test
+2026-01-07 16:00:31 | INFO | Bắt đầu test cập nhật thông tin | Email=HoangMinhNguyet110122277@gmail.com
+2026-01-07 16:00:33 | INFO | Đã đăng nhập thành công
+2026-01-07 16:00:42 | INFO | Kết quả thực tế: Vui lòng nhập lại mật khẩu của bạn.
+2026-01-07 16:00:42 | INFO | Kết quả mong đợi: Vui lòng nhập lại mật khẩu của bạn. | Trạng thái: Pass
+2026-01-07 16:00:42 | INFO | Đã xóa cookie sau test
 
-2026-01-07 15:20:32 | INFO | 
+2026-01-07 16:00:48 | INFO | 
 === TEST CASE 14 ===
-2026-01-07 15:20:32 | INFO | Bắt đầu test cập nhật thông tin | Email=HoangMinhNguyet110122277@gmail.com
-2026-01-07 15:20:34 | INFO | Đã đăng nhập thành công
-2026-01-07 15:20:42 | INFO | Kết quả thực tế: Tên là mục bắt buộc.
+2026-01-07 16:00:48 | INFO | Bắt đầu test cập nhật thông tin | Email=HoangMinhNguyet110122277@gmail.com
+2026-01-07 16:00:52 | INFO | Đã đăng nhập thành công
+2026-01-07 16:01:00 | INFO | Kết quả thực tế: Tên là mục bắt buộc.
 Họ là mục bắt buộc.
 Tên hiển thị là mục bắt buộc.
 Địa chỉ email là mục bắt buộc.
-2026-01-07 15:20:43 | INFO | Kết quả mong đợi: Tên là mục bắt buộc._x000d_
+2026-01-07 16:01:00 | INFO | Kết quả mong đợi: Tên là mục bắt buộc._x000d_
 Họ là mục bắt buộc._x000d_
 Tên hiển thị là mục bắt buộc._x000d_
 Địa chỉ email là mục bắt buộc. | Trạng thái: Fail
-2026-01-07 15:20:43 | INFO | Đã xóa cookie sau test
+2026-01-07 16:01:00 | INFO | Đã xóa cookie sau test
 
-2026-01-07 15:20:48 | INFO | 
+2026-01-07 16:01:06 | INFO | 
 === TEST CASE 15 ===
-2026-01-07 15:20:48 | INFO | Bắt đầu test cập nhật thông tin | Email=HoangMinhNguyet110122277@gmail.com
-2026-01-07 15:20:53 | INFO | Đã đăng nhập thành công
-2026-01-07 15:21:13 | INFO | Kết quả thực tế: Thông tin tài khoản đã được cập nhật.
-2026-01-07 15:21:13 | INFO | Kết quả mong đợi: Thông tin tài khoản đã được cập nhật. | Trạng thái: Pass
-2026-01-07 15:21:13 | INFO | Đã xóa cookie sau test
+2026-01-07 16:01:06 | INFO | Bắt đầu test cập nhật thông tin | Email=HoangMinhNguyet110122277@gmail.com
+2026-01-07 16:01:11 | INFO | Đã đăng nhập thành công
+2026-01-07 16:01:31 | INFO | Kết quả thực tế: Thông tin tài khoản đã được cập nhật.
+2026-01-07 16:01:31 | INFO | Kết quả mong đợi: Thông tin tài khoản đã được cập nhật. | Trạng thái: Pass
+2026-01-07 16:01:31 | INFO | Đã xóa cookie sau test
 
-2026-01-07 15:21:18 | INFO | 
+2026-01-07 16:01:37 | INFO | 
 === TEST CASE 16 ===
-2026-01-07 15:21:18 | INFO | Bắt đầu test cập nhật thông tin | Email=HoangMinhNguyet110122277@gmail.com
-2026-01-07 15:21:23 | INFO | Đã đăng nhập thành công
-2026-01-07 15:21:31 | INFO | Kết quả thực tế: Mật khẩu của bạn không chính xác.
-2026-01-07 15:21:31 | INFO | Kết quả mong đợi: Mật khẩu của bạn không chính xác. | Trạng thái: Pass
-2026-01-07 15:21:31 | INFO | Đã xóa cookie sau test
+2026-01-07 16:01:37 | INFO | Bắt đầu test cập nhật thông tin | Email=HoangMinhNguyet110122277@gmail.com
+2026-01-07 16:01:41 | INFO | Đã đăng nhập thành công
+2026-01-07 16:01:50 | INFO | Kết quả thực tế: Mật khẩu của bạn không chính xác.
+2026-01-07 16:01:50 | INFO | Kết quả mong đợi: Mật khẩu của bạn không chính xác. | Trạng thái: Pass
+2026-01-07 16:01:50 | INFO | Đã xóa cookie sau test
 
-2026-01-07 15:21:39 | INFO | 
+2026-01-07 16:01:56 | INFO | 
 === TEST CASE 17 ===
-2026-01-07 15:21:39 | INFO | Bắt đầu test cập nhật thông tin | Email=HoangMinhNguyet110122277@gmail.com
-2026-01-07 15:21:41 | INFO | Đã đăng nhập thành công
-2026-01-07 15:21:49 | INFO | Kết quả thực tế: Mật khâu mới không chính xác.
-2026-01-07 15:21:49 | INFO | Kết quả mong đợi: Mật khâu mới không chính xác. | Trạng thái: Pass
-2026-01-07 15:21:49 | INFO | Đã xóa cookie sau test
+2026-01-07 16:01:56 | INFO | Bắt đầu test cập nhật thông tin | Email=HoangMinhNguyet110122277@gmail.com
+2026-01-07 16:01:59 | INFO | Đã đăng nhập thành công
+2026-01-07 16:02:07 | INFO | Kết quả thực tế: Mật khâu mới không chính xác.
+2026-01-07 16:02:07 | INFO | Kết quả mong đợi: Mật khâu mới không chính xác. | Trạng thái: Pass
+2026-01-07 16:02:07 | INFO | Đã xóa cookie sau test
 
-2026-01-07 15:21:55 | INFO | 
+2026-01-07 16:02:13 | INFO | 
 === TEST CASE 18 ===
-2026-01-07 15:21:55 | INFO | Bắt đầu test cập nhật thông tin | Email=HoangMinhNguyet110122277@gmail.com
-2026-01-07 15:22:00 | INFO | Đã đăng nhập thành công
-2026-01-07 15:22:38 | INFO | Kết quả thực tế: Yếu - Vui lòng nhập mật khẩu mạnh hơn.
-2026-01-07 15:22:38 | INFO | Kết quả mong đợi: Yếu - Vui lòng nhập mật khẩu mạnh hơn. | Trạng thái: Pass
-2026-01-07 15:22:38 | INFO | Đã xóa cookie sau test
+2026-01-07 16:02:13 | INFO | Bắt đầu test cập nhật thông tin | Email=HoangMinhNguyet110122277@gmail.com
+2026-01-07 16:02:18 | INFO | Đã đăng nhập thành công
+2026-01-07 16:02:56 | INFO | Kết quả thực tế: Yếu - Vui lòng nhập mật khẩu mạnh hơn.
+2026-01-07 16:02:56 | INFO | Kết quả mong đợi: Yếu - Vui lòng nhập mật khẩu mạnh hơn. | Trạng thái: Pass
+2026-01-07 16:02:56 | INFO | Đã xóa cookie sau test
 
-2026-01-07 15:22:44 | INFO | 
+2026-01-07 16:03:02 | INFO | 
 === TEST CASE 19 ===
-2026-01-07 15:22:44 | INFO | Bắt đầu test cập nhật thông tin | Email=hoangvantoan@gmail.com
-2026-01-07 15:22:46 | INFO | Đã đăng nhập thành công
-2026-01-07 15:23:05 | INFO | Kết quả thực tế: Thông tin tài khoản đã được cập nhật.
-2026-01-07 15:23:05 | INFO | Kết quả mong đợi: Thông tin tài khoản đã được cập nhật. | Trạng thái: Pass
-2026-01-07 15:23:05 | INFO | Đã xóa cookie sau test
+2026-01-07 16:03:02 | INFO | Bắt đầu test cập nhật thông tin | Email=hoangvantoan@gmail.com
+2026-01-07 16:03:05 | INFO | Đã đăng nhập thành công
+2026-01-07 16:03:24 | INFO | Kết quả thực tế: Thông tin tài khoản đã được cập nhật.
+2026-01-07 16:03:25 | INFO | Kết quả mong đợi: Thông tin tài khoản đã được cập nhật. | Trạng thái: Pass
+2026-01-07 16:03:25 | INFO | Đã xóa cookie sau test
 
-2026-01-07 15:23:11 | INFO | 
+2026-01-07 16:03:31 | INFO | 
 === TEST CASE 20 ===
-2026-01-07 15:23:11 | INFO | Bắt đầu test cập nhật thông tin | Email=hoangvantoan!@gmail.com
-2026-01-07 15:23:16 | INFO | Đã đăng nhập thành công
-2026-01-07 15:23:35 | INFO | Kết quả thực tế: Thông tin tài khoản đã được cập nhật.
-2026-01-07 15:23:35 | INFO | Kết quả mong đợi: Thông tin tài khoản đã được cập nhật. | Trạng thái: Pass
-2026-01-07 15:23:35 | INFO | Đã xóa cookie sau test
+2026-01-07 16:03:31 | INFO | Bắt đầu test cập nhật thông tin | Email=hoangvantoan!@gmail.com
+2026-01-07 16:03:33 | INFO | Đã đăng nhập thành công
+2026-01-07 16:03:53 | INFO | Kết quả thực tế: Thông tin tài khoản đã được cập nhật.
+2026-01-07 16:03:53 | INFO | Kết quả mong đợi: Thông tin tài khoản đã được cập nhật. | Trạng thái: Pass
+2026-01-07 16:03:53 | INFO | Đã xóa cookie sau test
 
-2026-01-07 15:23:41 | INFO | 
+2026-01-07 16:03:59 | INFO | 
 === TEST CASE 21 ===
-2026-01-07 15:23:41 | INFO | Bắt đầu test cập nhật thông tin | Email=hoangvantoan!@gmail.comm
-2026-01-07 15:23:44 | INFO | Đã đăng nhập thành công
-2026-01-07 15:24:03 | INFO | Kết quả thực tế: Thông tin tài khoản đã được cập nhật.
-2026-01-07 15:24:03 | INFO | Kết quả mong đợi: Thông tin tài khoản đã được cập nhật. | Trạng thái: Pass
-2026-01-07 15:24:03 | INFO | Đã xóa cookie sau test
+2026-01-07 16:03:59 | INFO | Bắt đầu test cập nhật thông tin | Email=hoangvantoan!@gmail.comm
+2026-01-07 16:04:04 | INFO | Đã đăng nhập thành công
+2026-01-07 16:04:24 | INFO | Kết quả thực tế: Thông tin tài khoản đã được cập nhật.
+2026-01-07 16:04:24 | INFO | Kết quả mong đợi: Thông tin tài khoản đã được cập nhật. | Trạng thái: Pass
+2026-01-07 16:04:24 | INFO | Đã xóa cookie sau test
 

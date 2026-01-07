@@ -1,0 +1,7 @@
+[32mINFO    [0m test_hsotkhoan_ddt:test_hsotkhoan_ddt.py:44 
+=== TEST CASE 16 ===
+[32mINFO    [0m test_hsotkhoan_ddt:test_hsotkhoan_ddt.py:45 Bắt đầu test cập nhật thông tin | Email=HoangMinhNguyet110122277@gmail.com
+[32mINFO    [0m test_hsotkhoan_ddt:test_hsotkhoan_ddt.py:53 Đã đăng nhập thành công
+[32mINFO    [0m test_hsotkhoan_ddt:test_hsotkhoan_ddt.py:64 Kết quả thực tế: Mật khẩu của bạn không chính xác.
+[32mINFO    [0m test_hsotkhoan_ddt:test_hsotkhoan_ddt.py:74 Kết quả mong đợi: Mật khẩu của bạn không chính xác. | Trạng thái: Pass
+[32mINFO    [0m test_hsotkhoan_ddt:test_hsotkhoan_ddt.py:83 Đã xóa cookie sau test

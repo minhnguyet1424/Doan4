@@ -1,7 +1,6 @@
-
 import pytest
-import os
-import logging
+from pathlib import Path
+from utils.logger import get_logger
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
@@ -77,71 +76,10 @@ def pytest_generate_tests(metafunc):
             test_cases
         )
 
-
-
-# ================= LOGGER =================
-# @pytest.fixture(scope="module")
-# def logger(request):
-#     os.makedirs("logs", exist_ok=True)
-#     test_file = os.path.basename(request.node.fspath)
-#     log_file = f"logs/{test_file.replace('.py', '')}.log"
-
-#     if os.path.exists(log_file):
-#         os.remove(log_file)
-
-#     logger = logging.getLogger(test_file)
-#     logger.setLevel(logging.INFO)
-
-#     if not logger.handlers:
-#         fh = logging.FileHandler(log_file, encoding="utf-8")
-#         ch = logging.StreamHandler()
-#         fmt = logging.Formatter(
-#             "%(asctime)s | %(levelname)s | %(message)s",
-#             "%Y-%m-%d %H:%M:%S"
-#         )
-#         fh.setFormatter(fmt)
-#         ch.setFormatter(fmt)
-#         logger.addHandler(fh)
-#         logger.addHandler(ch)
-
-#     yield logger
-# ================= LOGGER =================
-@pytest.fixture(scope="module")
+@pytest.fixture
 def logger(request):
-    os.makedirs("logs", exist_ok=True)
-
-    test_file = os.path.basename(request.node.fspath)
-    log_file = f"logs/{test_file.replace('.py', '')}.log"
-
-    logger = logging.getLogger(test_file)
-    logger.setLevel(logging.INFO)
-
-    # 🔥 XÓA TOÀN BỘ HANDLER CŨ (FIX LOG BỊ NỐI)
-    if logger.handlers:
-        for h in logger.handlers[:]:
-            logger.removeHandler(h)
-            h.close()
-
-    # 🔥 XÓA FILE LOG CŨ
-    if os.path.exists(log_file):
-        os.remove(log_file)
-
-    # ===== TẠO HANDLER MỚI =====
-    fh = logging.FileHandler(log_file, encoding="utf-8")
-    ch = logging.StreamHandler()
-
-    fmt = logging.Formatter(
-        "%(asctime)s | %(levelname)s | %(message)s",
-        "%Y-%m-%d %H:%M:%S"
-    )
-
-    fh.setFormatter(fmt)
-    ch.setFormatter(fmt)
-
-    logger.addHandler(fh)
-    logger.addHandler(ch)
-
-    yield logger
+    test_file_name = Path(request.node.fspath).stem
+    return get_logger(test_file_name)
 
 
 # ================= DRIVER =================
