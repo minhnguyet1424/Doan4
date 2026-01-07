@@ -1,0 +1,6 @@
+[32mINFO    [0m test_dangky_ddt:test_dangky_ddt.py:129 Bắt đầu test đăng ký | TK=thúy duyên, Email=@gmai.comm
+[32mINFO    [0m test_dangky_ddt:test_dangky_ddt.py:139 Đã nhập dữ liệu đăng ký
+[32mINFO    [0m test_dangky_ddt:test_dangky_ddt.py:144 Đã nhấn nút Đăng ký
+[32mINFO    [0m test_dangky_ddt:test_dangky_ddt.py:150 Kết quả thực tế: Please enter a part followed by '@'. '@gmai.comm' is incomplete.
+[32mINFO    [0m test_dangky_ddt:test_dangky_ddt.py:153 Kết quả mong đợi: Please enter a part followed by '@'. '@gmai.comm' is incomplete. | Trạng thái: Pass
+[32mINFO    [0m test_dangky_ddt:test_dangky_ddt.py:172 Đã xóa cookie sau test

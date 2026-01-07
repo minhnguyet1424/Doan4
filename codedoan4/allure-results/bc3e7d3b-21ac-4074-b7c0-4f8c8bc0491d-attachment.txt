@@ -1,0 +1,6 @@
+[32mINFO    [0m test_dangky_ddt:test_dangky_ddt.py:129 Bắt đầu test đăng ký | TK=12345, Email=hoangnguyet@gmail.com
+[32mINFO    [0m test_dangky_ddt:test_dangky_ddt.py:139 Đã nhập dữ liệu đăng ký
+[32mINFO    [0m test_dangky_ddt:test_dangky_ddt.py:144 Đã nhấn nút Đăng ký
+[32mINFO    [0m test_dangky_ddt:test_dangky_ddt.py:150 Kết quả thực tế: Lỗi: Một tài khoản đã được đăng ký với hoangnguyet@gmail.com. Vui lòng đăng nhập hoặc sử dụng địa chỉ email khác.
+[32mINFO    [0m test_dangky_ddt:test_dangky_ddt.py:153 Kết quả mong đợi: Lỗi: Một tài khoản đã được đăng ký với hoangnguyet@gmail.com. Vui lòng đăng nhập hoặc sử dụng địa chỉ email khác. | Trạng thái: Pass
+[32mINFO    [0m test_dangky_ddt:test_dangky_ddt.py:172 Đã xóa cookie sau test

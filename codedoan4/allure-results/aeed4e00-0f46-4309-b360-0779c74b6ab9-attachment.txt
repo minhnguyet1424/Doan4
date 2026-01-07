@@ -1,0 +1,8 @@
+[32mINFO    [0m test_dangnhap_ddt.py:test_dangnhap_ddt.py:134 
+=== TEST CASE 2 ===
+[32mINFO    [0m test_dangnhap_ddt.py:test_dangnhap_ddt.py:135 Bắt đầu test đăng nhập | Email=HoangMinhNguyet110122277@gmail.com, Mật khẩu=1424Nguyet*
+[32mINFO    [0m test_dangnhap_ddt.py:test_dangnhap_ddt.py:145 Đã nhập dữ liệu đăng nhập
+[32mINFO    [0m test_dangnhap_ddt.py:test_dangnhap_ddt.py:150 Đã nhấn nút Đăng nhập
+[32mINFO    [0m test_dangnhap_ddt.py:test_dangnhap_ddt.py:156 Kết quả thực tế: Xin chào Minh Nguyệt (không phải Minh Nguyệt? Đăng xuất)
+[32mINFO    [0m test_dangnhap_ddt.py:test_dangnhap_ddt.py:159 Kết quả mong đợi: Xin chào Minh Nguyệt (không phải Minh Nguyệt? Đăng xuất) | Trạng thái: Pass
+[32mINFO    [0m test_dangnhap_ddt.py:test_dangnhap_ddt.py:177 Đã xóa cookie sau test

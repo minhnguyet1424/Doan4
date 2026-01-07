@@ -1,0 +1,8 @@
+[32mINFO    [0m test_dangnhap_ddt.py:test_dangnhap_ddt.py:134 
+=== TEST CASE 6 ===
+[32mINFO    [0m test_dangnhap_ddt.py:test_dangnhap_ddt.py:135 Bắt đầu test đăng nhập | Email=, Mật khẩu=
+[32mINFO    [0m test_dangnhap_ddt.py:test_dangnhap_ddt.py:145 Đã nhập dữ liệu đăng nhập
+[32mINFO    [0m test_dangnhap_ddt.py:test_dangnhap_ddt.py:150 Đã nhấn nút Đăng nhập
+[32mINFO    [0m test_dangnhap_ddt.py:test_dangnhap_ddt.py:156 Kết quả thực tế: Lỗi: Yêu cầu tên tài khoản.
+[32mINFO    [0m test_dangnhap_ddt.py:test_dangnhap_ddt.py:159 Kết quả mong đợi: Lỗi: Yêu cầu tên tài khoản. | Trạng thái: Pass
+[32mINFO    [0m test_dangnhap_ddt.py:test_dangnhap_ddt.py:178 Đã xóa cookie sau test

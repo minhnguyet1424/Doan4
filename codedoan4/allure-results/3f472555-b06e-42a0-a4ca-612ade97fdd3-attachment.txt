@@ -1,0 +1,8 @@
+[32mINFO    [0m test_dangky_ddt.py:test_dangky_ddt.py:282 
+=== TEST CASE 12 ===
+[32mINFO    [0m test_dangky_ddt.py:test_dangky_ddt.py:283 Bắt đầu test đăng ký | TK=vân, Email=vannguyen@gmail.com31
+[32mINFO    [0m test_dangky_ddt.py:test_dangky_ddt.py:295 Đã nhập dữ liệu đăng ký
+[32mINFO    [0m test_dangky_ddt.py:test_dangky_ddt.py:300 Đã nhấn nút Đăng ký
+[32mINFO    [0m test_dangky_ddt.py:test_dangky_ddt.py:306 Kết quả thực tế: Không tìm thấy thông báo
+[32mINFO    [0m test_dangky_ddt.py:test_dangky_ddt.py:309 Kết quả mong đợi: Xin chào van (không phải van? Đăng xuất) | Trạng thái: Fail
+[32mINFO    [0m test_dangky_ddt.py:test_dangky_ddt.py:328 Đã xóa cookie sau test

@@ -1,0 +1,6 @@
+[32mINFO    [0m test_dangky_ddt:test_dangky_ddt.py:51 Bắt đầu test đăng ký với Tài khoản: , Email:  
+[32mINFO    [0m test_dangky_ddt:test_dangky_ddt.py:60 Đã nhập dữ liệu vào form đăng ký
+[32mINFO    [0m test_dangky_ddt:test_dangky_ddt.py:65 Đã nhấn nút Đăng ký
+[32mINFO    [0m test_dangky_ddt:test_dangky_ddt.py:71 Kết quả thực tế: Không tìm thấy thông báo
+[32mINFO    [0m test_dangky_ddt:test_dangky_ddt.py:75 Kết quả mong đợi: Lỗi: Vui lòng cung cấp địa chỉ email hợp lệ. | Trạng thái: Fail
+[31m[1mERROR   [0m test_dangky_ddt:test_dangky_ddt.py:94  Test FAIL - Đã lưu ảnh lỗi: fail_screenshots\dangky_fail_empty_20260106_133518.png

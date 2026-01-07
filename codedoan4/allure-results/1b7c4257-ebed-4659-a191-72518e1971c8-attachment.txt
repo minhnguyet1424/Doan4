@@ -1,0 +1,8 @@
+[32mINFO    [0m test_dangnhap_ddt.py:test_dangnhap_ddt.py:134 
+=== TEST CASE 9 ===
+[32mINFO    [0m test_dangnhap_ddt.py:test_dangnhap_ddt.py:135 Bắt đầu test đăng nhập | Email=hoangnguyet@gmai.com, Mật khẩu=1424Nguyet*
+[32mINFO    [0m test_dangnhap_ddt.py:test_dangnhap_ddt.py:145 Đã nhập dữ liệu đăng nhập
+[32mINFO    [0m test_dangnhap_ddt.py:test_dangnhap_ddt.py:150 Đã nhấn nút Đăng nhập
+[32mINFO    [0m test_dangnhap_ddt.py:test_dangnhap_ddt.py:156 Kết quả thực tế: Địa chỉ email không xác định. Kiểm tra lại hoặc thử tên người dùng của bạn.
+[32mINFO    [0m test_dangnhap_ddt.py:test_dangnhap_ddt.py:159 Kết quả mong đợi: Địa chỉ email không xác định. Kiểm tra lại hoặc thử tên người dùng của bạn. | Trạng thái: Pass
+[32mINFO    [0m test_dangnhap_ddt.py:test_dangnhap_ddt.py:177 Đã xóa cookie sau test

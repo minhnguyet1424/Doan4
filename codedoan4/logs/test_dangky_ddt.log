@@ -1,100 +1,135 @@
-2025-10-27 09:22:27 | INFO | ===== BẮT ĐẦU TEST FILE: test_dangky_ddt.py =====
-2025-10-27 09:22:33 | INFO | Bắt đầu test đăng ký với Tài khoản: thúy duyên, Email: hoangthuyduyen311@gmail.com
-2025-10-27 09:22:34 | INFO | Đã nhập dữ liệu vào form đăng ký
-2025-10-27 09:22:35 | INFO | Đã nhấn nút Đăng ký
-2025-10-27 09:22:35 | INFO | Kết quả thực tế: Lỗi: Đã có tài khoản đăng ký với tên đăng nhập này. Vui lòng chọn tên khác.
-2025-10-27 09:22:35 | INFO | Kết quả mong đợi: Đã có tài khoản đăng ký với tên đăng nhập này. Vui lòng chọn tên khác. | Trạng thái: Pass
-2025-10-27 09:22:36 | INFO | Đã xóa cookie sau test.
+2026-01-06 15:39:40 | INFO | 
+=== TEST CASE 1 ===
+2026-01-06 15:39:40 | INFO | Bắt đầu test đăng ký | TK=thúy duyên, Email=hoangthuyduyen311@gmail.com
+2026-01-06 15:39:43 | INFO | Đã nhập dữ liệu đăng ký
+2026-01-06 15:39:44 | INFO | Đã nhấn nút Đăng ký
+2026-01-06 15:39:44 | INFO | Kết quả thực tế: Lỗi: Đã có tài khoản đăng ký với tên đăng nhập này. Vui lòng chọn tên khác.
+2026-01-06 15:39:44 | INFO | Kết quả mong đợi: Đã có tài khoản đăng ký với tên đăng nhập này. Vui lòng chọn tên khác. | Trạng thái: Pass
+2026-01-06 15:39:45 | INFO | Đã xóa cookie sau test
 
-2025-10-27 09:22:53 | INFO | Bắt đầu test đăng ký với Tài khoản: , Email:  
-2025-10-27 09:22:53 | INFO | Đã nhập dữ liệu vào form đăng ký
-2025-10-27 09:22:54 | INFO | Đã nhấn nút Đăng ký
-2025-10-27 09:23:14 | INFO | Kết quả thực tế: Không tìm thấy thông báo
-2025-10-27 09:23:14 | INFO | Kết quả mong đợi: Lỗi: Vui lòng cung cấp địa chỉ email hợp lệ. | Trạng thái: Fail
-2025-10-27 09:23:15 | ERROR |  Test FAIL - Đã lưu ảnh lỗi: fail_screenshots\dangky_fail_empty_20251027_092315.png
-2025-10-27 09:23:24 | INFO | Bắt đầu test đăng ký với Tài khoản: thúy duyên, Email:  
-2025-10-27 09:23:25 | INFO | Đã nhập dữ liệu vào form đăng ký
-2025-10-27 09:23:26 | INFO | Đã nhấn nút Đăng ký
-2025-10-27 09:23:26 | INFO | Kết quả thực tế: Lỗi: Vui lòng cung cấp địa chỉ email hợp lệ.
-2025-10-27 09:23:26 | INFO | Kết quả mong đợi: Lỗi: Vui lòng cung cấp địa chỉ email hợp lệ. | Trạng thái: Pass
-2025-10-27 09:23:27 | INFO | Đã xóa cookie sau test.
+2026-01-06 15:39:50 | INFO | 
+=== TEST CASE 2 ===
+2026-01-06 15:39:50 | INFO | Bắt đầu test đăng ký | TK=, Email= 
+2026-01-06 15:39:52 | INFO | Đã nhập dữ liệu đăng ký
+2026-01-06 15:39:54 | INFO | Đã nhấn nút Đăng ký
+2026-01-06 15:39:54 | INFO | Kết quả thực tế: Lỗi: Vui lòng cung cấp địa chỉ email hợp lệ.
+2026-01-06 15:39:54 | INFO | Kết quả mong đợi: Lỗi: Vui lòng cung cấp địa chỉ email hợp lệ. | Trạng thái: Pass
+2026-01-06 15:39:54 | INFO | Đã xóa cookie sau test
 
-2025-10-27 09:23:35 | INFO | Bắt đầu test đăng ký với Tài khoản: , Email:  
-2025-10-27 09:23:36 | INFO | Đã nhập dữ liệu vào form đăng ký
-2025-10-27 09:23:36 | INFO | Đã nhấn nút Đăng ký
-2025-10-27 09:23:37 | INFO | Kết quả thực tế: Lỗi: Vui lòng cung cấp địa chỉ email hợp lệ.
-2025-10-27 09:23:37 | INFO | Kết quả mong đợi: Lỗi: Vui lòng cung cấp địa chỉ email hợp lệ. | Trạng thái: Pass
-2025-10-27 09:23:37 | INFO | Đã xóa cookie sau test.
+2026-01-06 15:40:00 | INFO | 
+=== TEST CASE 3 ===
+2026-01-06 15:40:00 | INFO | Bắt đầu test đăng ký | TK=thúy duyên, Email= 
+2026-01-06 15:40:02 | INFO | Đã nhập dữ liệu đăng ký
+2026-01-06 15:40:02 | INFO | Đã nhấn nút Đăng ký
+2026-01-06 15:40:03 | INFO | Kết quả thực tế: Lỗi: Vui lòng cung cấp địa chỉ email hợp lệ.
+2026-01-06 15:40:03 | INFO | Kết quả mong đợi: Lỗi: Vui lòng cung cấp địa chỉ email hợp lệ. | Trạng thái: Pass
+2026-01-06 15:40:03 | INFO | Đã xóa cookie sau test
 
-2025-10-27 09:23:46 | INFO | Bắt đầu test đăng ký với Tài khoản: , Email: h312oangTthuyduye12345671nn@gmail.com
-2025-10-27 09:23:46 | INFO | Đã nhập dữ liệu vào form đăng ký
-2025-10-27 09:23:48 | INFO | Đã nhấn nút Đăng ký
-2025-10-27 09:23:48 | INFO | Kết quả thực tế: Lỗi: Một tài khoản đã được đăng ký với h312oangTthuyduye12345671nn@gmail.com. Vui lòng đăng nhập hoặc sử dụng địa chỉ email khác.
-2025-10-27 09:23:48 | INFO | Kết quả mong đợi: Xin chào h312oangtthuyduye12345671nn (không phải h312oangtthuyduye12345671nn? Đăng xuất) | Trạng thái: Fail
-2025-10-27 09:23:49 | ERROR |  Test FAIL - Đã lưu ảnh lỗi: fail_screenshots\dangky_fail_empty_20251027_092348.png
-2025-10-27 09:23:57 | INFO | Bắt đầu test đăng ký với Tài khoản: 12345, Email: hoangnguyet@gmail.com
-2025-10-27 09:23:57 | INFO | Đã nhập dữ liệu vào form đăng ký
-2025-10-27 09:23:59 | INFO | Đã nhấn nút Đăng ký
-2025-10-27 09:23:59 | INFO | Kết quả thực tế: Lỗi: Một tài khoản đã được đăng ký với hoangnguyet@gmail.com. Vui lòng đăng nhập hoặc sử dụng địa chỉ email khác.
-2025-10-27 09:23:59 | INFO | Kết quả mong đợi: Lỗi: Một tài khoản đã được đăng ký với hoangnguyet@gmail.com. Vui lòng đăng nhập hoặc sử dụng địa chỉ email khác. | Trạng thái: Pass
-2025-10-27 09:23:59 | INFO | Đã xóa cookie sau test.
+2026-01-06 15:40:09 | INFO | 
+=== TEST CASE 4 ===
+2026-01-06 15:40:09 | INFO | Bắt đầu test đăng ký | TK=, Email= 
+2026-01-06 15:40:11 | INFO | Đã nhập dữ liệu đăng ký
+2026-01-06 15:40:13 | INFO | Đã nhấn nút Đăng ký
+2026-01-06 15:40:13 | INFO | Kết quả thực tế: Lỗi: Vui lòng cung cấp địa chỉ email hợp lệ.
+2026-01-06 15:40:13 | INFO | Kết quả mong đợi: Lỗi: Vui lòng cung cấp địa chỉ email hợp lệ. | Trạng thái: Pass
+2026-01-06 15:40:13 | INFO | Đã xóa cookie sau test
 
-2025-10-27 09:24:08 | INFO | Bắt đầu test đăng ký với Tài khoản: ban@!, Email: hoanghang@gmai.com
-2025-10-27 09:24:08 | INFO | Đã nhập dữ liệu vào form đăng ký
-2025-10-27 09:24:10 | INFO | Đã nhấn nút Đăng ký
-2025-10-27 09:24:10 | INFO | Kết quả thực tế: Lỗi: Vui lòng cung cấp tên người dùng tài khoản hợp lệ.
-2025-10-27 09:24:10 | INFO | Kết quả mong đợi: Lỗi: Tên tài khoản không được gồm ký tự Đặc biệt. | Trạng thái: Fail
-2025-10-27 09:24:10 | ERROR |  Test FAIL - Đã lưu ảnh lỗi: fail_screenshots\dangky_fail_ban@!_20251027_092410.png
-2025-10-27 09:24:19 | INFO | Bắt đầu test đăng ký với Tài khoản: tienbao, Email: baohoang1@gmail.com
-2025-10-27 09:24:19 | INFO | Đã nhập dữ liệu vào form đăng ký
-2025-10-27 09:24:20 | INFO | Đã nhấn nút Đăng ký
-2025-10-27 09:24:21 | INFO | Kết quả thực tế: Lỗi: Một tài khoản đã được đăng ký với baohoang1@gmail.com. Vui lòng đăng nhập hoặc sử dụng địa chỉ email khác.
-2025-10-27 09:24:21 | INFO | Kết quả mong đợi: Độ mạnh mật khẩu: Rất yếu - Vui lòng nhập mật khẩu mạnh hơn. | Trạng thái: Fail
-2025-10-27 09:24:21 | ERROR |  Test FAIL - Đã lưu ảnh lỗi: fail_screenshots\dangky_fail_tienbao_20251027_092421.png
-2025-10-27 09:24:30 | INFO | Bắt đầu test đăng ký với Tài khoản: tienbao, Email: baohoang11@gmail.com
-2025-10-27 09:24:30 | INFO | Đã nhập dữ liệu vào form đăng ký
-2025-10-27 09:24:32 | INFO | Đã nhấn nút Đăng ký
-2025-10-27 09:24:32 | INFO | Kết quả thực tế: Lỗi: Đã có tài khoản đăng ký với tên đăng nhập này. Vui lòng chọn tên khác.
-2025-10-27 09:24:32 | INFO | Kết quả mong đợi: Độ mạnh mật khẩu: Yếu - Vui lòng nhập mật khẩu mạnh hơn. | Trạng thái: Fail
-2025-10-27 09:24:32 | ERROR |  Test FAIL - Đã lưu ảnh lỗi: fail_screenshots\dangky_fail_tienbao_20251027_092432.png
-2025-10-27 09:24:40 | INFO | Bắt đầu test đăng ký với Tài khoản: @##@$%, Email: hoanghang@gmai.com
-2025-10-27 09:24:41 | INFO | Đã nhập dữ liệu vào form đăng ký
-2025-10-27 09:24:42 | INFO | Đã nhấn nút Đăng ký
-2025-10-27 09:24:42 | INFO | Kết quả thực tế: Lỗi: Vui lòng cung cấp tên người dùng tài khoản hợp lệ.
-2025-10-27 09:24:42 | INFO | Kết quả mong đợi: Lỗi: Tên tài khoản không được gồm ký tự Đặc biệt. | Trạng thái: Fail
-2025-10-27 09:24:43 | ERROR |  Test FAIL - Đã lưu ảnh lỗi: fail_screenshots\dangky_fail_@##@$%_20251027_092442.png
-2025-10-27 09:24:52 | INFO | Bắt đầu test đăng ký với Tài khoản: thúy duyên, Email: hoangthuyduyen311
-2025-10-27 09:24:52 | INFO | Đã nhập dữ liệu vào form đăng ký
-2025-10-27 09:24:53 | INFO | Đã nhấn nút Đăng ký
-2025-10-27 09:24:53 | INFO | Kết quả thực tế: Please include an '@' in the email address. 'hoangthuyduyen311' is missing an '@'.
-2025-10-27 09:24:53 | INFO | Kết quả mong đợi: Please include an '@' in the email address. 'hoangthuyduyen311' is missing an '@'. | Trạng thái: Pass
-2025-10-27 09:24:53 | INFO | Đã xóa cookie sau test.
+2026-01-06 15:40:19 | INFO | 
+=== TEST CASE 5 ===
+2026-01-06 15:40:19 | INFO | Bắt đầu test đăng ký | TK=, Email=h312oangTthuyduye12345671nn@gmail.com
+2026-01-06 15:40:21 | INFO | Đã nhập dữ liệu đăng ký
+2026-01-06 15:40:21 | INFO | Đã nhấn nút Đăng ký
+2026-01-06 15:40:22 | INFO | Kết quả thực tế: Lỗi: Một tài khoản đã được đăng ký với h312oangTthuyduye12345671nn@gmail.com. Vui lòng đăng nhập hoặc sử dụng địa chỉ email khác.
+2026-01-06 15:40:22 | INFO | Kết quả mong đợi: Xin chào h312oangtthuyduye12345671nn (không phải h312oangtthuyduye12345671nn? Đăng xuất) | Trạng thái: Fail
+2026-01-06 15:40:22 | INFO | Đã xóa cookie sau test
 
-2025-10-27 09:25:01 | INFO | Bắt đầu test đăng ký với Tài khoản: thúy duyên, Email: hoangthuyduyen311@@gmail.com
-2025-10-27 09:25:01 | INFO | Đã nhập dữ liệu vào form đăng ký
-2025-10-27 09:25:02 | INFO | Đã nhấn nút Đăng ký
-2025-10-27 09:25:02 | INFO | Kết quả thực tế: A part following '@' should not contain the symbol '@'.
-2025-10-27 09:25:02 | INFO | Kết quả mong đợi: A part following '@' should not contain the symbol '@'. | Trạng thái: Pass
-2025-10-27 09:25:02 | INFO | Đã xóa cookie sau test.
+2026-01-06 15:40:28 | INFO | 
+=== TEST CASE 5 ===
+2026-01-06 15:40:28 | INFO | Bắt đầu test đăng ký | TK=12345, Email=hoangnguyet@gmail.com
+2026-01-06 15:40:30 | INFO | Đã nhập dữ liệu đăng ký
+2026-01-06 15:40:32 | INFO | Đã nhấn nút Đăng ký
+2026-01-06 15:40:32 | INFO | Kết quả thực tế: Lỗi: Một tài khoản đã được đăng ký với hoangnguyet@gmail.com. Vui lòng đăng nhập hoặc sử dụng địa chỉ email khác.
+2026-01-06 15:40:32 | INFO | Kết quả mong đợi: Lỗi: Một tài khoản đã được đăng ký với hoangnguyet@gmail.com. Vui lòng đăng nhập hoặc sử dụng địa chỉ email khác. | Trạng thái: Pass
+2026-01-06 15:40:32 | INFO | Đã xóa cookie sau test
 
-2025-10-27 09:25:10 | INFO | Bắt đầu test đăng ký với Tài khoản: thúy duyên, Email: hoangthuyduyen311gmail.com
-2025-10-27 09:25:11 | INFO | Đã nhập dữ liệu vào form đăng ký
-2025-10-27 09:25:11 | INFO | Đã nhấn nút Đăng ký
-2025-10-27 09:25:11 | INFO | Kết quả thực tế: Please include an '@' in the email address. 'hoangthuyduyen311gmail.com' is missing an '@'.
-2025-10-27 09:25:11 | INFO | Kết quả mong đợi: Please include an '@' in the email address. 'hoangthuyduyen311gmail.com' is missing an '@'. | Trạng thái: Pass
-2025-10-27 09:25:11 | INFO | Đã xóa cookie sau test.
+2026-01-06 15:40:38 | INFO | 
+=== TEST CASE 6 ===
+2026-01-06 15:40:38 | INFO | Bắt đầu test đăng ký | TK=ban@!, Email=hoanghang@gmai.com
+2026-01-06 15:40:40 | INFO | Đã nhập dữ liệu đăng ký
+2026-01-06 15:40:42 | INFO | Đã nhấn nút Đăng ký
+2026-01-06 15:40:42 | INFO | Kết quả thực tế: Lỗi: Vui lòng cung cấp tên người dùng tài khoản hợp lệ.
+2026-01-06 15:40:42 | INFO | Kết quả mong đợi: Lỗi: Tên tài khoản không được gồm ký tự Đặc biệt. | Trạng thái: Fail
+2026-01-06 15:40:42 | INFO | Đã xóa cookie sau test
 
-2025-10-27 09:25:20 | INFO | Bắt đầu test đăng ký với Tài khoản: thúy duyên, Email: @gmai.comm
-2025-10-27 09:25:20 | INFO | Đã nhập dữ liệu vào form đăng ký
-2025-10-27 09:25:20 | INFO | Đã nhấn nút Đăng ký
-2025-10-27 09:25:20 | INFO | Kết quả thực tế: Please enter a part followed by '@'. '@gmai.comm' is incomplete.
-2025-10-27 09:25:20 | INFO | Kết quả mong đợi: Please enter a part followed by '@'. '@gmai.comm' is incomplete. | Trạng thái: Pass
-2025-10-27 09:25:20 | INFO | Đã xóa cookie sau test.
+2026-01-06 15:40:48 | INFO | 
+=== TEST CASE 6 ===
+2026-01-06 15:40:48 | INFO | Bắt đầu test đăng ký | TK=tienbao, Email=baohoang1@gmail.com
+2026-01-06 15:40:50 | INFO | Đã nhập dữ liệu đăng ký
+2026-01-06 15:41:00 | WARNING | Không thể nhấn nút Đăng ký
+2026-01-06 15:41:00 | INFO | Kết quả thực tế: Độ mạnh mật khẩu: Rất yếu - Vui lòng nhập mật khẩu mạnh hơn.
+2026-01-06 15:41:00 | INFO | Kết quả mong đợi: Độ mạnh mật khẩu: Rất yếu - Vui lòng nhập mật khẩu mạnh hơn. | Trạng thái: Pass
+2026-01-06 15:41:00 | INFO | Đã xóa cookie sau test
 
-2025-10-27 09:25:28 | INFO | Bắt đầu test đăng ký với Tài khoản: vân, Email: vannguyen@gmail.com31
-2025-10-27 09:25:29 | INFO | Đã nhập dữ liệu vào form đăng ký
-2025-10-27 09:25:29 | INFO | Đã nhấn nút Đăng ký
-2025-10-27 09:25:50 | INFO | Kết quả thực tế: Không tìm thấy thông báo
-2025-10-27 09:25:50 | INFO | Kết quả mong đợi: Xin chào van (không phải van? Đăng xuất) | Trạng thái: Fail
-2025-10-27 09:25:50 | ERROR |  Test FAIL - Đã lưu ảnh lỗi: fail_screenshots\dangky_fail_vân_20251027_092550.png
-2025-10-27 09:25:53 | INFO | ===== KẾT THÚC TEST FILE: test_dangky_ddt.py =====
+2026-01-06 15:41:06 | INFO | 
+=== TEST CASE 7 ===
+2026-01-06 15:41:06 | INFO | Bắt đầu test đăng ký | TK=tienbao, Email=baohoang11@gmail.com
+2026-01-06 15:41:08 | INFO | Đã nhập dữ liệu đăng ký
+2026-01-06 15:41:09 | INFO | Đã nhấn nút Đăng ký
+2026-01-06 15:41:09 | INFO | Kết quả thực tế: Độ mạnh mật khẩu: Yếu - Vui lòng nhập mật khẩu mạnh hơn.
+2026-01-06 15:41:09 | INFO | Kết quả mong đợi: Độ mạnh mật khẩu: Yếu - Vui lòng nhập mật khẩu mạnh hơn. | Trạng thái: Pass
+2026-01-06 15:41:09 | INFO | Đã xóa cookie sau test
+
+2026-01-06 15:41:15 | INFO | 
+=== TEST CASE 8 ===
+2026-01-06 15:41:15 | INFO | Bắt đầu test đăng ký | TK=@##@$%, Email=hoanghang@gmai.com
+2026-01-06 15:41:17 | INFO | Đã nhập dữ liệu đăng ký
+2026-01-06 15:41:17 | INFO | Đã nhấn nút Đăng ký
+2026-01-06 15:41:18 | INFO | Kết quả thực tế: Lỗi: Vui lòng cung cấp tên người dùng tài khoản hợp lệ.
+2026-01-06 15:41:18 | INFO | Kết quả mong đợi: Lỗi: Tên tài khoản không được gồm ký tự Đặc biệt. | Trạng thái: Fail
+2026-01-06 15:41:19 | INFO | Đã xóa cookie sau test
+
+2026-01-06 15:41:24 | INFO | 
+=== TEST CASE 8 ===
+2026-01-06 15:41:24 | INFO | Bắt đầu test đăng ký | TK=thúy duyên, Email=hoangthuyduyen311
+2026-01-06 15:41:27 | INFO | Đã nhập dữ liệu đăng ký
+2026-01-06 15:41:27 | INFO | Đã nhấn nút Đăng ký
+2026-01-06 15:41:27 | INFO | Kết quả thực tế: Please include an '@' in the email address. 'hoangthuyduyen311' is missing an '@'.
+2026-01-06 15:41:27 | INFO | Kết quả mong đợi: Please include an '@' in the email address. 'hoangthuyduyen311' is missing an '@'. | Trạng thái: Pass
+2026-01-06 15:41:27 | INFO | Đã xóa cookie sau test
+
+2026-01-06 15:41:33 | INFO | 
+=== TEST CASE 9 ===
+2026-01-06 15:41:33 | INFO | Bắt đầu test đăng ký | TK=thúy duyên, Email=hoangthuyduyen311@@gmail.com
+2026-01-06 15:41:35 | INFO | Đã nhập dữ liệu đăng ký
+2026-01-06 15:41:35 | INFO | Đã nhấn nút Đăng ký
+2026-01-06 15:41:35 | INFO | Kết quả thực tế: A part following '@' should not contain the symbol '@'.
+2026-01-06 15:41:35 | INFO | Kết quả mong đợi: A part following '@' should not contain the symbol '@'. | Trạng thái: Pass
+2026-01-06 15:41:36 | INFO | Đã xóa cookie sau test
+
+2026-01-06 15:41:41 | INFO | 
+=== TEST CASE 10 ===
+2026-01-06 15:41:41 | INFO | Bắt đầu test đăng ký | TK=thúy duyên, Email=hoangthuyduyen311gmail.com
+2026-01-06 15:41:44 | INFO | Đã nhập dữ liệu đăng ký
+2026-01-06 15:41:44 | INFO | Đã nhấn nút Đăng ký
+2026-01-06 15:41:44 | INFO | Kết quả thực tế: Please include an '@' in the email address. 'hoangthuyduyen311gmail.com' is missing an '@'.
+2026-01-06 15:41:44 | INFO | Kết quả mong đợi: Please include an '@' in the email address. 'hoangthuyduyen311gmail.com' is missing an '@'. | Trạng thái: Pass
+2026-01-06 15:41:44 | INFO | Đã xóa cookie sau test
+
+2026-01-06 15:41:50 | INFO | 
+=== TEST CASE 11 ===
+2026-01-06 15:41:50 | INFO | Bắt đầu test đăng ký | TK=thúy duyên, Email=@gmai.comm
+2026-01-06 15:41:52 | INFO | Đã nhập dữ liệu đăng ký
+2026-01-06 15:41:52 | INFO | Đã nhấn nút Đăng ký
+2026-01-06 15:41:53 | INFO | Kết quả thực tế: Please enter a part followed by '@'. '@gmai.comm' is incomplete.
+2026-01-06 15:41:53 | INFO | Kết quả mong đợi: Please enter a part followed by '@'. '@gmai.comm' is incomplete. | Trạng thái: Pass
+2026-01-06 15:41:53 | INFO | Đã xóa cookie sau test
+
+2026-01-06 15:41:59 | INFO | 
+=== TEST CASE 12 ===
+2026-01-06 15:41:59 | INFO | Bắt đầu test đăng ký | TK=vân, Email=vannguyen@gmail.com31
+2026-01-06 15:42:01 | INFO | Đã nhập dữ liệu đăng ký
+2026-01-06 15:42:01 | INFO | Đã nhấn nút Đăng ký
+2026-01-06 15:42:22 | INFO | Kết quả thực tế: Không tìm thấy thông báo
+2026-01-06 15:42:22 | INFO | Kết quả mong đợi: Xin chào van (không phải van? Đăng xuất) | Trạng thái: Fail
+2026-01-06 15:42:22 | INFO | Đã xóa cookie sau test
+

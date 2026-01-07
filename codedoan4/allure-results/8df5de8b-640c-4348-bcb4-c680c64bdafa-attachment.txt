@@ -1,0 +1,8 @@
+[32mINFO    [0m test_dangnhap_ddt.py:test_dangnhap_ddt.py:134 
+=== TEST CASE 1 ===
+[32mINFO    [0m test_dangnhap_ddt.py:test_dangnhap_ddt.py:135 Bắt đầu test đăng nhập | Email=hoangnguyet@gmail.com, Mật khẩu=1423Nguyet*
+[32mINFO    [0m test_dangnhap_ddt.py:test_dangnhap_ddt.py:145 Đã nhập dữ liệu đăng nhập
+[32mINFO    [0m test_dangnhap_ddt.py:test_dangnhap_ddt.py:150 Đã nhấn nút Đăng nhập
+[32mINFO    [0m test_dangnhap_ddt.py:test_dangnhap_ddt.py:156 Kết quả thực tế: Lỗi: Mật khẩu bạn nhập cho địa chỉ email hoangnguyet@gmail.com không đúng. Bạn quên mật khẩu?
+[32mINFO    [0m test_dangnhap_ddt.py:test_dangnhap_ddt.py:159 Kết quả mong đợi: Lỗi: Mật khẩu bạn nhập cho địa chỉ email hoangnguyet@gmail.com không đúng. Bạn quên mật khẩu? | Trạng thái: Pass
+[32mINFO    [0m test_dangnhap_ddt.py:test_dangnhap_ddt.py:178 Đã xóa cookie sau test
