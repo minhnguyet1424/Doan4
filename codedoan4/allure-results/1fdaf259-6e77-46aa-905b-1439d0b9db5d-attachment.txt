@@ -1,5 +1,0 @@
-[32mINFO    [0m test_dangky_ddt:test_dangky_ddt.py:129 Bắt đầu test đăng ký | TK=ban@!, Email=hoanghang@gmai.com
-[32mINFO    [0m test_dangky_ddt:test_dangky_ddt.py:139 Đã nhập dữ liệu đăng ký
-[32mINFO    [0m test_dangky_ddt:test_dangky_ddt.py:144 Đã nhấn nút Đăng ký
-[32mINFO    [0m test_dangky_ddt:test_dangky_ddt.py:150 Kết quả thực tế: Lỗi: Vui lòng cung cấp tên người dùng tài khoản hợp lệ.
-[32mINFO    [0m test_dangky_ddt:test_dangky_ddt.py:153 Kết quả mong đợi: Lỗi: Tên tài khoản không được gồm ký tự Đặc biệt. | Trạng thái: Fail

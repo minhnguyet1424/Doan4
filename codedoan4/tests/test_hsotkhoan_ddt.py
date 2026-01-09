@@ -1,4 +1,3 @@
-
 import pytest
 import time
 from pages.dangnhap_page import TrangDangNhap

@@ -1,0 +1,8 @@
+[32mINFO    [0m test_dangky_ddt:test_dangky_ddt.py:36 
+=== TEST CASE 12 ===
+[32mINFO    [0m test_dangky_ddt:test_dangky_ddt.py:37 Bắt đầu test đăng ký | TK=thúy duyên, Email=hoangthuyduyen311@@gmail.com
+[32mINFO    [0m test_dangky_ddt:test_dangky_ddt.py:49 Đã nhập dữ liệu đăng ký
+[32mINFO    [0m test_dangky_ddt:test_dangky_ddt.py:54 Đã nhấn nút Đăng ký
+[32mINFO    [0m test_dangky_ddt:test_dangky_ddt.py:60 Kết quả thực tế: A part following '@' should not contain the symbol '@'.
+[32mINFO    [0m test_dangky_ddt:test_dangky_ddt.py:63 Kết quả mong đợi: A part following '@' should not contain the symbol '@'. | Trạng thái: Pass
+[32mINFO    [0m test_dangky_ddt:test_dangky_ddt.py:82 Đã xóa cookie sau test

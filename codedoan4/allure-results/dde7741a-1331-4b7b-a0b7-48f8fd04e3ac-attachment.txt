@@ -1,6 +1,0 @@
-[32mINFO    [0m test_dangky_ddt:test_dangky_ddt.py:51 Bắt đầu test đăng ký với Tài khoản: thúy duyên, Email: hoangthuyduyen311gmail.com
-[32mINFO    [0m test_dangky_ddt:test_dangky_ddt.py:60 Đã nhập dữ liệu vào form đăng ký
-[32mINFO    [0m test_dangky_ddt:test_dangky_ddt.py:65 Đã nhấn nút Đăng ký
-[32mINFO    [0m test_dangky_ddt:test_dangky_ddt.py:71 Kết quả thực tế: Please include an '@' in the email address. 'hoangthuyduyen311gmail.com' is missing an '@'.
-[32mINFO    [0m test_dangky_ddt:test_dangky_ddt.py:75 Kết quả mong đợi: Please include an '@' in the email address. 'hoangthuyduyen311gmail.com' is missing an '@'. | Trạng thái: Pass
-[32mINFO    [0m test_dangky_ddt:test_dangky_ddt.py:99 Đã xóa cookie sau test.

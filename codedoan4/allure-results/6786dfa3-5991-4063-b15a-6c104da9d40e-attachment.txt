@@ -1,8 +1,0 @@
-[32mINFO    [0m test_dangnhap_ddt.py:test_dangnhap_ddt.py:134 
-=== TEST CASE 7 ===
-[32mINFO    [0m test_dangnhap_ddt.py:test_dangnhap_ddt.py:135 Bắt đầu test đăng nhập | Email=hoangnguyetgmail.com, Mật khẩu=1424Nguyet*
-[32mINFO    [0m test_dangnhap_ddt.py:test_dangnhap_ddt.py:145 Đã nhập dữ liệu đăng nhập
-[32mINFO    [0m test_dangnhap_ddt.py:test_dangnhap_ddt.py:150 Đã nhấn nút Đăng nhập
-[32mINFO    [0m test_dangnhap_ddt.py:test_dangnhap_ddt.py:156 Kết quả thực tế: Lỗi: Tên người dùng hoangnguyetgmail.com không được đăng ký trên trang web này. Nếu bạn không chắc về tên người dùng của mình, hãy thử địa chỉ email của bạn.
-[32mINFO    [0m test_dangnhap_ddt.py:test_dangnhap_ddt.py:159 Kết quả mong đợi: Lỗi: Tên người dùng hoangnguyetgmail.com không được đăng ký trên trang web này. Nếu bạn không chắc về tên người dùng của mình, hãy thử địa chỉ email của bạn. | Trạng thái: Pass
-[32mINFO    [0m test_dangnhap_ddt.py:test_dangnhap_ddt.py:178 Đã xóa cookie sau test

@@ -1,7 +1,0 @@
-[32mINFO    [0m test_dangky_ddt:conftest.py:41 ===== BẮT ĐẦU TEST FILE: test_dangky_ddt.py =====
-[32mINFO    [0m test_dangky_ddt:test_dangky_ddt.py:51 Bắt đầu test đăng ký với Tài khoản: thúy duyên, Email: hoangthuyduyen311@gmail.com
-[32mINFO    [0m test_dangky_ddt:test_dangky_ddt.py:60 Đã nhập dữ liệu vào form đăng ký
-[32mINFO    [0m test_dangky_ddt:test_dangky_ddt.py:65 Đã nhấn nút Đăng ký
-[32mINFO    [0m test_dangky_ddt:test_dangky_ddt.py:71 Kết quả thực tế: Lỗi: Đã có tài khoản đăng ký với tên đăng nhập này. Vui lòng chọn tên khác.
-[32mINFO    [0m test_dangky_ddt:test_dangky_ddt.py:75 Kết quả mong đợi: Đã có tài khoản đăng ký với tên đăng nhập này. Vui lòng chọn tên khác. | Trạng thái: Pass
-[32mINFO    [0m test_dangky_ddt:test_dangky_ddt.py:99 Đã xóa cookie sau test.

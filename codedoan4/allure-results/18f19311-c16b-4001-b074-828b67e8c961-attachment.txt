@@ -1,0 +1,8 @@
+[32mINFO    [0m test_dangky_ddt:test_dangky_ddt.py:38 
+=== TEST CASE 9 ===
+[32mINFO    [0m test_dangky_ddt:test_dangky_ddt.py:39 Bắt đầu test đăng ký | TK=tienbao, Email=baohoang11@gmail.com, Matkhau=abc12345
+[32mINFO    [0m test_dangky_ddt:test_dangky_ddt.py:51 Đã nhập dữ liệu đăng ký
+[33mWARNING [0m test_dangky_ddt:test_dangky_ddt.py:58 Không thể nhấn nút Đăng ký
+[32mINFO    [0m test_dangky_ddt:test_dangky_ddt.py:62 Kết quả thực tế: Độ mạnh mật khẩu: Yếu - Vui lòng nhập mật khẩu mạnh hơn.
+[32mINFO    [0m test_dangky_ddt:test_dangky_ddt.py:65 Kết quả mong đợi: Độ mạnh mật khẩu: Yếu - Vui lòng nhập mật khẩu mạnh hơn. | Trạng thái: Pass
+[32mINFO    [0m test_dangky_ddt:test_dangky_ddt.py:84 Đã xóa cookie sau test

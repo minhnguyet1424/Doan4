@@ -1,0 +1,6 @@
+[32mINFO    [0m test_timkiem_ddt:test_timkiem_ddt.py:29 
+=== TEST CASE 12 ===
+[32mINFO    [0m test_timkiem_ddt:test_timkiem_ddt.py:30 Bắt đầu test tìm kiếm với từ khóa: 'thá'
+[32mINFO    [0m test_timkiem_ddt:test_timkiem_ddt.py:45 Tìm kiếm từ khóa 'thá', kết quả đầu tiên: Dao Thái Kiwi 476
+[32mINFO    [0m test_timkiem_ddt:test_timkiem_ddt.py:49 Kết quả mong đợi: Thạch Thủy Tinh Củ Năng Hồng Boduo (850 g) | Trạng thái: Fail
+[32mINFO    [0m test_timkiem_ddt:test_timkiem_ddt.py:64 Đã xóa cookie sau test

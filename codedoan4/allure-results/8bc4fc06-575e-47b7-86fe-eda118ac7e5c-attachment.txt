@@ -1,8 +1,0 @@
-[32mINFO    [0m test_dangnhap_ddt.py:test_dangnhap_ddt.py:134 
-=== TEST CASE 5 ===
-[32mINFO    [0m test_dangnhap_ddt.py:test_dangnhap_ddt.py:135 Bắt đầu test đăng nhập | Email=hoangnguyet@gmail.com, Mật khẩu=
-[32mINFO    [0m test_dangnhap_ddt.py:test_dangnhap_ddt.py:145 Đã nhập dữ liệu đăng nhập
-[32mINFO    [0m test_dangnhap_ddt.py:test_dangnhap_ddt.py:150 Đã nhấn nút Đăng nhập
-[32mINFO    [0m test_dangnhap_ddt.py:test_dangnhap_ddt.py:156 Kết quả thực tế: Lỗi: Trường mật khẩu đang trống.
-[32mINFO    [0m test_dangnhap_ddt.py:test_dangnhap_ddt.py:159 Kết quả mong đợi: Lỗi: Trường mật khẩu đang trống. | Trạng thái: Pass
-[32mINFO    [0m test_dangnhap_ddt.py:test_dangnhap_ddt.py:177 Đã xóa cookie sau test

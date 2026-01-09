@@ -1,84 +1,84 @@
-2026-01-07 09:14:02 | INFO | 
+2026-01-09 16:01:42 | INFO | 
 === TEST CASE 1 ===
-2026-01-07 09:14:02 | INFO | Bắt đầu test tìm kiếm với từ khóa: ''
-2026-01-07 09:14:06 | INFO | Từ khóa trống, thông báo HTML5: Please fill out this field.
-2026-01-07 09:14:06 | INFO | Kết quả mong đợi: Please fill out this field. | Trạng thái: Pass
-2026-01-07 09:14:06 | INFO | Đã xóa cookie sau test
+2026-01-09 16:01:42 | INFO | Bắt đầu test tìm kiếm với từ khóa: ''
+2026-01-09 16:01:45 | INFO | Từ khóa trống, thông báo HTML5: Please fill out this field.
+2026-01-09 16:01:45 | INFO | Kết quả mong đợi: Please fill out this field. | Trạng thái: Pass
+2026-01-09 16:01:45 | INFO | Đã xóa cookie sau test
 
-2026-01-07 09:14:12 | INFO | 
+2026-01-09 16:01:51 | INFO | 
 === TEST CASE 3 ===
-2026-01-07 09:14:12 | INFO | Bắt đầu test tìm kiếm với từ khóa: 'CÀ PHÊ'
-2026-01-07 09:14:18 | INFO | Tìm kiếm từ khóa 'CÀ PHÊ', kết quả đầu tiên: Máy Tạo Bọt Cà Phê Đa Năng UNI DC-08
-2026-01-07 09:14:18 | INFO | Kết quả mong đợi: Hộp Nhựa Đựng Cà Phê 1,5L | Trạng thái: Fail
-2026-01-07 09:14:18 | INFO | Đã xóa cookie sau test
+2026-01-09 16:01:51 | INFO | Bắt đầu test tìm kiếm với từ khóa: 'CÀ PHÊ'
+2026-01-09 16:01:57 | INFO | Tìm kiếm từ khóa 'CÀ PHÊ', kết quả đầu tiên: Máy Tạo Bọt Cà Phê Đa Năng UNI DC-08
+2026-01-09 16:01:57 | INFO | Kết quả mong đợi: Hộp Nhựa Đựng Cà Phê 1,5L | Trạng thái: Fail
+2026-01-09 16:01:57 | INFO | Đã xóa cookie sau test
 
-2026-01-07 09:14:24 | INFO | 
+2026-01-09 16:02:03 | INFO | 
 === TEST CASE 4 ===
-2026-01-07 09:14:24 | INFO | Bắt đầu test tìm kiếm với từ khóa: 'cà phê'
-2026-01-07 09:14:30 | INFO | Tìm kiếm từ khóa 'cà phê', kết quả đầu tiên: Máy Tạo Bọt Cà Phê Đa Năng UNI DC-08
-2026-01-07 09:14:30 | INFO | Kết quả mong đợi: Hộp Nhựa Đựng Cà Phê 1,5L | Trạng thái: Fail
-2026-01-07 09:14:30 | INFO | Đã xóa cookie sau test
+2026-01-09 16:02:03 | INFO | Bắt đầu test tìm kiếm với từ khóa: 'cà phê'
+2026-01-09 16:02:08 | INFO | Tìm kiếm từ khóa 'cà phê', kết quả đầu tiên: Máy Tạo Bọt Cà Phê Đa Năng UNI DC-08
+2026-01-09 16:02:08 | INFO | Kết quả mong đợi: Hộp Nhựa Đựng Cà Phê 1,5L | Trạng thái: Fail
+2026-01-09 16:02:08 | INFO | Đã xóa cookie sau test
 
-2026-01-07 09:14:36 | INFO | 
+2026-01-09 16:02:14 | INFO | 
 === TEST CASE 5 ===
-2026-01-07 09:14:36 | INFO | Bắt đầu test tìm kiếm với từ khóa: 'nhan ngam'
-2026-01-07 09:14:40 | INFO | Tìm kiếm từ khóa 'nhan ngam', kết quả đầu tiên: Nhãn Ngâm Nước Đường BODDOB (565 g)
-2026-01-07 09:14:40 | INFO | Kết quả mong đợi: Nhãn Ngâm Nước Đường BODDOB (565 g) | Trạng thái: Pass
-2026-01-07 09:14:41 | INFO | Đã xóa cookie sau test
+2026-01-09 16:02:14 | INFO | Bắt đầu test tìm kiếm với từ khóa: 'nhan ngam'
+2026-01-09 16:02:20 | INFO | Tìm kiếm từ khóa 'nhan ngam', kết quả đầu tiên: Nhãn Ngâm Nước Đường BODDOB (565 g)
+2026-01-09 16:02:20 | INFO | Kết quả mong đợi: Nhãn Ngâm Nước Đường BODDOB (565 g) | Trạng thái: Pass
+2026-01-09 16:02:20 | INFO | Đã xóa cookie sau test
 
-2026-01-07 09:14:46 | INFO | 
+2026-01-09 16:02:26 | INFO | 
 === TEST CASE 7 ===
-2026-01-07 09:14:46 | INFO | Bắt đầu test tìm kiếm với từ khóa: '565'
-2026-01-07 09:14:51 | INFO | Tìm kiếm từ khóa '565', kết quả đầu tiên: Nhãn Ngâm Nước Đường BODDOB (565 g)
-2026-01-07 09:14:51 | INFO | Kết quả mong đợi: Nhãn Ngâm Nước Đường BODDOB (565 g) | Trạng thái: Pass
-2026-01-07 09:14:51 | INFO | Đã xóa cookie sau test
+2026-01-09 16:02:26 | INFO | Bắt đầu test tìm kiếm với từ khóa: '565'
+2026-01-09 16:02:31 | INFO | Tìm kiếm từ khóa '565', kết quả đầu tiên: Nhãn Ngâm Nước Đường BODDOB (565 g)
+2026-01-09 16:02:31 | INFO | Kết quả mong đợi: Nhãn Ngâm Nước Đường BODDOB (565 g) | Trạng thái: Pass
+2026-01-09 16:02:31 | INFO | Đã xóa cookie sau test
 
-2026-01-07 09:14:57 | INFO | 
+2026-01-09 16:02:37 | INFO | 
 === TEST CASE 9 ===
-2026-01-07 09:14:57 | INFO | Bắt đầu test tìm kiếm với từ khóa: '#$%&'
-2026-01-07 09:15:12 | INFO | Tìm kiếm từ khóa '#$%&', kết quả đầu tiên: Không tìm thấy sản phẩm nào khớp với lựa chọn của bạn.
-2026-01-07 09:15:12 | INFO | Kết quả mong đợi: Không tìm thấy sản phẩm nào khớp với lựa chọn của bạn. | Trạng thái: Pass
-2026-01-07 09:15:12 | INFO | Đã xóa cookie sau test
+2026-01-09 16:02:37 | INFO | Bắt đầu test tìm kiếm với từ khóa: '#$%&'
+2026-01-09 16:02:52 | INFO | Tìm kiếm từ khóa '#$%&', kết quả đầu tiên: Không tìm thấy sản phẩm nào khớp với lựa chọn của bạn.
+2026-01-09 16:02:52 | INFO | Kết quả mong đợi: Không tìm thấy sản phẩm nào khớp với lựa chọn của bạn. | Trạng thái: Pass
+2026-01-09 16:02:52 | INFO | Đã xóa cookie sau test
 
-2026-01-07 09:15:18 | INFO | 
+2026-01-09 16:02:58 | INFO | 
 === TEST CASE 11 ===
-2026-01-07 09:15:18 | INFO | Bắt đầu test tìm kiếm với từ khóa: 'cà phê'
-2026-01-07 09:15:22 | INFO | Tìm kiếm từ khóa 'cà phê', kết quả đầu tiên: Máy Tạo Bọt Cà Phê Đa Năng UNI DC-08
-2026-01-07 09:15:22 | INFO | Kết quả mong đợi: Hộp Nhựa Đựng Cà Phê 1,5L | Trạng thái: Fail
-2026-01-07 09:15:23 | INFO | Đã xóa cookie sau test
+2026-01-09 16:02:58 | INFO | Bắt đầu test tìm kiếm với từ khóa: 'cà phê'
+2026-01-09 16:03:04 | INFO | Tìm kiếm từ khóa 'cà phê', kết quả đầu tiên: Máy Tạo Bọt Cà Phê Đa Năng UNI DC-08
+2026-01-09 16:03:04 | INFO | Kết quả mong đợi: Hộp Nhựa Đựng Cà Phê 1,5L | Trạng thái: Fail
+2026-01-09 16:03:04 | INFO | Đã xóa cookie sau test
 
-2026-01-07 09:15:29 | INFO | 
+2026-01-09 16:03:10 | INFO | 
 === TEST CASE 12 ===
-2026-01-07 09:15:29 | INFO | Bắt đầu test tìm kiếm với từ khóa: 'thá'
-2026-01-07 09:15:34 | INFO | Tìm kiếm từ khóa 'thá', kết quả đầu tiên: Dao Thái Kiwi 476
-2026-01-07 09:15:34 | INFO | Kết quả mong đợi: Thạch Thủy Tinh Củ Năng Hồng Boduo (850 g) | Trạng thái: Fail
-2026-01-07 09:15:34 | INFO | Đã xóa cookie sau test
+2026-01-09 16:03:10 | INFO | Bắt đầu test tìm kiếm với từ khóa: 'thá'
+2026-01-09 16:03:15 | INFO | Tìm kiếm từ khóa 'thá', kết quả đầu tiên: Dao Thái Kiwi 476
+2026-01-09 16:03:15 | INFO | Kết quả mong đợi: Thạch Thủy Tinh Củ Năng Hồng Boduo (850 g) | Trạng thái: Fail
+2026-01-09 16:03:15 | INFO | Đã xóa cookie sau test
 
-2026-01-07 09:15:40 | INFO | 
+2026-01-09 16:03:21 | INFO | 
 === TEST CASE 13 ===
-2026-01-07 09:15:40 | INFO | Bắt đầu test tìm kiếm với từ khóa: 'Thạch Thủy Tinh Củ Năng Hồng Boduo (850 g)'
-2026-01-07 09:15:44 | INFO | Tìm kiếm từ khóa 'Thạch Thủy Tinh Củ Năng Hồng Boduo (850 g)', kết quả đầu tiên: Thạch Thủy Tinh Củ Năng Hồng Boduo (850 g)
-2026-01-07 09:15:44 | INFO | Kết quả mong đợi: Thạch Thủy Tinh Củ Năng Hồng Boduo (850 g) | Trạng thái: Pass
-2026-01-07 09:15:45 | INFO | Đã xóa cookie sau test
+2026-01-09 16:03:21 | INFO | Bắt đầu test tìm kiếm với từ khóa: 'Thạch Thủy Tinh Củ Năng Hồng Boduo (850 g)'
+2026-01-09 16:03:26 | INFO | Tìm kiếm từ khóa 'Thạch Thủy Tinh Củ Năng Hồng Boduo (850 g)', kết quả đầu tiên: Thạch Thủy Tinh Củ Năng Hồng Boduo (850 g)
+2026-01-09 16:03:26 | INFO | Kết quả mong đợi: Thạch Thủy Tinh Củ Năng Hồng Boduo (850 g) | Trạng thái: Pass
+2026-01-09 16:03:26 | INFO | Đã xóa cookie sau test
 
-2026-01-07 09:15:50 | INFO | 
+2026-01-09 16:03:32 | INFO | 
 === TEST CASE 15 ===
-2026-01-07 09:15:50 | INFO | Bắt đầu test tìm kiếm với từ khóa: 'a'
-2026-01-07 09:15:55 | INFO | Tìm kiếm từ khóa 'a', kết quả đầu tiên: Phễu Nhựa
-2026-01-07 09:15:55 | INFO | Kết quả mong đợi: Trân châu 3Q Ô Long Bibi Jelly 2kg | Trạng thái: Fail
-2026-01-07 09:15:55 | INFO | Đã xóa cookie sau test
+2026-01-09 16:03:32 | INFO | Bắt đầu test tìm kiếm với từ khóa: 'a'
+2026-01-09 16:03:37 | INFO | Tìm kiếm từ khóa 'a', kết quả đầu tiên: Bột Cacao Mama’s Choice (200g)
+2026-01-09 16:03:37 | INFO | Kết quả mong đợi: Trân châu 3Q Ô Long Bibi Jelly 2kg | Trạng thái: Fail
+2026-01-09 16:03:37 | INFO | Đã xóa cookie sau test
 
-2026-01-07 09:16:01 | INFO | 
+2026-01-09 16:03:43 | INFO | 
 === TEST CASE 16 ===
-2026-01-07 09:16:01 | INFO | Bắt đầu test tìm kiếm với từ khóa: 'áo khoác'
-2026-01-07 09:16:16 | INFO | Tìm kiếm từ khóa 'áo khoác', kết quả đầu tiên: Không tìm thấy sản phẩm nào khớp với lựa chọn của bạn.
-2026-01-07 09:16:16 | INFO | Kết quả mong đợi: Không tìm thấy sản phẩm nào khớp với lựa chọn của bạn. | Trạng thái: Pass
-2026-01-07 09:16:16 | INFO | Đã xóa cookie sau test
+2026-01-09 16:03:43 | INFO | Bắt đầu test tìm kiếm với từ khóa: 'áo khoác'
+2026-01-09 16:03:56 | INFO | Tìm kiếm từ khóa 'áo khoác', kết quả đầu tiên: Không tìm thấy sản phẩm nào khớp với lựa chọn của bạn.
+2026-01-09 16:03:56 | INFO | Kết quả mong đợi: Không tìm thấy sản phẩm nào khớp với lựa chọn của bạn. | Trạng thái: Pass
+2026-01-09 16:03:56 | INFO | Đã xóa cookie sau test
 
-2026-01-07 09:16:22 | INFO | 
+2026-01-09 16:04:02 | INFO | 
 === TEST CASE 18 ===
-2026-01-07 09:16:22 | INFO | Bắt đầu test tìm kiếm với từ khóa: 'YM104'
-2026-01-07 09:16:27 | INFO | Tìm kiếm từ khóa 'YM104', kết quả đầu tiên: French Press Tay Cầm Inox Yami 350ml – YM104/YM107-350
-2026-01-07 09:16:27 | INFO | Kết quả mong đợi: French Press Tay Cầm Inox Yami 350ml – YM104/YM107-350 | Trạng thái: Pass
-2026-01-07 09:16:27 | INFO | Đã xóa cookie sau test
+2026-01-09 16:04:02 | INFO | Bắt đầu test tìm kiếm với từ khóa: 'YM104'
+2026-01-09 16:04:08 | INFO | Tìm kiếm từ khóa 'YM104', kết quả đầu tiên: French Press Tay Cầm Inox Yami 350ml – YM104/YM107-350
+2026-01-09 16:04:08 | INFO | Kết quả mong đợi: French Press Tay Cầm Inox Yami 350ml – YM104/YM107-350 | Trạng thái: Pass
+2026-01-09 16:04:08 | INFO | Đã xóa cookie sau test
 

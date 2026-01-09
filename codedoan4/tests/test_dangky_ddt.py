@@ -1,5 +1,7 @@
 
+from logging import Logger
 import pytest
+from selenium.webdriver.chrome.webdriver import WebDriver
 from pages.dangky_page import TrangDangKy
 from utils.report_helper import ExcelReport
 from base.config import URL_DANG_KY
@@ -23,20 +25,18 @@ def report():
 
 # ================== TEST ==================
 def test_dang_ky_ddt(
-    cau_hinh, tentaikhoan, email, matkhau, ketquamongdoi, report, logger
+    cau_hinh: dict[str, WebDriver], tentaikhoan, email, matkhau, ketquamongdoi, report: ExcelReport, logger: Logger
 ):
     driver = cau_hinh["driver"]
     trang = TrangDangKy(driver, URL_DANG_KY)
 
-    # --- Đảm bảo cookie luôn được xóa dù test pass/fail ---
     try:
-        # --- STT tự động và phân cách log ---
         if not hasattr(test_dang_ky_ddt, "stt"):
             test_dang_ky_ddt.stt = 1
         stt = test_dang_ky_ddt.stt
 
         logger.info(f"\n=== TEST CASE {stt} ===")
-        logger.info(f"Bắt đầu test đăng ký | TK={tentaikhoan}, Email={email}")
+        logger.info(f"Bắt đầu test đăng ký | TK={tentaikhoan}, Email={email}, Matkhau={matkhau}")
 
         # --- Mở trang ---
         trang.mo_trang_dang_ky()

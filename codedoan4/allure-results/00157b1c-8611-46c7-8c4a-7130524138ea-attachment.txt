@@ -1,7 +1,0 @@
-[32mINFO    [0m test_hsotkhoan_ddt.py:test_hsotkhoan_ddt.py:164 
-=== TEST CASE 11 ===
-[32mINFO    [0m test_hsotkhoan_ddt.py:test_hsotkhoan_ddt.py:165 Bắt đầu test cập nhật thông tin | Email=HoangMinhNguyet110122277@gmail.com
-[32mINFO    [0m test_hsotkhoan_ddt.py:test_hsotkhoan_ddt.py:173 Đã đăng nhập thành công
-[32mINFO    [0m test_hsotkhoan_ddt.py:test_hsotkhoan_ddt.py:184 Kết quả thực tế: Vui lòng nhập mật khẩu hiện tại của bạn.
-[32mINFO    [0m test_hsotkhoan_ddt.py:test_hsotkhoan_ddt.py:194 Kết quả mong đợi: Vui lòng nhập mật khẩu hiện tại của bạn. | Trạng thái: Pass
-[32mINFO    [0m test_hsotkhoan_ddt.py:test_hsotkhoan_ddt.py:204 Đã xóa cookie sau test

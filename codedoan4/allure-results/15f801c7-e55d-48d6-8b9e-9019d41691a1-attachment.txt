@@ -1,0 +1,6 @@
+[32mINFO    [0m test_timkiem_ddt:test_timkiem_ddt.py:29 
+=== TEST CASE 3 ===
+[32mINFO    [0m test_timkiem_ddt:test_timkiem_ddt.py:30 Bắt đầu test tìm kiếm với từ khóa: 'CÀ PHÊ'
+[32mINFO    [0m test_timkiem_ddt:test_timkiem_ddt.py:45 Tìm kiếm từ khóa 'CÀ PHÊ', kết quả đầu tiên: Máy Tạo Bọt Cà Phê Đa Năng UNI DC-08
+[32mINFO    [0m test_timkiem_ddt:test_timkiem_ddt.py:49 Kết quả mong đợi: Hộp Nhựa Đựng Cà Phê 1,5L | Trạng thái: Fail
+[32mINFO    [0m test_timkiem_ddt:test_timkiem_ddt.py:64 Đã xóa cookie sau test

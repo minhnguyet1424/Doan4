@@ -1,1 +1,0 @@
-{"uuid": "99691f62-b574-451e-8e53-39e641ae3732", "children": ["c6bdd834-0760-457f-a1ce-610eea0f8db2"], "befores": [{"name": "cau_hinh", "status": "passed", "start": 1767773274266, "stop": 1767773279550}], "afters": [{"name": "cau_hinh::0", "status": "passed", "start": 1767773296134, "stop": 1767773298314}], "start": 1767773274266, "stop": 1767773298314}

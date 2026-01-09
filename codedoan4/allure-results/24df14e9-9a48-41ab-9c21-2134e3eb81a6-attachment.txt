@@ -1,0 +1,8 @@
+[32mINFO    [0m test_dangky_ddt:test_dangky_ddt.py:38 
+=== TEST CASE 5 ===
+[32mINFO    [0m test_dangky_ddt:test_dangky_ddt.py:39 Bắt đầu test đăng ký | TK=, Email=thu2h312oangTthuyduye12345671nn@gmail.com, Matkhau=
+[32mINFO    [0m test_dangky_ddt:test_dangky_ddt.py:51 Đã nhập dữ liệu đăng ký
+[32mINFO    [0m test_dangky_ddt:test_dangky_ddt.py:56 Đã nhấn nút Đăng ký
+[32mINFO    [0m test_dangky_ddt:test_dangky_ddt.py:62 Kết quả thực tế: Lỗi: Một tài khoản đã được đăng ký với thu2h312oangTthuyduye12345671nn@gmail.com. Vui lòng đăng nhập hoặc sử dụng địa chỉ email khác.
+[32mINFO    [0m test_dangky_ddt:test_dangky_ddt.py:65 Kết quả mong đợi: Xin chào thu2h312oangtthuyduye12345671nn (không phải thu2h312oangtthuyduye12345671nn? Đăng xuất) | Trạng thái: Fail
+[32mINFO    [0m test_dangky_ddt:test_dangky_ddt.py:84 Đã xóa cookie sau test

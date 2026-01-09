@@ -1,0 +1,6 @@
+[32mINFO    [0m test_timkiem_ddt:test_timkiem_ddt.py:29 
+=== TEST CASE 13 ===
+[32mINFO    [0m test_timkiem_ddt:test_timkiem_ddt.py:30 Bắt đầu test tìm kiếm với từ khóa: 'Thạch Thủy Tinh Củ Năng Hồng Boduo (850 g)'
+[32mINFO    [0m test_timkiem_ddt:test_timkiem_ddt.py:45 Tìm kiếm từ khóa 'Thạch Thủy Tinh Củ Năng Hồng Boduo (850 g)', kết quả đầu tiên: Thạch Thủy Tinh Củ Năng Hồng Boduo (850 g)
+[32mINFO    [0m test_timkiem_ddt:test_timkiem_ddt.py:49 Kết quả mong đợi: Thạch Thủy Tinh Củ Năng Hồng Boduo (850 g) | Trạng thái: Pass
+[32mINFO    [0m test_timkiem_ddt:test_timkiem_ddt.py:64 Đã xóa cookie sau test

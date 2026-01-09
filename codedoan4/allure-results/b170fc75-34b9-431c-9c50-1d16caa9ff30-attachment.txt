@@ -1,7 +1,0 @@
-[32mINFO    [0m test_hsotkhoan_ddt.py:test_hsotkhoan_ddt.py:44 
-=== TEST CASE 3 ===
-[32mINFO    [0m test_hsotkhoan_ddt.py:test_hsotkhoan_ddt.py:45 Bắt đầu test cập nhật thông tin | Email=HoangMinhNguyet110122277@gmail.com
-[32mINFO    [0m test_hsotkhoan_ddt.py:test_hsotkhoan_ddt.py:53 Đã đăng nhập thành công
-[32mINFO    [0m test_hsotkhoan_ddt.py:test_hsotkhoan_ddt.py:64 Kết quả thực tế: Please include an '@' in the email address. 'HoangMinhNguyet110122277gmail.com' is missing an '@'.
-[32mINFO    [0m test_hsotkhoan_ddt.py:test_hsotkhoan_ddt.py:74 Kết quả mong đợi: Please include an '@' in the email address. 'HoangMinhNguyet110122277gmail.com' is missing an '@'. | Trạng thái: Pass
-[32mINFO    [0m test_hsotkhoan_ddt.py:test_hsotkhoan_ddt.py:83 Đã xóa cookie sau test

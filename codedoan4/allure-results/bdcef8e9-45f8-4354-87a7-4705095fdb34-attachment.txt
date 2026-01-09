@@ -1,7 +1,0 @@
-[32mINFO    [0m test_hsotkhoan_ddt.py:test_hsotkhoan_ddt.py:164 
-=== TEST CASE 2 ===
-[32mINFO    [0m test_hsotkhoan_ddt.py:test_hsotkhoan_ddt.py:165 Bắt đầu test cập nhật thông tin | Email=HoangMinhNguyet110122277@gmail.com
-[32mINFO    [0m test_hsotkhoan_ddt.py:test_hsotkhoan_ddt.py:173 Đã đăng nhập thành công
-[32mINFO    [0m test_hsotkhoan_ddt.py:test_hsotkhoan_ddt.py:184 Kết quả thực tế: A part following '@' should not contain the symbol '@'.
-[32mINFO    [0m test_hsotkhoan_ddt.py:test_hsotkhoan_ddt.py:194 Kết quả mong đợi: A part following '@' should not contain the symbol '@'. | Trạng thái: Pass
-[32mINFO    [0m test_hsotkhoan_ddt.py:test_hsotkhoan_ddt.py:203 Đã xóa cookie sau test

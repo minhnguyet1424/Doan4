@@ -1,99 +1,99 @@
-2026-01-07 10:28:49 | INFO | 
+2026-01-09 10:14:33 | INFO | 
 === TEST CASE 1 ===
-2026-01-07 10:28:49 | INFO | Bắt đầu test đăng nhập | Email=hoangnguyet@gmail.com, Mật khẩu=1423Nguyet*
-2026-01-07 10:28:52 | INFO | Đã nhập dữ liệu đăng nhập
-2026-01-07 10:28:52 | INFO | Đã nhấn nút Đăng nhập
-2026-01-07 10:28:53 | INFO | Kết quả thực tế: Lỗi: Mật khẩu bạn nhập cho địa chỉ email hoangnguyet@gmail.com không đúng. Bạn quên mật khẩu?
-2026-01-07 10:28:53 | INFO | Kết quả mong đợi: Lỗi: Mật khẩu bạn nhập cho địa chỉ email hoangnguyet@gmail.com không đúng. Bạn quên mật khẩu? | Trạng thái: Pass
-2026-01-07 10:28:54 | INFO | Đã xóa cookie sau test
+2026-01-09 10:14:33 | INFO | Bắt đầu test đăng nhập | Email=hoangnguyet@gmail.com, Mật khẩu=1423Nguyet*
+2026-01-09 10:14:36 | INFO | Đã nhập dữ liệu đăng nhập
+2026-01-09 10:14:38 | INFO | Đã nhấn nút Đăng nhập
+2026-01-09 10:14:38 | INFO | Kết quả thực tế: Lỗi: Mật khẩu bạn nhập cho địa chỉ email hoangnguyet@gmail.com không đúng. Bạn quên mật khẩu?
+2026-01-09 10:14:38 | INFO | Kết quả mong đợi: Lỗi: Mật khẩu bạn nhập cho địa chỉ email hoangnguyet@gmail.com không đúng. Bạn quên mật khẩu? | Trạng thái: Pass
+2026-01-09 10:14:38 | INFO | Đã xóa cookie sau test
 
-2026-01-07 10:28:59 | INFO | 
+2026-01-09 10:14:44 | INFO | 
 === TEST CASE 2 ===
-2026-01-07 10:28:59 | INFO | Bắt đầu test đăng nhập | Email=HoangMinhNguyet110122277@gmail.com, Mật khẩu=1424Nguyet*
-2026-01-07 10:29:02 | INFO | Đã nhập dữ liệu đăng nhập
-2026-01-07 10:29:04 | INFO | Đã nhấn nút Đăng nhập
-2026-01-07 10:29:14 | INFO | Kết quả thực tế: Xin chào Minh Nguyệt (không phải Minh Nguyệt? Đăng xuất)
-2026-01-07 10:29:14 | INFO | Kết quả mong đợi: Xin chào Minh Nguyệt (không phải Minh Nguyệt? Đăng xuất) | Trạng thái: Pass
-2026-01-07 10:29:14 | INFO | Đã xóa cookie sau test
+2026-01-09 10:14:44 | INFO | Bắt đầu test đăng nhập | Email=HoangMinhNguyet110122277@gmail.com, Mật khẩu=1424Nguyet*
+2026-01-09 10:14:47 | INFO | Đã nhập dữ liệu đăng nhập
+2026-01-09 10:14:50 | INFO | Đã nhấn nút Đăng nhập
+2026-01-09 10:15:00 | INFO | Kết quả thực tế: Xin chào Minh Nguyệt (không phải Minh Nguyệt? Đăng xuất)
+2026-01-09 10:15:00 | INFO | Kết quả mong đợi: Xin chào Minh Nguyệt (không phải Minh Nguyệt? Đăng xuất) | Trạng thái: Pass
+2026-01-09 10:15:01 | INFO | Đã xóa cookie sau test
 
-2026-01-07 10:29:20 | INFO | 
+2026-01-09 10:15:06 | INFO | 
 === TEST CASE 3 ===
-2026-01-07 10:29:20 | INFO | Bắt đầu test đăng nhập | Email=duyen123@gmail.com, Mật khẩu=1424Nguyet*
-2026-01-07 10:29:23 | INFO | Đã nhập dữ liệu đăng nhập
-2026-01-07 10:29:24 | INFO | Đã nhấn nút Đăng nhập
-2026-01-07 10:29:24 | INFO | Kết quả thực tế: Địa chỉ email không xác định. Kiểm tra lại hoặc thử tên người dùng của bạn.
-2026-01-07 10:29:24 | INFO | Kết quả mong đợi: Địa chỉ email không xác định. Kiểm tra lại hoặc thử tên người dùng của bạn. | Trạng thái: Pass
-2026-01-07 10:29:24 | INFO | Đã xóa cookie sau test
+2026-01-09 10:15:06 | INFO | Bắt đầu test đăng nhập | Email=duyen123@gmail.com, Mật khẩu=1424Nguyet*
+2026-01-09 10:15:10 | INFO | Đã nhập dữ liệu đăng nhập
+2026-01-09 10:15:12 | INFO | Đã nhấn nút Đăng nhập
+2026-01-09 10:15:12 | INFO | Kết quả thực tế: Địa chỉ email không xác định. Kiểm tra lại hoặc thử tên người dùng của bạn.
+2026-01-09 10:15:12 | INFO | Kết quả mong đợi: Địa chỉ email không xác định. Kiểm tra lại hoặc thử tên người dùng của bạn. | Trạng thái: Pass
+2026-01-09 10:15:12 | INFO | Đã xóa cookie sau test
 
-2026-01-07 10:29:30 | INFO | 
+2026-01-09 10:15:18 | INFO | 
 === TEST CASE 4 ===
-2026-01-07 10:29:30 | INFO | Bắt đầu test đăng nhập | Email=, Mật khẩu=1424Nguyet*
-2026-01-07 10:29:32 | INFO | Đã nhập dữ liệu đăng nhập
-2026-01-07 10:29:33 | INFO | Đã nhấn nút Đăng nhập
-2026-01-07 10:29:33 | INFO | Kết quả thực tế: Lỗi: Yêu cầu tên tài khoản.
-2026-01-07 10:29:33 | INFO | Kết quả mong đợi: Lỗi: Yêu cầu tên tài khoản. | Trạng thái: Pass
-2026-01-07 10:29:34 | INFO | Đã xóa cookie sau test
+2026-01-09 10:15:18 | INFO | Bắt đầu test đăng nhập | Email=, Mật khẩu=1424Nguyet*
+2026-01-09 10:15:22 | INFO | Đã nhập dữ liệu đăng nhập
+2026-01-09 10:15:24 | INFO | Đã nhấn nút Đăng nhập
+2026-01-09 10:15:24 | INFO | Kết quả thực tế: Lỗi: Yêu cầu tên tài khoản.
+2026-01-09 10:15:24 | INFO | Kết quả mong đợi: Lỗi: Yêu cầu tên tài khoản. | Trạng thái: Pass
+2026-01-09 10:15:24 | INFO | Đã xóa cookie sau test
 
-2026-01-07 10:29:39 | INFO | 
+2026-01-09 10:15:30 | INFO | 
 === TEST CASE 5 ===
-2026-01-07 10:29:39 | INFO | Bắt đầu test đăng nhập | Email=hoangnguyet@gmail.com, Mật khẩu=
-2026-01-07 10:29:41 | INFO | Đã nhập dữ liệu đăng nhập
-2026-01-07 10:29:42 | INFO | Đã nhấn nút Đăng nhập
-2026-01-07 10:29:42 | INFO | Kết quả thực tế: Lỗi: Trường mật khẩu đang trống.
-2026-01-07 10:29:42 | INFO | Kết quả mong đợi: Lỗi: Trường mật khẩu đang trống. | Trạng thái: Pass
-2026-01-07 10:29:43 | INFO | Đã xóa cookie sau test
+2026-01-09 10:15:30 | INFO | Bắt đầu test đăng nhập | Email=hoangnguyet@gmail.com, Mật khẩu=
+2026-01-09 10:15:35 | INFO | Đã nhập dữ liệu đăng nhập
+2026-01-09 10:15:35 | INFO | Đã nhấn nút Đăng nhập
+2026-01-09 10:15:36 | INFO | Kết quả thực tế: Lỗi: Trường mật khẩu đang trống.
+2026-01-09 10:15:36 | INFO | Kết quả mong đợi: Lỗi: Trường mật khẩu đang trống. | Trạng thái: Pass
+2026-01-09 10:15:37 | INFO | Đã xóa cookie sau test
 
-2026-01-07 10:29:49 | INFO | 
+2026-01-09 10:15:42 | INFO | 
 === TEST CASE 6 ===
-2026-01-07 10:29:49 | INFO | Bắt đầu test đăng nhập | Email=, Mật khẩu=
-2026-01-07 10:29:51 | INFO | Đã nhập dữ liệu đăng nhập
-2026-01-07 10:29:51 | INFO | Đã nhấn nút Đăng nhập
-2026-01-07 10:29:52 | INFO | Kết quả thực tế: Lỗi: Yêu cầu tên tài khoản.
-2026-01-07 10:29:52 | INFO | Kết quả mong đợi: Lỗi: Yêu cầu tên tài khoản. | Trạng thái: Pass
-2026-01-07 10:29:52 | INFO | Đã xóa cookie sau test
+2026-01-09 10:15:42 | INFO | Bắt đầu test đăng nhập | Email=, Mật khẩu=
+2026-01-09 10:15:45 | INFO | Đã nhập dữ liệu đăng nhập
+2026-01-09 10:15:47 | INFO | Đã nhấn nút Đăng nhập
+2026-01-09 10:15:47 | INFO | Kết quả thực tế: Lỗi: Yêu cầu tên tài khoản.
+2026-01-09 10:15:47 | INFO | Kết quả mong đợi: Lỗi: Yêu cầu tên tài khoản. | Trạng thái: Pass
+2026-01-09 10:15:47 | INFO | Đã xóa cookie sau test
 
-2026-01-07 10:29:58 | INFO | 
+2026-01-09 10:15:53 | INFO | 
 === TEST CASE 7 ===
-2026-01-07 10:29:58 | INFO | Bắt đầu test đăng nhập | Email=hoangnguyetgmail.com, Mật khẩu=1424Nguyet*
-2026-01-07 10:30:00 | INFO | Đã nhập dữ liệu đăng nhập
-2026-01-07 10:30:01 | INFO | Đã nhấn nút Đăng nhập
-2026-01-07 10:30:02 | INFO | Kết quả thực tế: Lỗi: Tên người dùng hoangnguyetgmail.com không được đăng ký trên trang web này. Nếu bạn không chắc về tên người dùng của mình, hãy thử địa chỉ email của bạn.
-2026-01-07 10:30:02 | INFO | Kết quả mong đợi: Lỗi: Tên người dùng hoangnguyetgmail.com không được đăng ký trên trang web này. Nếu bạn không chắc về tên người dùng của mình, hãy thử địa chỉ email của bạn. | Trạng thái: Pass
-2026-01-07 10:30:02 | INFO | Đã xóa cookie sau test
+2026-01-09 10:15:53 | INFO | Bắt đầu test đăng nhập | Email=hoangnguyetgmail.com, Mật khẩu=1424Nguyet*
+2026-01-09 10:15:58 | INFO | Đã nhập dữ liệu đăng nhập
+2026-01-09 10:16:00 | INFO | Đã nhấn nút Đăng nhập
+2026-01-09 10:16:00 | INFO | Kết quả thực tế: Lỗi: Tên người dùng hoangnguyetgmail.com không được đăng ký trên trang web này. Nếu bạn không chắc về tên người dùng của mình, hãy thử địa chỉ email của bạn.
+2026-01-09 10:16:00 | INFO | Kết quả mong đợi: Lỗi: Tên người dùng hoangnguyetgmail.com không được đăng ký trên trang web này. Nếu bạn không chắc về tên người dùng của mình, hãy thử địa chỉ email của bạn. | Trạng thái: Pass
+2026-01-09 10:16:00 | INFO | Đã xóa cookie sau test
 
-2026-01-07 10:30:08 | INFO | 
+2026-01-09 10:16:06 | INFO | 
 === TEST CASE 8 ===
-2026-01-07 10:30:08 | INFO | Bắt đầu test đăng nhập | Email=hoangduyen@gmail.com, Mật khẩu=duyen
-2026-01-07 10:30:10 | INFO | Đã nhập dữ liệu đăng nhập
-2026-01-07 10:30:10 | INFO | Đã nhấn nút Đăng nhập
-2026-01-07 10:30:12 | INFO | Kết quả thực tế: Địa chỉ email không xác định. Kiểm tra lại hoặc thử tên người dùng của bạn.
-2026-01-07 10:30:12 | INFO | Kết quả mong đợi: Địa chỉ email không xác định. Kiểm tra lại hoặc thử tên người dùng của bạn. | Trạng thái: Pass
-2026-01-07 10:30:12 | INFO | Đã xóa cookie sau test
+2026-01-09 10:16:06 | INFO | Bắt đầu test đăng nhập | Email=hoangduyen@gmail.com, Mật khẩu=duyen
+2026-01-09 10:16:08 | INFO | Đã nhập dữ liệu đăng nhập
+2026-01-09 10:16:08 | INFO | Đã nhấn nút Đăng nhập
+2026-01-09 10:16:10 | INFO | Kết quả thực tế: Địa chỉ email không xác định. Kiểm tra lại hoặc thử tên người dùng của bạn.
+2026-01-09 10:16:10 | INFO | Kết quả mong đợi: Địa chỉ email không xác định. Kiểm tra lại hoặc thử tên người dùng của bạn. | Trạng thái: Pass
+2026-01-09 10:16:11 | INFO | Đã xóa cookie sau test
 
-2026-01-07 10:30:18 | INFO | 
+2026-01-09 10:16:16 | INFO | 
 === TEST CASE 9 ===
-2026-01-07 10:30:18 | INFO | Bắt đầu test đăng nhập | Email=hoangnguyet@gmai.com, Mật khẩu=1424Nguyet*
-2026-01-07 10:30:20 | INFO | Đã nhập dữ liệu đăng nhập
-2026-01-07 10:30:20 | INFO | Đã nhấn nút Đăng nhập
-2026-01-07 10:30:21 | INFO | Kết quả thực tế: Địa chỉ email không xác định. Kiểm tra lại hoặc thử tên người dùng của bạn.
-2026-01-07 10:30:21 | INFO | Kết quả mong đợi: Địa chỉ email không xác định. Kiểm tra lại hoặc thử tên người dùng của bạn. | Trạng thái: Pass
-2026-01-07 10:30:22 | INFO | Đã xóa cookie sau test
+2026-01-09 10:16:16 | INFO | Bắt đầu test đăng nhập | Email=hoangnguyet@gmai.com, Mật khẩu=1424Nguyet*
+2026-01-09 10:16:21 | INFO | Đã nhập dữ liệu đăng nhập
+2026-01-09 10:16:23 | INFO | Đã nhấn nút Đăng nhập
+2026-01-09 10:16:23 | INFO | Kết quả thực tế: Địa chỉ email không xác định. Kiểm tra lại hoặc thử tên người dùng của bạn.
+2026-01-09 10:16:23 | INFO | Kết quả mong đợi: Địa chỉ email không xác định. Kiểm tra lại hoặc thử tên người dùng của bạn. | Trạng thái: Pass
+2026-01-09 10:16:23 | INFO | Đã xóa cookie sau test
 
-2026-01-07 10:30:27 | INFO | 
+2026-01-09 10:16:29 | INFO | 
 === TEST CASE 10 ===
-2026-01-07 10:30:27 | INFO | Bắt đầu test đăng nhập | Email=hoangnguyet@gmai.com, Mật khẩu=Nguyet1424*
-2026-01-07 10:30:30 | INFO | Đã nhập dữ liệu đăng nhập
-2026-01-07 10:30:30 | INFO | Đã nhấn nút Đăng nhập
-2026-01-07 10:30:31 | INFO | Kết quả thực tế: Địa chỉ email không xác định. Kiểm tra lại hoặc thử tên người dùng của bạn.
-2026-01-07 10:30:31 | INFO | Kết quả mong đợi: Địa chỉ email không xác định. Kiểm tra lại hoặc thử tên người dùng của bạn. | Trạng thái: Pass
-2026-01-07 10:30:31 | INFO | Đã xóa cookie sau test
+2026-01-09 10:16:29 | INFO | Bắt đầu test đăng nhập | Email=hoangnguyet@gmai.com, Mật khẩu=Nguyet1424*
+2026-01-09 10:16:32 | INFO | Đã nhập dữ liệu đăng nhập
+2026-01-09 10:16:34 | INFO | Đã nhấn nút Đăng nhập
+2026-01-09 10:16:34 | INFO | Kết quả thực tế: Địa chỉ email không xác định. Kiểm tra lại hoặc thử tên người dùng của bạn.
+2026-01-09 10:16:34 | INFO | Kết quả mong đợi: Địa chỉ email không xác định. Kiểm tra lại hoặc thử tên người dùng của bạn. | Trạng thái: Pass
+2026-01-09 10:16:35 | INFO | Đã xóa cookie sau test
 
-2026-01-07 10:30:37 | INFO | 
+2026-01-09 10:16:40 | INFO | 
 === TEST CASE 11 ===
-2026-01-07 10:30:37 | INFO | Bắt đầu test đăng nhập | Email=hoangnguyet$$gmail.com, Mật khẩu=1424Nguyet*
-2026-01-07 10:30:39 | INFO | Đã nhập dữ liệu đăng nhập
-2026-01-07 10:30:41 | INFO | Đã nhấn nút Đăng nhập
-2026-01-07 10:30:41 | INFO | Kết quả thực tế: Lỗi: Tên người dùng hoangnguyet$$gmail.com không được đăng ký trên trang web này. Nếu bạn không chắc về tên người dùng của mình, hãy thử địa chỉ email của bạn.
-2026-01-07 10:30:41 | INFO | Kết quả mong đợi: Lỗi: Tên người dùng hoangnguyet$$gmail.com không được đăng ký trên trang web này. Nếu bạn không chắc về tên người dùng của mình, hãy thử địa chỉ email của bạn. | Trạng thái: Pass
-2026-01-07 10:30:41 | INFO | Đã xóa cookie sau test
+2026-01-09 10:16:40 | INFO | Bắt đầu test đăng nhập | Email=hoangnguyet$$gmail.com, Mật khẩu=1424Nguyet*
+2026-01-09 10:16:43 | INFO | Đã nhập dữ liệu đăng nhập
+2026-01-09 10:16:45 | INFO | Đã nhấn nút Đăng nhập
+2026-01-09 10:16:45 | INFO | Kết quả thực tế: Lỗi: Tên người dùng hoangnguyet$$gmail.com không được đăng ký trên trang web này. Nếu bạn không chắc về tên người dùng của mình, hãy thử địa chỉ email của bạn.
+2026-01-09 10:16:45 | INFO | Kết quả mong đợi: Lỗi: Tên người dùng hoangnguyet$$gmail.com không được đăng ký trên trang web này. Nếu bạn không chắc về tên người dùng của mình, hãy thử địa chỉ email của bạn. | Trạng thái: Pass
+2026-01-09 10:16:45 | INFO | Đã xóa cookie sau test
 

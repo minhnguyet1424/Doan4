@@ -1,0 +1,9 @@
+[32mINFO    [0m test_muahang_ddt:test_muahang_ddt.py:38 
+=== TEST CASE 5 ===
+[32mINFO    [0m test_muahang_ddt:test_muahang_ddt.py:39 Bắt đầu test Mua Ngay | Từ khóa='trơn nâu', Sản phẩm='Ly Giấy Nâu Trơn 16oz'
+[32mINFO    [0m test_muahang_ddt:test_muahang_ddt.py:58 Đã nhấn nút Mua Ngay
+[32mINFO    [0m test_muahang_ddt:test_muahang_ddt.py:63 Đã nhập thông tin đặt hàng | Tên=nam, Email=, SĐT=122336527.0, Địa chỉ=vĩnh tuy, Thành phố=Hà Nội
+[32mINFO    [0m test_muahang_ddt:test_muahang_ddt.py:77 Đã nhấn nút Đặt hàng
+[32mINFO    [0m test_muahang_ddt:test_muahang_ddt.py:82 Kết quả thực tế: Mục Địa chỉ email là mục bắt buộc.
+[32mINFO    [0m test_muahang_ddt:test_muahang_ddt.py:87 Kết quả mong đợi: Mục Địa chỉ email là mục bắt buộc. | Trạng thái: Pass
+[32mINFO    [0m test_muahang_ddt:test_muahang_ddt.py:107 Đã xóa cookie sau test

@@ -1,101 +1,101 @@
-2026-01-07 14:53:22 | INFO | 
+2026-01-09 16:18:40 | INFO | 
 === TEST CASE 1 ===
-2026-01-07 14:53:22 | INFO | Bắt đầu test Mua Ngay | Từ khóa='trơn nâu', Sản phẩm='Ly Giấy Nâu Trơn 16oz'
-2026-01-07 14:53:38 | INFO | Đã nhấn nút Mua Ngay
-2026-01-07 14:53:41 | INFO | Đã nhập thông tin đặt hàng | Tên=, Email=nguyennam@gmail.com, SĐT=122336523.0, Địa chỉ=vĩnh tuy, Thành phố=Hà Nội
-2026-01-07 14:53:42 | INFO | Đã nhấn nút Đặt hàng
-2026-01-07 14:53:54 | INFO | Kết quả thực tế: Mục Tên là mục bắt buộc.
-2026-01-07 14:53:54 | INFO | Kết quả mong đợi: Mục Tên là mục bắt buộc. | Trạng thái: Pass
-2026-01-07 14:53:54 | INFO | Đã xóa cookie sau test
-2026-01-07 14:54:00 | INFO | 
+2026-01-09 16:18:40 | INFO | Bắt đầu test Mua Ngay | Từ khóa='trơn nâu', Sản phẩm='Ly Giấy Nâu Trơn 16oz'
+2026-01-09 16:18:51 | INFO | Đã nhấn nút Mua Ngay
+2026-01-09 16:18:54 | INFO | Đã nhập thông tin đặt hàng | Tên=, Email=nguyennam@gmail.com, SĐT=122336523.0, Địa chỉ=vĩnh tuy, Thành phố=Hà Nội
+2026-01-09 16:18:55 | INFO | Đã nhấn nút Đặt hàng
+2026-01-09 16:19:06 | INFO | Kết quả thực tế: Mục Tên là mục bắt buộc.
+2026-01-09 16:19:06 | INFO | Kết quả mong đợi: Mục Tên là mục bắt buộc. | Trạng thái: Pass
+2026-01-09 16:19:06 | INFO | Đã xóa cookie sau test
+2026-01-09 16:19:12 | INFO | 
 === TEST CASE 2 ===
-2026-01-07 14:54:00 | INFO | Bắt đầu test Mua Ngay | Từ khóa='trơn nâu', Sản phẩm='Ly Giấy Nâu Trơn 16oz'
-2026-01-07 14:54:16 | INFO | Đã nhấn nút Mua Ngay
-2026-01-07 14:54:19 | INFO | Đã nhập thông tin đặt hàng | Tên=nam, Email=nguyennam@gmail.com, SĐT=122336524.0, Địa chỉ=, Thành phố=Hà Nội
-2026-01-07 14:54:20 | INFO | Đã nhấn nút Đặt hàng
-2026-01-07 14:54:31 | INFO | Kết quả thực tế: Mục Địa chỉ là mục bắt buộc.
-2026-01-07 14:54:31 | INFO | Kết quả mong đợi: Mục Địa chỉ là mục bắt buộc. | Trạng thái: Pass
-2026-01-07 14:54:31 | INFO | Đã xóa cookie sau test
-2026-01-07 14:54:38 | INFO | 
+2026-01-09 16:19:12 | INFO | Bắt đầu test Mua Ngay | Từ khóa='trơn nâu', Sản phẩm='Ly Giấy Nâu Trơn 16oz'
+2026-01-09 16:19:22 | INFO | Đã nhấn nút Mua Ngay
+2026-01-09 16:19:25 | INFO | Đã nhập thông tin đặt hàng | Tên=nam, Email=nguyennam@gmail.com, SĐT=122336524.0, Địa chỉ=, Thành phố=Hà Nội
+2026-01-09 16:19:25 | INFO | Đã nhấn nút Đặt hàng
+2026-01-09 16:19:36 | INFO | Kết quả thực tế: Mục Địa chỉ là mục bắt buộc.
+2026-01-09 16:19:36 | INFO | Kết quả mong đợi: Mục Địa chỉ là mục bắt buộc. | Trạng thái: Pass
+2026-01-09 16:19:37 | INFO | Đã xóa cookie sau test
+2026-01-09 16:19:43 | INFO | 
 === TEST CASE 3 ===
-2026-01-07 14:54:38 | INFO | Bắt đầu test Mua Ngay | Từ khóa='trơn nâu', Sản phẩm='Ly Giấy Nâu Trơn 16oz'
-2026-01-07 14:54:53 | INFO | Đã nhấn nút Mua Ngay
-2026-01-07 14:54:56 | INFO | Đã nhập thông tin đặt hàng | Tên=nam, Email=nguyennam@gmail.com, SĐT=122336525.0, Địa chỉ=vĩnh tuy, Thành phố=
-2026-01-07 14:54:57 | INFO | Đã nhấn nút Đặt hàng
-2026-01-07 14:55:09 | INFO | Kết quả thực tế: Mục Thị trấn / Thành phố là mục bắt buộc.
-2026-01-07 14:55:09 | INFO | Kết quả mong đợi: Mục Thị trấn / Thành phố là mục bắt buộc . | Trạng thái: Fail
-2026-01-07 14:55:09 | INFO | Đã xóa cookie sau test
-2026-01-07 14:55:16 | INFO | 
+2026-01-09 16:19:43 | INFO | Bắt đầu test Mua Ngay | Từ khóa='trơn nâu', Sản phẩm='Ly Giấy Nâu Trơn 16oz'
+2026-01-09 16:19:55 | INFO | Đã nhấn nút Mua Ngay
+2026-01-09 16:19:58 | INFO | Đã nhập thông tin đặt hàng | Tên=nam, Email=nguyennam@gmail.com, SĐT=122336525.0, Địa chỉ=vĩnh tuy, Thành phố=
+2026-01-09 16:19:58 | INFO | Đã nhấn nút Đặt hàng
+2026-01-09 16:20:09 | INFO | Kết quả thực tế: Mục Thị trấn / Thành phố là mục bắt buộc.
+2026-01-09 16:20:09 | INFO | Kết quả mong đợi: Mục Thị trấn / Thành phố là mục bắt buộc. | Trạng thái: Pass
+2026-01-09 16:20:10 | INFO | Đã xóa cookie sau test
+2026-01-09 16:20:16 | INFO | 
 === TEST CASE 4 ===
-2026-01-07 14:55:16 | INFO | Bắt đầu test Mua Ngay | Từ khóa='trơn nâu', Sản phẩm='Ly Giấy Nâu Trơn 16oz'
-2026-01-07 14:55:29 | INFO | Đã nhấn nút Mua Ngay
-2026-01-07 14:55:32 | INFO | Đã nhập thông tin đặt hàng | Tên=nam, Email=nguyennam@gmail.com, SĐT=, Địa chỉ=vĩnh tuy, Thành phố=Hà Nội
-2026-01-07 14:55:33 | INFO | Đã nhấn nút Đặt hàng
-2026-01-07 14:55:45 | INFO | Kết quả thực tế: Mục Số điện thoại là mục bắt buộc.
-2026-01-07 14:55:45 | INFO | Kết quả mong đợi: Mục Số điện thoại là mục bắt buộc. | Trạng thái: Pass
-2026-01-07 14:55:45 | INFO | Đã xóa cookie sau test
-2026-01-07 14:55:53 | INFO | 
+2026-01-09 16:20:16 | INFO | Bắt đầu test Mua Ngay | Từ khóa='trơn nâu', Sản phẩm='Ly Giấy Nâu Trơn 16oz'
+2026-01-09 16:20:28 | INFO | Đã nhấn nút Mua Ngay
+2026-01-09 16:20:31 | INFO | Đã nhập thông tin đặt hàng | Tên=nam, Email=nguyennam@gmail.com, SĐT=, Địa chỉ=vĩnh tuy, Thành phố=Hà Nội
+2026-01-09 16:20:31 | INFO | Đã nhấn nút Đặt hàng
+2026-01-09 16:20:43 | INFO | Kết quả thực tế: Mục Số điện thoại là mục bắt buộc.
+2026-01-09 16:20:43 | INFO | Kết quả mong đợi: Mục Số điện thoại là mục bắt buộc. | Trạng thái: Pass
+2026-01-09 16:20:43 | INFO | Đã xóa cookie sau test
+2026-01-09 16:20:49 | INFO | 
 === TEST CASE 5 ===
-2026-01-07 14:55:53 | INFO | Bắt đầu test Mua Ngay | Từ khóa='trơn nâu', Sản phẩm='Ly Giấy Nâu Trơn 16oz'
-2026-01-07 14:56:11 | INFO | Đã nhấn nút Mua Ngay
-2026-01-07 14:56:14 | INFO | Đã nhập thông tin đặt hàng | Tên=nam, Email=, SĐT=122336527.0, Địa chỉ=vĩnh tuy, Thành phố=Hà Nội
-2026-01-07 14:56:16 | INFO | Đã nhấn nút Đặt hàng
-2026-01-07 14:56:28 | INFO | Kết quả thực tế: Mục Địa chỉ email là mục bắt buộc.
-2026-01-07 14:56:28 | INFO | Kết quả mong đợi: Mục Địa chỉ email là mục bắt buộc . | Trạng thái: Fail
-2026-01-07 14:56:28 | INFO | Đã xóa cookie sau test
-2026-01-07 14:56:36 | INFO | 
+2026-01-09 16:20:49 | INFO | Bắt đầu test Mua Ngay | Từ khóa='trơn nâu', Sản phẩm='Ly Giấy Nâu Trơn 16oz'
+2026-01-09 16:20:58 | INFO | Đã nhấn nút Mua Ngay
+2026-01-09 16:21:01 | INFO | Đã nhập thông tin đặt hàng | Tên=nam, Email=, SĐT=122336527.0, Địa chỉ=vĩnh tuy, Thành phố=Hà Nội
+2026-01-09 16:21:02 | INFO | Đã nhấn nút Đặt hàng
+2026-01-09 16:21:14 | INFO | Kết quả thực tế: Mục Địa chỉ email là mục bắt buộc.
+2026-01-09 16:21:14 | INFO | Kết quả mong đợi: Mục Địa chỉ email là mục bắt buộc. | Trạng thái: Pass
+2026-01-09 16:21:14 | INFO | Đã xóa cookie sau test
+2026-01-09 16:21:20 | INFO | 
 === TEST CASE 6 ===
-2026-01-07 14:56:36 | INFO | Bắt đầu test Mua Ngay | Từ khóa='trơn nâu', Sản phẩm='Ly Giấy Nâu Trơn 16oz'
-2026-01-07 14:56:52 | INFO | Đã nhấn nút Mua Ngay
-2026-01-07 14:56:55 | INFO | Đã nhập thông tin đặt hàng | Tên=nam, Email=nguyennam@gmail.com, SĐT=122336528.0, Địa chỉ=vĩnh tuy, Thành phố=Hà Nội
-2026-01-07 14:56:57 | INFO | Đã nhấn nút Đặt hàng
-2026-01-07 14:57:03 | INFO | Kết quả thực tế: Cảm ơn bạn. Đơn hàng của bạn đã được nhận.
-2026-01-07 14:57:03 | INFO | Kết quả mong đợi: Cảm ơn bạn. Đơn hàng của bạn đã được nhận. | Trạng thái: Pass
-2026-01-07 14:57:03 | INFO | Đã xóa cookie sau test
-2026-01-07 14:57:12 | INFO | 
+2026-01-09 16:21:20 | INFO | Bắt đầu test Mua Ngay | Từ khóa='trơn nâu', Sản phẩm='Ly Giấy Nâu Trơn 16oz'
+2026-01-09 16:21:29 | INFO | Đã nhấn nút Mua Ngay
+2026-01-09 16:21:32 | INFO | Đã nhập thông tin đặt hàng | Tên=nam, Email=nguyennam@gmail.com, SĐT=122336528.0, Địa chỉ=vĩnh tuy, Thành phố=Hà Nội
+2026-01-09 16:21:33 | INFO | Đã nhấn nút Đặt hàng
+2026-01-09 16:21:37 | INFO | Kết quả thực tế: Cảm ơn bạn. Đơn hàng của bạn đã được nhận.
+2026-01-09 16:21:37 | INFO | Kết quả mong đợi: Cảm ơn bạn. Đơn hàng của bạn đã được nhận. | Trạng thái: Pass
+2026-01-09 16:21:37 | INFO | Đã xóa cookie sau test
+2026-01-09 16:21:43 | INFO | 
 === TEST CASE 7 ===
-2026-01-07 14:57:12 | INFO | Bắt đầu test Mua Ngay | Từ khóa='trơn nâu', Sản phẩm='Ly Giấy Nâu Trơn 16oz'
-2026-01-07 14:57:27 | INFO | Đã nhấn nút Mua Ngay
-2026-01-07 14:57:30 | INFO | Đã nhập thông tin đặt hàng | Tên=, Email=nguyennam@gmail.com, SĐT=122336529.0, Địa chỉ=, Thành phố=Hà Nội
-2026-01-07 14:57:31 | INFO | Đã nhấn nút Đặt hàng
-2026-01-07 14:57:42 | INFO | Kết quả thực tế: Mục Tên là mục bắt buộc.
+2026-01-09 16:21:43 | INFO | Bắt đầu test Mua Ngay | Từ khóa='trơn nâu', Sản phẩm='Ly Giấy Nâu Trơn 16oz'
+2026-01-09 16:21:54 | INFO | Đã nhấn nút Mua Ngay
+2026-01-09 16:21:57 | INFO | Đã nhập thông tin đặt hàng | Tên=, Email=nguyennam@gmail.com, SĐT=122336529.0, Địa chỉ=, Thành phố=Hà Nội
+2026-01-09 16:21:58 | INFO | Đã nhấn nút Đặt hàng
+2026-01-09 16:22:09 | INFO | Kết quả thực tế: Mục Tên là mục bắt buộc.
 Mục Địa chỉ là mục bắt buộc.
-2026-01-07 14:57:42 | INFO | Kết quả mong đợi: Mục Tên là mục bắt buộc._x000d_
+2026-01-09 16:22:09 | INFO | Kết quả mong đợi: Mục Tên là mục bắt buộc._x000d__x000d__x000d__x000d_
 Mục Địa chỉ là mục bắt buộc. | Trạng thái: Fail
-2026-01-07 14:57:43 | INFO | Đã xóa cookie sau test
-2026-01-07 14:57:50 | INFO | 
+2026-01-09 16:22:09 | INFO | Đã xóa cookie sau test
+2026-01-09 16:22:16 | INFO | 
 === TEST CASE 8 ===
-2026-01-07 14:57:50 | INFO | Bắt đầu test Mua Ngay | Từ khóa='trơn nâu', Sản phẩm='Ly Giấy Nâu Trơn 16oz'
-2026-01-07 14:58:04 | INFO | Đã nhấn nút Mua Ngay
-2026-01-07 14:58:07 | INFO | Đã nhập thông tin đặt hàng | Tên=nam, Email=nguyennam, SĐT=122336529.0, Địa chỉ=vĩnh tuy, Thành phố=Hà Nội
-2026-01-07 14:58:09 | INFO | Đã nhấn nút Đặt hàng
-2026-01-07 14:58:21 | INFO | Kết quả thực tế: Mục Địa chỉ email không phải là địa chỉ email hợp lệ.
-2026-01-07 14:58:21 | INFO | Kết quả mong đợi: Mục Địa chỉ email không phải là địa chỉ email hợp lệ. | Trạng thái: Fail
-2026-01-07 14:58:21 | INFO | Đã xóa cookie sau test
-2026-01-07 14:58:27 | INFO | 
+2026-01-09 16:22:16 | INFO | Bắt đầu test Mua Ngay | Từ khóa='trơn nâu', Sản phẩm='Ly Giấy Nâu Trơn 16oz'
+2026-01-09 16:22:25 | INFO | Đã nhấn nút Mua Ngay
+2026-01-09 16:22:28 | INFO | Đã nhập thông tin đặt hàng | Tên=nam, Email=nguyennam, SĐT=122336529.0, Địa chỉ=vĩnh tuy, Thành phố=Hà Nội
+2026-01-09 16:22:29 | INFO | Đã nhấn nút Đặt hàng
+2026-01-09 16:22:41 | INFO | Kết quả thực tế: Mục Địa chỉ email không phải là địa chỉ email hợp lệ.
+2026-01-09 16:22:41 | INFO | Kết quả mong đợi: Mục Địa chỉ email không phải là địa chỉ email hợp lệ. | Trạng thái: Pass
+2026-01-09 16:22:41 | INFO | Đã xóa cookie sau test
+2026-01-09 16:22:47 | INFO | 
 === TEST CASE 9 ===
-2026-01-07 14:58:27 | INFO | Bắt đầu test Mua Ngay | Từ khóa='trơn nâu', Sản phẩm='Ly Giấy Nâu Trơn 16oz'
-2026-01-07 14:58:44 | INFO | Đã nhấn nút Mua Ngay
-2026-01-07 14:58:47 | INFO | Đã nhập thông tin đặt hàng | Tên=nam, Email=nguyennam@@gmail.com, SĐT=122336530.0, Địa chỉ=vĩnh tuy, Thành phố=Hà Nội
-2026-01-07 14:58:49 | INFO | Đã nhấn nút Đặt hàng
-2026-01-07 14:59:00 | INFO | Kết quả thực tế: Mục Địa chỉ email không phải là địa chỉ email hợp lệ.
-2026-01-07 14:59:00 | INFO | Kết quả mong đợi: Mục Địa chỉ email không phải là địa chỉ email hợp lệ. | Trạng thái: Fail
-2026-01-07 14:59:01 | INFO | Đã xóa cookie sau test
-2026-01-07 14:59:07 | INFO | 
+2026-01-09 16:22:47 | INFO | Bắt đầu test Mua Ngay | Từ khóa='trơn nâu', Sản phẩm='Ly Giấy Nâu Trơn 16oz'
+2026-01-09 16:22:58 | INFO | Đã nhấn nút Mua Ngay
+2026-01-09 16:23:01 | INFO | Đã nhập thông tin đặt hàng | Tên=nam, Email=nguyennam@@gmail.com, SĐT=122336530.0, Địa chỉ=vĩnh tuy, Thành phố=Hà Nội
+2026-01-09 16:23:02 | INFO | Đã nhấn nút Đặt hàng
+2026-01-09 16:23:14 | INFO | Kết quả thực tế: Mục Địa chỉ email không phải là địa chỉ email hợp lệ.
+2026-01-09 16:23:14 | INFO | Kết quả mong đợi: Mục Địa chỉ email không phải là địa chỉ email hợp lê. | Trạng thái: Fail
+2026-01-09 16:23:14 | INFO | Đã xóa cookie sau test
+2026-01-09 16:23:19 | INFO | 
 === TEST CASE 10 ===
-2026-01-07 14:59:07 | INFO | Bắt đầu test Mua Ngay | Từ khóa='trơn nâu', Sản phẩm='Ly Giấy Nâu Trơn 16oz'
-2026-01-07 14:59:26 | INFO | Đã nhấn nút Mua Ngay
-2026-01-07 14:59:29 | INFO | Đã nhập thông tin đặt hàng | Tên=nam, Email=lieuly@gmail.com2, SĐT=122336530.0, Địa chỉ=vĩnh tuy, Thành phố=Hà Nội
-2026-01-07 14:59:30 | INFO | Đã nhấn nút Đặt hàng
-2026-01-07 14:59:34 | INFO | Kết quả thực tế: Cảm ơn bạn. Đơn hàng của bạn đã được nhận.
-2026-01-07 14:59:34 | INFO | Kết quả mong đợi: Cảm ơn bạn. Đơn hàng của bạn đã được nhận. | Trạng thái: Pass
-2026-01-07 14:59:34 | INFO | Đã xóa cookie sau test
-2026-01-07 14:59:43 | INFO | 
+2026-01-09 16:23:19 | INFO | Bắt đầu test Mua Ngay | Từ khóa='trơn nâu', Sản phẩm='Ly Giấy Nâu Trơn 16oz'
+2026-01-09 16:23:28 | INFO | Đã nhấn nút Mua Ngay
+2026-01-09 16:23:31 | INFO | Đã nhập thông tin đặt hàng | Tên=nam, Email=lieuly@gmail.com2, SĐT=122336530.0, Địa chỉ=vĩnh tuy, Thành phố=Hà Nội
+2026-01-09 16:23:32 | INFO | Đã nhấn nút Đặt hàng
+2026-01-09 16:23:36 | INFO | Kết quả thực tế: Cảm ơn bạn. Đơn hàng của bạn đã được nhận.
+2026-01-09 16:23:36 | INFO | Kết quả mong đợi: Cảm ơn bạn. Đơn hàng của bạn đã được nhận. | Trạng thái: Pass
+2026-01-09 16:23:36 | INFO | Đã xóa cookie sau test
+2026-01-09 16:23:42 | INFO | 
 === TEST CASE 11 ===
-2026-01-07 14:59:43 | INFO | Bắt đầu test Mua Ngay | Từ khóa='trơn nâu', Sản phẩm='Ly Giấy Nâu Trơn 16oz'
-2026-01-07 14:59:57 | INFO | Đã nhấn nút Mua Ngay
-2026-01-07 15:00:00 | INFO | Đã nhập thông tin đặt hàng | Tên=nam, Email=lieuly@gmail.com3, SĐT=2122.0, Địa chỉ=vĩnh tuy, Thành phố=Hà Nội
-2026-01-07 15:00:01 | INFO | Đã nhấn nút Đặt hàng
-2026-01-07 15:00:05 | INFO | Kết quả thực tế: Cảm ơn bạn. Đơn hàng của bạn đã được nhận.
-2026-01-07 15:00:05 | INFO | Kết quả mong đợi: Cảm ơn bạn. Đơn hàng của bạn đã được nhận. | Trạng thái: Pass
-2026-01-07 15:00:06 | INFO | Đã xóa cookie sau test
+2026-01-09 16:23:42 | INFO | Bắt đầu test Mua Ngay | Từ khóa='trơn nâu', Sản phẩm='Ly Giấy Nâu Trơn 16oz'
+2026-01-09 16:23:53 | INFO | Đã nhấn nút Mua Ngay
+2026-01-09 16:23:56 | INFO | Đã nhập thông tin đặt hàng | Tên=nam, Email=lieuly@gmail.com3, SĐT=2122.0, Địa chỉ=vĩnh tuy, Thành phố=Hà Nội
+2026-01-09 16:23:57 | INFO | Đã nhấn nút Đặt hàng
+2026-01-09 16:24:01 | INFO | Kết quả thực tế: Cảm ơn bạn. Đơn hàng của bạn đã được nhận.
+2026-01-09 16:24:01 | INFO | Kết quả mong đợi: Cảm ơn bạn. Đơn hàng của bạn đã được nhận. | Trạng thái: Pass
+2026-01-09 16:24:01 | INFO | Đã xóa cookie sau test

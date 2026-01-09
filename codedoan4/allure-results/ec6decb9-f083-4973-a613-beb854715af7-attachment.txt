@@ -1,0 +1,6 @@
+[32mINFO    [0m test_timkiem_ddt:test_timkiem_ddt.py:29 
+=== TEST CASE 15 ===
+[32mINFO    [0m test_timkiem_ddt:test_timkiem_ddt.py:30 Bắt đầu test tìm kiếm với từ khóa: 'a'
+[32mINFO    [0m test_timkiem_ddt:test_timkiem_ddt.py:45 Tìm kiếm từ khóa 'a', kết quả đầu tiên: Bột Cacao Mama’s Choice (200g)
+[32mINFO    [0m test_timkiem_ddt:test_timkiem_ddt.py:49 Kết quả mong đợi: Trân châu 3Q Ô Long Bibi Jelly 2kg | Trạng thái: Fail
+[32mINFO    [0m test_timkiem_ddt:test_timkiem_ddt.py:64 Đã xóa cookie sau test

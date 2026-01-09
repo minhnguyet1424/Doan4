@@ -1,0 +1,8 @@
+[32mINFO    [0m test_dangky_ddt:test_dangky_ddt.py:36 
+=== TEST CASE 15 ===
+[32mINFO    [0m test_dangky_ddt:test_dangky_ddt.py:37 Bắt đầu test đăng ký | TK=vân, Email=vannguyen@gmail.com31
+[32mINFO    [0m test_dangky_ddt:test_dangky_ddt.py:49 Đã nhập dữ liệu đăng ký
+[32mINFO    [0m test_dangky_ddt:test_dangky_ddt.py:54 Đã nhấn nút Đăng ký
+[32mINFO    [0m test_dangky_ddt:test_dangky_ddt.py:60 Kết quả thực tế: Lỗi: Đã có tài khoản đăng ký với tên đăng nhập này. Vui lòng chọn tên khác.
+[32mINFO    [0m test_dangky_ddt:test_dangky_ddt.py:63 Kết quả mong đợi: Xin chào van (không phải van? Đăng xuất) | Trạng thái: Fail
+[32mINFO    [0m test_dangky_ddt:test_dangky_ddt.py:82 Đã xóa cookie sau test

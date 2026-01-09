@@ -1,4 +1,0 @@
-[32mINFO    [0m test_timkiem_ddt:conftest.py:67 ===== BẮT ĐẦU TEST FILE: test_timkiem_ddt.py =====
-[32mINFO    [0m test_timkiem_ddt:test_timkiem_ddt.py:74 Bắt đầu test tìm kiếm với từ khóa: ''
-[32mINFO    [0m test_timkiem_ddt:test_timkiem_ddt.py:83 Từ khóa trống, thông báo HTML5: Please fill out this field.
-[32mINFO    [0m test_timkiem_ddt:test_timkiem_ddt.py:101 Trạng thái test: Pass

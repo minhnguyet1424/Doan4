@@ -1,5 +1,0 @@
-[32mINFO    [0m test_dangky_ddt:test_dangky_ddt.py:129 Bắt đầu test đăng ký | TK=vân, Email=vannguyen@gmail.com31
-[32mINFO    [0m test_dangky_ddt:test_dangky_ddt.py:139 Đã nhập dữ liệu đăng ký
-[32mINFO    [0m test_dangky_ddt:test_dangky_ddt.py:144 Đã nhấn nút Đăng ký
-[32mINFO    [0m test_dangky_ddt:test_dangky_ddt.py:150 Kết quả thực tế: Lỗi: Đã có tài khoản đăng ký với tên đăng nhập này. Vui lòng chọn tên khác.
-[32mINFO    [0m test_dangky_ddt:test_dangky_ddt.py:153 Kết quả mong đợi: Xin chào van (không phải van? Đăng xuất) | Trạng thái: Fail

@@ -17,7 +17,7 @@ def report():
 
 # ================== TEST ==================
 def test_tim_kiem_ddt(cau_hinh, tukhoa, ketquamongdoi, report, logger):
-    driver = cau_hinh["driver"]
+    driver = cau_hinh["driver"]   
     trang = TrangTimKiem(driver)
 
     try:

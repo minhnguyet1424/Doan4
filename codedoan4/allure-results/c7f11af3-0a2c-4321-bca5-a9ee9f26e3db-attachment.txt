@@ -1,8 +1,0 @@
-[32mINFO    [0m test_dangky_ddt.py:test_dangky_ddt.py:38 
-=== TEST CASE 3 ===
-[32mINFO    [0m test_dangky_ddt.py:test_dangky_ddt.py:39 Bắt đầu test đăng ký | TK=thúy duyên, Email= 
-[32mINFO    [0m test_dangky_ddt.py:test_dangky_ddt.py:51 Đã nhập dữ liệu đăng ký
-[32mINFO    [0m test_dangky_ddt.py:test_dangky_ddt.py:56 Đã nhấn nút Đăng ký
-[32mINFO    [0m test_dangky_ddt.py:test_dangky_ddt.py:62 Kết quả thực tế: Lỗi: Vui lòng cung cấp địa chỉ email hợp lệ.
-[32mINFO    [0m test_dangky_ddt.py:test_dangky_ddt.py:65 Kết quả mong đợi: Lỗi: Vui lòng cung cấp địa chỉ email hợp lệ. | Trạng thái: Pass
-[32mINFO    [0m test_dangky_ddt.py:test_dangky_ddt.py:84 Đã xóa cookie sau test

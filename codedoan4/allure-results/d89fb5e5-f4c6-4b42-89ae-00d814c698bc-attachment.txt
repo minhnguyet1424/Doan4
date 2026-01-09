@@ -1,0 +1,6 @@
+[32mINFO    [0m test_timkiem_ddt:test_timkiem_ddt.py:29 
+=== TEST CASE 1 ===
+[32mINFO    [0m test_timkiem_ddt:test_timkiem_ddt.py:30 Bắt đầu test tìm kiếm với từ khóa: ''
+[32mINFO    [0m test_timkiem_ddt:test_timkiem_ddt.py:40 Từ khóa trống, thông báo HTML5: Please fill out this field.
+[32mINFO    [0m test_timkiem_ddt:test_timkiem_ddt.py:49 Kết quả mong đợi: Please fill out this field. | Trạng thái: Pass
+[32mINFO    [0m test_timkiem_ddt:test_timkiem_ddt.py:64 Đã xóa cookie sau test

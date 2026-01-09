@@ -1,4 +1,0 @@
-[32mINFO    [0m test_timkiem_ddt:test_timkiem_ddt.py:74 Bắt đầu test tìm kiếm với từ khóa: 'YM104'
-[32mINFO    [0m test_timkiem_ddt:test_timkiem_ddt.py:88 Tìm kiếm từ khóa 'YM104', kết quả đầu tiên: French Press Tay Cầm Inox Yami 350ml – YM104/YM107-350
-[32mINFO    [0m test_timkiem_ddt:test_timkiem_ddt.py:101 Trạng thái test: Pass
-[32mINFO    [0m test_timkiem_ddt:conftest.py:69 ===== KẾT THÚC TEST FILE: test_timkiem_ddt.py =====

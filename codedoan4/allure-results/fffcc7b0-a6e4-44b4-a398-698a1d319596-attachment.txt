@@ -1,6 +1,0 @@
-[32mINFO    [0m test_dangky_ddt:test_dangky_ddt.py:51 Bắt đầu test đăng ký với Tài khoản: , Email: h312oangTthuyduye12345671nn@gmail.com
-[32mINFO    [0m test_dangky_ddt:test_dangky_ddt.py:60 Đã nhập dữ liệu vào form đăng ký
-[32mINFO    [0m test_dangky_ddt:test_dangky_ddt.py:65 Đã nhấn nút Đăng ký
-[32mINFO    [0m test_dangky_ddt:test_dangky_ddt.py:71 Kết quả thực tế: Lỗi: Một tài khoản đã được đăng ký với h312oangTthuyduye12345671nn@gmail.com. Vui lòng đăng nhập hoặc sử dụng địa chỉ email khác.
-[32mINFO    [0m test_dangky_ddt:test_dangky_ddt.py:75 Kết quả mong đợi: Xin chào h312oangtthuyduye12345671nn (không phải h312oangtthuyduye12345671nn? Đăng xuất) | Trạng thái: Fail
-[31m[1mERROR   [0m test_dangky_ddt:test_dangky_ddt.py:94  Test FAIL - Đã lưu ảnh lỗi: fail_screenshots\dangky_fail_empty_20251027_085820.png

@@ -1,6 +1,0 @@
-[32mINFO    [0m test_dangky_ddt:test_dangky_ddt.py:129 Bắt đầu test đăng ký | TK=tienbao, Email=baohoang1@gmail.com
-[32mINFO    [0m test_dangky_ddt:test_dangky_ddt.py:139 Đã nhập dữ liệu đăng ký
-[33mWARNING [0m test_dangky_ddt:test_dangky_ddt.py:146 Không thể nhấn nút Đăng ký
-[32mINFO    [0m test_dangky_ddt:test_dangky_ddt.py:150 Kết quả thực tế: Độ mạnh mật khẩu: Rất yếu - Vui lòng nhập mật khẩu mạnh hơn.
-[32mINFO    [0m test_dangky_ddt:test_dangky_ddt.py:153 Kết quả mong đợi: Độ mạnh mật khẩu: Rất yếu - Vui lòng nhập mật khẩu mạnh hơn. | Trạng thái: Pass
-[32mINFO    [0m test_dangky_ddt:test_dangky_ddt.py:172 Đã xóa cookie sau test

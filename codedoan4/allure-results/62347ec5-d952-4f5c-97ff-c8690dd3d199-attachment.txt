@@ -1,7 +1,0 @@
-[32mINFO    [0m test_dangky_ddt:test_dangky_ddt.py:51 Bắt đầu test đăng ký với Tài khoản: vân, Email: vannguyen@gmail.com31
-[32mINFO    [0m test_dangky_ddt:test_dangky_ddt.py:60 Đã nhập dữ liệu vào form đăng ký
-[32mINFO    [0m test_dangky_ddt:test_dangky_ddt.py:65 Đã nhấn nút Đăng ký
-[32mINFO    [0m test_dangky_ddt:test_dangky_ddt.py:71 Kết quả thực tế: Lỗi: Đã có tài khoản đăng ký với tên đăng nhập này. Vui lòng chọn tên khác.
-[32mINFO    [0m test_dangky_ddt:test_dangky_ddt.py:75 Kết quả mong đợi: Xin chào van (không phải van? Đăng xuất) | Trạng thái: Fail
-[31m[1mERROR   [0m test_dangky_ddt:test_dangky_ddt.py:94  Test FAIL - Đã lưu ảnh lỗi: fail_screenshots\dangky_fail_vân_20260106_133731.png
-[32mINFO    [0m test_dangky_ddt:conftest.py:40 ===== KẾT THÚC TEST FILE: test_dangky_ddt.py =====

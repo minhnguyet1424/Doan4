@@ -3,11 +3,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException, StaleElementReferenceException
 from base.base_page import BasePage
 import time
-
-
 class TrangMuaNgay(BasePage):
-    """Trang chi tiết sản phẩm và thanh toán"""
-
     # ===== LOCATORS =====
     BTN_MUA_NGAY = (By.NAME, "wd-add-to-cart")
 
@@ -19,14 +15,11 @@ class TrangMuaNgay(BasePage):
     GHI_CHU = (By.ID, "order_comments")
 
     BTN_DAT_HANG = (By.ID, "place_order")
-
     TB_THANH_CONG = (
         By.CSS_SELECTOR,
         ".woocommerce-notice.woocommerce-notice--success.woocommerce-thankyou-order-received"
     )
     TB_LOI = (By.CSS_SELECTOR, ".woocommerce-error")
-
-    # ===== ACTIONS =====
 
     def bam_mua_ngay(self):
         """
@@ -71,7 +64,7 @@ class TrangMuaNgay(BasePage):
             except StaleElementReferenceException:
                 time.sleep(1)
 
-        raise Exception("❌ Không thể click nút Đặt hàng (stale element)")
+        raise Exception(" Không thể click nút Đặt hàng (stale element)")
 
     def lay_thong_bao_dat_hang(self):
         try:
